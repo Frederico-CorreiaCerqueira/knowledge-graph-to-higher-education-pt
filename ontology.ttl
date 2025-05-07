@@ -1,0 +1,69 @@
+@prefix ens: <http://example.org/ensino#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/ensino> a owl:Ontology .
+
+# Classes
+ens:Instituicao a owl:Class ;
+    ens:label "Instituição de Ensino"@pt ;
+    ens:comment "Instituição de ensino superior."@pt .
+
+ens:Curso a owl:Class ;
+    ens:label "Curso"@pt ;
+    ens:comment "Curso oferecido por uma instituição de ensino superior."@pt .
+
+# Object Properties
+ens:temCurso a owl:ObjectProperty ;
+    ens:domain ens:Instituicao ;
+    ens:range ens:Curso ;
+    ens:label "tem curso"@pt ;
+    ens:comment "Relação entre uma instituição e os seus cursos."@pt .
+
+# Data Properties
+ens:nomeInstituicao a owl:DatatypeProperty ;
+    ens:domain ens:Instituicao ;
+    ens:range xsd:string ;
+    ens:label "nome da instituição"@pt ;
+    ens:comment "Nome oficial da instituição de ensino."@pt .
+
+ens:nomeCurso a owl:DatatypeProperty ;
+    ens:domain ens:Curso ;
+    ens:range xsd:string ;
+    ens:label "nome do curso"@pt ;
+    ens:comment "Nome oficial do curso."@pt .
+
+ens:temVagas a owl:DatatypeProperty ;
+    ens:domain ens:Curso ;
+    ens:range xsd:integer ;
+    ens:label "número de vagas"@pt ;
+    ens:comment "Número de vagas disponíveis para o curso."@pt .
+
+ens:temGrau a owl:DatatypeProperty ;
+    ens:domain ens:Curso ;
+    ens:range xsd:string ;
+    ens:label "grau"@pt ;
+    ens:comment "Grau académico conferido pelo curso."@pt .
+
+ens:temAreaCientifica a owl:DatatypeProperty ;
+    ens:domain ens:Curso ;
+    ens:range xsd:string ;
+    ens:label "área científica"@pt ;
+    ens:comment "Área científica principal do curso."@pt .
+
+ens:notaUltimoColocado a owl:DatatypeProperty ;
+    ens:domain ens:Curso ;
+    ens:range xsd:float ;
+    ens:label "nota do último colocado"@pt ;
+    ens:comment "Nota do último colocado na primeira fase do concurso."@pt .
+
+ens:codigoInstituicao a owl:DatatypeProperty ;
+    ens:domain ens:Instituicao ;
+    ens:range xsd:string ;
+    ens:label "código da instituição"@pt ;
+    ens:comment "Código identificador da instituição."@pt .
+
+ens:codigoCurso a owl:DatatypeProperty ;
+    ens:domain ens:Curso ;
+    ens:range xsd:string ;
+    ens:label "código do curso"@pt ;
+    ens:comment "Código identificador do curso."@pt .
