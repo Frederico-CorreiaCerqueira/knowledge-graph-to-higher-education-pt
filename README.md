@@ -31,7 +31,7 @@ Building a Knowledge Graph for higher education in Portugal, modeling institutio
 **Project developed by students:**
 - Frederico Correia Cerqueira
 - Joana Chuço
-- Gonçalo [last name]
+- Gonçalo Garcias
 - João [last name]
 
 ---
