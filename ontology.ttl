@@ -1,69 +1,81 @@
-@prefix ens: <http://example.org/ensino#> .
+@prefix : <http://example.org/education#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix edu: <http://example.org/education#> .
+@base <http://example.org/education#> .
 
-<http://example.org/ensino> a owl:Ontology .
+edu: rdf:type owl:Ontology .
 
-# Classes
-ens:Instituicao a owl:Class ;
-    ens:label "Instituição de Ensino"@pt ;
-    ens:comment "Instituição de ensino superior."@pt .
+### Classes
+edu:Institution a owl:Class ;
+                rdfs:label "Higher Education Institution"@en ;
+                rdfs:comment "An organization that provides higher education."@en .
 
-ens:Curso a owl:Class ;
-    ens:label "Curso"@pt ;
-    ens:comment "Curso oferecido por uma instituição de ensino superior."@pt .
+edu:Course a owl:Class ;
+           rdfs:label "Course"@en ;
+           rdfs:comment "A program of study offered by an educational institution."@en .
 
-# Object Properties
-ens:temCurso a owl:ObjectProperty ;
-    ens:domain ens:Instituicao ;
-    ens:range ens:Curso ;
-    ens:label "tem curso"@pt ;
-    ens:comment "Relação entre uma instituição e os seus cursos."@pt .
+### Object Properties
+edu:hasCourse a owl:ObjectProperty ;
+              rdfs:domain edu:Institution ;
+              rdfs:range edu:Course ;
+              rdfs:label "has course"@en ;
+              rdfs:comment "Indicates that an institution offers a specific course."@en .
 
-# Data Properties
-ens:nomeInstituicao a owl:DatatypeProperty ;
-    ens:domain ens:Instituicao ;
-    ens:range xsd:string ;
-    ens:label "nome da instituição"@pt ;
-    ens:comment "Nome oficial da instituição de ensino."@pt .
+### Data Properties
+edu:hasCourse a owl:ObjectProperty ;
+              rdfs:domain edu:Institution ;
+              rdfs:range edu:Course ;
+              rdfs:label "has course"@en ;
+              rdfs:comment "Indicates that an institution offers a specific course."@en .
 
-ens:nomeCurso a owl:DatatypeProperty ;
-    ens:domain ens:Curso ;
-    ens:range xsd:string ;
-    ens:label "nome do curso"@pt ;
-    ens:comment "Nome oficial do curso."@pt .
+### Data Properties
+edu:institutionName a owl:DatatypeProperty ;
+                    rdfs:domain edu:Institution ;
+                    rdfs:range xsd:string ;
+                    rdfs:label "institution name"@en ;
+                    rdfs:comment "The official name of the educational institution."@en .
 
-ens:temVagas a owl:DatatypeProperty ;
-    ens:domain ens:Curso ;
-    ens:range xsd:integer ;
-    ens:label "número de vagas"@pt ;
-    ens:comment "Número de vagas disponíveis para o curso."@pt .
+edu:courseName a owl:DatatypeProperty ;
+               rdfs:domain edu:Course ;
+               rdfs:range xsd:string ;
+               rdfs:label "course name"@en ;
+               rdfs:comment "The official name of the course."@en .
 
-ens:temGrau a owl:DatatypeProperty ;
-    ens:domain ens:Curso ;
-    ens:range xsd:string ;
-    ens:label "grau"@pt ;
-    ens:comment "Grau académico conferido pelo curso."@pt .
+edu:availableSlots a owl:DatatypeProperty ;
+                   rdfs:domain edu:Course ;
+                   rdfs:range xsd:integer ;
+                   rdfs:label "available slots"@en ;
+                   rdfs:comment "The number of available student positions in the course."@en .
 
-ens:temAreaCientifica a owl:DatatypeProperty ;
-    ens:domain ens:Curso ;
-    ens:range xsd:string ;
-    ens:label "área científica"@pt ;
-    ens:comment "Área científica principal do curso."@pt .
+edu:degreeType a owl:DatatypeProperty ;
+               rdfs:domain edu:Course ;
+               rdfs:range xsd:string ;
+               rdfs:label "degree type"@en ;
+               rdfs:comment "The type of academic degree awarded (e.g., Bachelor's, Master's)."@en .
 
-ens:notaUltimoColocado a owl:DatatypeProperty ;
-    ens:domain ens:Curso ;
-    ens:range xsd:float ;
-    ens:label "nota do último colocado"@pt ;
-    ens:comment "Nota do último colocado na primeira fase do concurso."@pt .
+edu:scientificArea a owl:DatatypeProperty ;
+                   rdfs:domain edu:Course ;
+                   rdfs:range xsd:string ;
+                   rdfs:label "scientific area"@en ;
+                   rdfs:comment "The primary scientific field of the course."@en .
 
-ens:codigoInstituicao a owl:DatatypeProperty ;
-    ens:domain ens:Instituicao ;
-    ens:range xsd:string ;
-    ens:label "código da instituição"@pt ;
-    ens:comment "Código identificador da instituição."@pt .
+edu:lastAdmittedGrade a owl:DatatypeProperty ;
+                      rdfs:domain edu:Course ;
+                      rdfs:range xsd:float ;
+                      rdfs:label "last admitted grade"@en ;
+                      rdfs:comment "The minimum grade required for admission in the last selection round."@en .
 
-ens:codigoCurso a owl:DatatypeProperty ;
-    ens:domain ens:Curso ;
-    ens:range xsd:string ;
-    ens:label "código do curso"@pt ;
-    ens:comment "Código identificador do curso."@pt .
+edu:institutionCode a owl:DatatypeProperty ;
+                    rdfs:domain edu:Institution ;
+                    rdfs:range xsd:string ;
+                    rdfs:label "institution code"@en ;
+                    rdfs:comment "A unique identifier code for the institution."@en .
+
+edu:courseCode a owl:DatatypeProperty ;
+               rdfs:domain edu:Course ;
+               rdfs:range xsd:string ;
+               rdfs:label "course code"@en ;
+               rdfs:comment "A unique identifier code for the course."@en .

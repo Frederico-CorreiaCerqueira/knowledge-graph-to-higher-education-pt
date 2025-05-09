@@ -1,65 +1,120 @@
 import pandas as pd
 from rdflib import Graph, Namespace, Literal, RDF, XSD
 
-ficheiro_excel = "lista_de_vagas_para_1_fase.xlsx"
-df = pd.read_excel(ficheiro_excel, sheet_name=0, header=3)
+EDU = Namespace("http://example.org/education#")
 
-g = Graph()
-ENS = Namespace("http://example.org/ensino#")
-g.bind("ens", ENS)
 
-for _, row in df.iterrows():
-    inst_nome = str(row["Nome da Instituição"]).strip()
-    curso_nome = str(row["Nome do Curso"]).strip()
-    vagas = row["Vagas 2024"]
+def get_value(row, column):
+    return str(row[column]).strip()
 
-    if pd.isna(inst_nome) or pd.isna(curso_nome):
-        continue
 
-    uri_inst = ENS[inst_nome.replace(" ", "_").replace(",", "").replace(".", "")]
-    uri_curso = ENS[curso_nome.replace(" ", "_").replace(",", "").replace(".", "")]
+def add_to_graph(graph, subject, predicate, obj):
+    graph.add((subject, predicate, obj))
 
-    # Entidade instituição
-    g.add((uri_inst, RDF.type, ENS.Instituicao))
-    g.add((uri_inst, ENS.nomeInstituicao, Literal(inst_nome)))
 
-    # Curso
-    g.add((uri_curso, RDF.type, ENS.Curso))
-    g.add((uri_curso, ENS.nomeCurso, Literal(curso_nome)))
+def create_literal(value, datatype):
+    return Literal(value, datatype=datatype)
 
-    # Ligação entre inst e curso
-    g.add((uri_inst, ENS.temCurso, uri_curso))
 
-    # Vagas
-    if pd.notna(vagas):
-        try:
-            g.add((uri_curso, ENS.temVagas, Literal(int(vagas), datatype=XSD.integer)))
-        except:
-            pass
+def create_str_literal(value):
+    return create_literal(value, datatype=XSD.string)
 
-    # Grau
-    if "Grau" in row and pd.notna(row["Grau"]):
-        g.add((uri_curso, ENS.temGrau, Literal(row["Grau"])))
 
-    # Área Científica
-    if "Área Científica" in row and pd.notna(row["Área Científica"]):
-        g.add((uri_curso, ENS.temAreaCientifica, Literal(row["Área Científica"])))
+def create_float_literal(value):
+    if value == "---":
+        value = 0.0
+    else:
+        value = float(value)
+    return create_literal(value, datatype=XSD.float)
 
-    # Nota última colocação
-    if "Nota último colocado 1ª Fase 2023 (cont. geral)" in row:
-        nota = row["Nota último colocado 1ª Fase 2023 (cont. geral)"]
+
+def create_int_literal(value):
+    return create_literal(value, datatype=XSD.integer)
+
+
+def normalize_name(value):
+    return value.replace(" ", "_").replace(",", "").replace(".", "").replace("º", "")
+
+
+def create_institution(g, name, code):
+    inst = EDU[normalize_name(name)]
+    literal = create_str_literal(name)
+    add_to_graph(g, inst, RDF.type, EDU.Institution)
+    add_to_graph(g, inst, EDU.institutionName, literal)
+    code = int(float(code))
+    add_to_graph(g, inst, EDU.institutionCode, create_int_literal(code))
+    return inst
+
+
+def create_course(g, name, code):
+    course = EDU[normalize_name(name)]
+    literal = create_str_literal(name)
+    add_to_graph(g, course, RDF.type, EDU.Course)
+    add_to_graph(g, course, EDU.courseName, literal)
+    add_to_graph(g, course, EDU.courseCode, create_str_literal(code))
+    return course
+
+
+def inst_has_course(g, inst, course):
+    add_to_graph(g, inst, EDU.hasCourse, course)
+
+
+def course_type(g, course, degree_type):
+    add_to_graph(g, course, EDU.degreeType, create_str_literal(degree_type))
+
+
+def course_scientific_area(g, course, area):
+    add_to_graph(g, course, EDU.scientificArea, create_str_literal(area))
+
+
+def last_admitted_grade(g, course, grade):
+    if grade == "---":
+        grade = create_str_literal("---")
+    else:
+        grade = create_float_literal(float(grade))
+    add_to_graph(g, course, EDU.lastAdmittedGrade, grade)
+
+
+def course_available_slots(g, course, slots):
+    if slots == "---":
+        slots = 0
+    else:
+        slots = int(float(slots))
+    add_to_graph(g, course, EDU.availableSlots, create_int_literal(slots))
+
+
+def create_graph_from_excel():
+    excel_file = "lista_de_vagas_para_1_fase.xlsx"
+    df = pd.read_excel(excel_file, sheet_name=0, header=3)
+    g = Graph()
+    g.bind("edu", EDU)
+
+    for _, row in df.iterrows():
+
+        if pd.isna(row["Nome da Instituição"]) or pd.isna(row["Nome do Curso"]):
+            continue
+
+        inst_name = get_value(row, "Nome da Instituição")
+        course_name = get_value(row, "Nome do Curso")
+
+        inst = create_institution(g, inst_name, get_value(row, "Código Instit."))
+        course = create_course(g, course_name, get_value(row, "Código Curso"))
+
+        inst_has_course(g, inst, course)
+
+        available_slots = get_value(row, "Vagas 2024")
+        if pd.notna(available_slots):
+            course_available_slots(g, course, available_slots)
+
+        course_type(g, course, get_value(row, "Grau"))
+        course_scientific_area(g, course, get_value(row, "Área Científica"))
+
+        nota = get_value(row, "Nota último colocado 1ª Fase 2023 (cont. geral)")
         if pd.notna(nota):
-            try:
-                g.add((uri_curso, ENS.notaUltimoColocado, Literal(float(nota), datatype=XSD.float)))
-            except:
-                pass
+            last_admitted_grade(g, course, nota)
 
-    # Códigos institucionais 
-    if "Código Instit." in row and pd.notna(row["Código Instit."]):
-        g.add((uri_inst, ENS.codigoInstituicao, Literal(str(row["Código Instit."]))))
-    if "Código Curso" in row and pd.notna(row["Código Curso"]):
-        g.add((uri_curso, ENS.codigoCurso, Literal(str(row["Código Curso"]))))
+    g.serialize("education.ttl", format="turtle")
 
 
-g.serialize("ensino.ttl", format="turtle")
+create_graph_from_excel()
 print("RDF enriquecido gerado com sucesso!")
