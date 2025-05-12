@@ -117,4 +117,4 @@ def create_graph_from_excel():
 
 
 create_graph_from_excel()
-print("RDF enriquecido gerado com sucesso!")
+print("Successfully generated RDF!")

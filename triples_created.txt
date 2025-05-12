@@ -1,0 +1,26 @@
+inst_has_course(g, inst, course)
+Triples created: (inst, edu:hasCourse, course)
+Example: (EDU.Universidade_de_Lisboa, EDU.hasCourse, EDU.Engenharia_Informatica)
+
+course_type(g, course, degree_type)
+Triples created: (course, edu:degreeType, "Licenciatura")
+Example: (EDU.Engenharia_Informatica, EDU.degreeType, "Licenciatura")
+
+course_scientific_area(g, course, area)
+Triples created: (course, edu:scientificArea, "Engenharia")
+Example: (EDU.Engenharia_Informatica, EDU.scientificArea, "Engenharia")
+
+last_admitted_grade(g, course, grade)
+Triples created: (course, edu:lastAdmittedGrade, 17.2)
+Example: (EDU.Engenharia_Informatica, EDU.lastAdmittedGrade, 17.2)
+
+course_available_slots(g, course, slots)
+Triples created: (course, edu:availableSlots, 120)
+Example: (EDU.Engenharia_Informatica, EDU.availableSlots, 120)
+
+
+----------------------------
+Next Steps:
+- Do I need more triples?
+- Load into GraphDB
+- Making queries with SPARQL
