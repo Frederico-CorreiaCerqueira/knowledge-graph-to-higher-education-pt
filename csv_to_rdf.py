@@ -46,7 +46,7 @@ def create_institution(g, name, code):
     return inst
 
 
-def create_course(g, name, code):
+def create_type_course(g, name, code):
     n = normalize_name(name)
     course = EDU[n]
     literal = create_str_literal(name)
@@ -60,7 +60,13 @@ def inst_has_course(g, inst, course):
     add_to_graph(g, inst, EDU.hasCourse, course)
 
 
-def course_type(g, course, degree_type):
+def create_type(g, course_type, inst_name, course_name):
+    course = EDU[normalize_name(inst_name) + "_" + normalize_name(course_name)]
+    add_to_graph(g, course, RDF.type, course_type)
+    return course
+
+
+def course_degree(g, course, degree_type):
     add_to_graph(g, course, EDU.degreeType, create_str_literal(degree_type))
 
 
@@ -99,7 +105,9 @@ def create_graph_from_excel():
         course_name = get_value(row, "Nome do Curso")
 
         inst = create_institution(g, inst_name, get_value(row, "Código Instit."))
-        course = create_course(g, course_name, get_value(row, "Código Curso"))
+        course_type = create_type_course(g, course_name, get_value(row, "Código Curso"))
+
+        course = create_type(g, course_type, inst_name, course_name)
 
         inst_has_course(g, inst, course)
 
@@ -107,7 +115,7 @@ def create_graph_from_excel():
         if pd.notna(available_slots):
             course_available_slots(g, course, available_slots)
 
-        course_type(g, course, get_value(row, "Grau"))
+        course_degree(g, course, get_value(row, "Grau"))
         course_scientific_area(g, course, get_value(row, "Área Científica"))
 
         nota = get_value(row, "Nota último colocado 1ª Fase 2023 (cont. geral)")
