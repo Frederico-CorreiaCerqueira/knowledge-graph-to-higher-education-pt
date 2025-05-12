@@ -14,8 +14,8 @@ edu:Institution a owl:Class ;
                 rdfs:comment "An organization that provides higher education."@en .
 
 edu:Course a owl:Class ;
-           rdfs:label "Course"@en ;
-           rdfs:comment "A program of study offered by an educational institution."@en .
+                rdfs:label "Course"@en ;
+                rdfs:comment "A program of study offered by an educational institution."@en .
 
 ### Object Properties
 edu:hasCourse a owl:ObjectProperty ;

@@ -33,7 +33,7 @@ def create_int_literal(value):
 
 
 def normalize_name(value):
-    return value.replace(" ", "_").replace(",", "").replace(".", "").replace("º", "")
+    return value.replace(" ", "_").replace(",", "").replace(".", "").replace("º", "").replace(":", "").replace(";", "")
 
 
 def create_institution(g, name, code):
@@ -47,7 +47,8 @@ def create_institution(g, name, code):
 
 
 def create_course(g, name, code):
-    course = EDU[normalize_name(name)]
+    n = normalize_name(name)
+    course = EDU[n]
     literal = create_str_literal(name)
     add_to_graph(g, course, RDF.type, EDU.Course)
     add_to_graph(g, course, EDU.courseName, literal)
