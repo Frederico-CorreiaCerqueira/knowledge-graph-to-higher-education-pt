@@ -79,3 +79,28 @@ edu:courseCode a owl:DatatypeProperty ;
                rdfs:range xsd:string ;
                rdfs:label "course code"@en ;
                rdfs:comment "A unique identifier code for the course."@en .
+
+
+edu:address a owl:DatatypeProperty ;
+            rdfs:domain edu:Institution ;
+            rdfs:range xsd:string ;
+            rdfs:label "address"@en ;
+            rdfs:comment "The address of the educational institution."@en .
+
+edu:postalCode a owl:DatatypeProperty ;
+               rdfs:domain edu:Institution ;
+               rdfs:range xsd:string ;
+               rdfs:label "postal code"@en ;
+               rdfs:comment "The postal code of the educational institution."@en .
+
+edu:district a owl:DatatypeProperty ;
+             rdfs:domain edu:Institution ;
+             rdfs:range xsd:string ;
+             rdfs:label "district"@en ;
+             rdfs:comment "The district where the educational institution is located."@en .
+
+edu:county a owl:DatatypeProperty ;
+           rdfs:domain edu:Institution ;
+           rdfs:range xsd:string ;
+           rdfs:label "county"@en ;
+           rdfs:comment "The county where the educational institution is located."@en .
