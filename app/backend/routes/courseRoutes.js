@@ -3,7 +3,7 @@ import { searchUniversity,searchCourse } from '../controllers/courseController.j
 
 const router = express.Router();
 
-router.get('/searchUniversity', searchUniversity);
-router.get('/searchCourse', searchCourse);
+router.post('/searchUniversity', searchUniversity);
+router.post('/searchCourse', searchCourse);
 
 export default router;
