@@ -24,14 +24,17 @@ export const searchUniversityService = async ({ district, course, grade }) => {
   return await searchUniversityRepo(filters);
 };
 
-export const searchCourseService = async ({university, grade }) => {
+export const searchCourseService = async ({university, grade, scientificArea }) => {
   const filters = {};
 
   if (university && university.trim() !== '') {
     filters.university = university.trim();
-  }else {
-    throw new Error('University is required.');
+  } else if (scientificArea && scientificArea.trim() !== '') {
+    filters.scientificArea = scientificArea.trim();
+  } else {
+    throw new Error('University or Scientific Area is required.');
   }
+
 
   if (grade !== undefined && grade !== null && grade !== '') {
     const parsedGrade = parseFloat(grade);

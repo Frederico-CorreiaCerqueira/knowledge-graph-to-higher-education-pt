@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const SearchPage = () => {
-  const [courseForm, setCourseForm] = useState({ university: '', grade: '' });
+  const [courseForm, setCourseForm] = useState({ university: '', grade: '', scientificArea: ''});
   const [universityForm, setUniversityForm] = useState({ district: '', course: '', grade: '' });
 
   const [courseResults, setCourseResults] = useState([]);
@@ -62,6 +62,14 @@ const SearchPage = () => {
           placeholder="Minimum Grade"
           className="w-full p-2 border rounded"
         />
+        <input
+          type="text"
+          name="scientificArea"
+          value={courseForm.scientificArea}
+          onChange={handleCourseChange}
+          placeholder="Scientific Area"
+          className="w-full p-2 border rounded"
+        />
         <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
           Search Courses
         </button>
@@ -74,9 +82,11 @@ const SearchPage = () => {
           <ul className="space-y-2">
             {courseResults.map((course, idx) => (
               <li key={idx} className="border-b pb-2">
-
-                <strong>Course:</strong> {course.course}<br />
-                <strong>Grade:</strong> {course.grade}
+                {Object.entries(course).map(([key, value]) => (
+                  <React.Fragment key={key}>
+                    <strong>{key}:</strong> {value}<br />
+                  </React.Fragment>
+                ))}   
               </li>
             ))}
           </ul>
@@ -122,9 +132,11 @@ const SearchPage = () => {
           <ul className="space-y-2">
             {universityResults.map((uni, idx) => (
               <li key={idx} className="border-b pb-2">
-                <strong>code:</strong> {uni.code}<br />
-                <strong>name:</strong> {uni.name}<br />
-                <strong>grade:</strong> {uni.grade}
+                {Object.entries(uni).map(([key, value]) => (
+                  <React.Fragment key={key}>
+                    <strong>{key}:</strong> {value}<br />
+                  </React.Fragment>
+                ))}                
               </li>
             ))}
           </ul>

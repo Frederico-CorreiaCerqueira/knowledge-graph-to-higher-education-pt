@@ -16,9 +16,9 @@ export const searchUniversity = async (req, res) => {
 
 export const searchCourse = async (req, res) => {
   try {
-    const {university, grade } = req.body;
+    const {university, grade, scientificArea } = req.body;
 
-    const filters = { university, grade };
+    const filters = { university, grade, scientificArea };
     const results = await searchCourseService(filters);
 
     res.json(results);

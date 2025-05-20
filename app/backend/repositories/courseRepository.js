@@ -24,10 +24,11 @@ export const searchUniversityRepo = async ({ district, course, grade }) => {
   }));
 };
 
-export const searchCourseRepo = async ({university, grade }) => {
+export const searchCourseRepo = async ({university, grade, scientificArea }) => {
   const criteria = {
     university: university,
     grade,
+    scientificArea
   };
 
   const query = buildQuerySearchCourse(criteria);
@@ -39,8 +40,11 @@ export const searchCourseRepo = async ({university, grade }) => {
     },
   });
   return response.data.results.bindings.map((result) => ({
+    institution_Name: result.institutionName.value,
     course: result.courseName.value,
-    grade: result.grade.value
+    grade: result.grade.value,
+    scientific_Area: result.scientificArea.value,
+    degree: result.degree.value
   }));
 };
 
