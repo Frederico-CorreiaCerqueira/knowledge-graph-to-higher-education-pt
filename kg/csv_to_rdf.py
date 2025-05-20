@@ -35,7 +35,6 @@ def create_int_literal(value):
 def normalize_name(value):
     return value.replace(" ", "_").replace(",", "").replace(".", "").replace("º", "").replace(":", "").replace(";", "")
 
-
 def create_institution(g, name, code):
     inst = EDU[normalize_name(name)]
     literal = create_str_literal(name)
@@ -66,12 +65,27 @@ def create_type(g, course_type, inst_name, course_name):
     return course
 
 
-def course_degree(g, course, degree_type):
-    add_to_graph(g, course, EDU.degreeType, create_str_literal(degree_type))
+def create_degree(g, degree_type):
+    degree = EDU[normalize_name(degree_type)]
+    add_to_graph(g, degree, RDF.type, EDU.Degree)
+    add_to_graph(g, degree, EDU.degreeName, create_str_literal(degree_type))
+    return degree
 
 
-def course_scientific_area(g, course, area):
-    add_to_graph(g, course, EDU.scientificArea, create_str_literal(area))
+def course_degree(g, course, degree):
+    add_to_graph(g, course, EDU.awardsDegree, degree)
+
+
+def create_scientific_area(g, code, name):
+    scientific_area = EDU[normalize_name(name)]
+    add_to_graph(g, scientific_area, RDF.type, EDU.ScientificArea)
+    add_to_graph(g, scientific_area, EDU.scientificAreaCode, create_int_literal(int(float(code))))
+    add_to_graph(g, scientific_area, EDU.scientificAreaName, create_str_literal(name))
+    return scientific_area
+
+
+def course_scientific_area(g, course, scientific_area):
+    add_to_graph(g, course, EDU.hasScientificArea, scientific_area)
 
 
 def last_admitted_grade(g, course, grade):
@@ -90,16 +104,30 @@ def course_available_slots(g, course, slots):
     add_to_graph(g, course, EDU.availableSlots, create_int_literal(slots))
 
 
-def add_location_to_institution(g, inst, morada, codigo_postal, distrito, concelho):
-    """Adds location-related triples to the RDF graph for an institution."""
-    if morada:
-        add_to_graph(g, inst, EDU.address, create_str_literal(morada))
-    if codigo_postal:
-        add_to_graph(g, inst, EDU.postalCode, create_str_literal(codigo_postal))
-    if distrito:
-        add_to_graph(g, inst, EDU.district, create_str_literal(distrito))
-    if concelho:
-        add_to_graph(g, inst, EDU.county, create_str_literal(concelho))
+def add_location_to_institution(g, inst, address, postal_code, district, county):
+    if address:
+        add_to_graph(g, inst, EDU.address, create_str_literal(address))
+    if postal_code:
+        add_to_graph(g, inst, EDU.postalCode, create_str_literal(postal_code))
+    if district:
+        add_to_graph(g, inst, EDU.locatedInDistrict, district)
+    if county:
+        add_to_graph(g, inst, EDU.locatedInCounty, county)
+
+
+def create_district(g, district_name):
+    district = EDU[normalize_name(district_name)]
+    add_to_graph(g, district, RDF.type, EDU.District)
+    add_to_graph(g, district, EDU.districtName, create_str_literal(district_name))
+    return district
+
+
+def create_county(g, county_name, district):
+    county = EDU[normalize_name(county_name)]
+    add_to_graph(g, county, RDF.type, EDU.County)
+    add_to_graph(g, county, EDU.countyName, create_str_literal(county_name))
+    add_to_graph(g, county, EDU.countyPartOfDistrict, district)
+    return county
 
 
 def create_graph_from_excel():
@@ -138,8 +166,11 @@ def create_graph_from_excel():
         if pd.notna(available_slots):
             course_available_slots(g, course, available_slots)
 
-        course_degree(g, course, get_value(row, "Grau"))
-        course_scientific_area(g, course, get_value(row, "Área Científica"))
+        degree = create_degree(g, get_value(row, "Grau"))
+        course_degree(g, course_type, degree)
+        
+        scientific_area = create_scientific_area(g, get_value(row, "Área Científica"), get_value(row, 8))
+        course_scientific_area(g, course_type, scientific_area)
 
         nota = get_value(row, "Nota último colocado 1ª Fase 2023 (cont. geral)")
         if pd.notna(nota):
@@ -148,17 +179,18 @@ def create_graph_from_excel():
         # Add location data if available
         if inst_name in location_dict:
             location_data = location_dict[inst_name]
+            district = create_district(g, location_data.get("Distrito"))
+            county = create_county(g, location_data.get("Concelho"), district)
             add_location_to_institution(
                 g,
                 inst,
                 location_data.get("Morada"),
                 location_data.get("Código Postal"),
-                location_data.get("Distrito"),
-                location_data.get("Concelho"),
+                district,
+                county
             )
 
     g.serialize("education.ttl", format="turtle")
-
 
 create_graph_from_excel()
 print("Successfully generated RDF with locations!")

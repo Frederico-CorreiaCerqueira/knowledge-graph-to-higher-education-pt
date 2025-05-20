@@ -1,10 +1,10 @@
 @prefix : <http://example.org/education#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix edu: <http://example.org/education#> .
 @base <http://example.org/education#> .
+
 
 edu: rdf:type owl:Ontology .
 
@@ -17,19 +17,66 @@ edu:Course a owl:Class ;
                 rdfs:label "Course"@en ;
                 rdfs:comment "A program of study offered by an educational institution."@en .
 
+edu:district a owl:Class ;
+                rdfs:label "District"@en ;
+                rdfs:comment "An administrative division within a region or country, often used for local governance."@en .
+
+edu:county a owl:Class ;
+                rdfs:label "County"@en ;
+                rdfs:comment "A territorial and administrative division, typically larger than a city and smaller than a state/province."@en .
+
+edu:Degree a owl:Class ;
+                rdfs:label "Degree"@en ;
+                rdfs:comment "The type of academic degree awarded by a course."@en .
+
+edu:ScientificArea a owl:Class ;
+                rdfs:label "Scientific Area"@en ;
+                rdfs:comment "The primary field of study or scientific discipline."@en .
+
+
 ### Object Properties
 edu:hasCourse a owl:ObjectProperty ;
-              rdfs:domain edu:Institution ;
-              rdfs:range edu:Course ;
-              rdfs:label "has course"@en ;
-              rdfs:comment "Indicates that an institution offers a specific course."@en .
+                rdfs:domain edu:Institution ;
+                rdfs:range edu:Course ;
+                rdfs:label "has course"@en ;
+                rdfs:comment "Indicates that an institution offers a specific course."@en .
 
 ### Data Properties
 edu:hasCourse a owl:ObjectProperty ;
-              rdfs:domain edu:Institution ;
-              rdfs:range edu:Course ;
-              rdfs:label "has course"@en ;
-              rdfs:comment "Indicates that an institution offers a specific course."@en .
+                rdfs:domain edu:Institution ;
+                rdfs:range edu:Course ;
+                rdfs:label "has course"@en ;
+                rdfs:comment "Indicates that an institution offers a specific course."@en .
+
+edu:locatedInDistrict a owl:ObjectProperty ;
+                rdfs:domain edu:Institution ;
+                rdfs:range edu:district ;
+                rdfs:label "located in district"@en ;
+                rdfs:comment "Indicates that an institution is geographically located within a specific district."@en .
+
+edu:locatedInCounty a owl:ObjectProperty ;
+                rdfs:domain edu:Institution ;
+                rdfs:range edu:county ;
+                rdfs:label "located in county"@en ;
+                rdfs:comment "Indicates that an institution is geographically located within a specific county."@en .
+
+edu:countyPartOfDistrict a owl:ObjectProperty ;
+                rdfs:domain edu:county ;
+                rdfs:range edu:district ;
+                rdfs:label "county part of district"@en ;
+                rdfs:comment "Indicates that a county is administratively part of a district."@en .
+
+edu:awardsDegree a owl:ObjectProperty ;
+                rdfs:domain edu:Course ;
+                rdfs:range edu:Degree ;
+                rdfs:label "awards degree"@en ;
+                rdfs:comment "Indicates what type of degree a course awards upon completion."@en .
+
+edu:hasScientificArea a owl:ObjectProperty ;
+                rdfs:domain edu:Course ;
+                rdfs:range edu:ScientificArea ;
+                rdfs:label "has scientific area"@en ;
+                rdfs:comment "Indicates the primary scientific area of a course."@en .
 
 ### Data Properties
 edu:institutionName a owl:DatatypeProperty ;
@@ -80,7 +127,6 @@ edu:courseCode a owl:DatatypeProperty ;
                rdfs:label "course code"@en ;
                rdfs:comment "A unique identifier code for the course."@en .
 
-
 edu:address a owl:DatatypeProperty ;
             rdfs:domain edu:Institution ;
             rdfs:range xsd:string ;
@@ -93,14 +139,32 @@ edu:postalCode a owl:DatatypeProperty ;
                rdfs:label "postal code"@en ;
                rdfs:comment "The postal code of the educational institution."@en .
 
-edu:district a owl:DatatypeProperty ;
-             rdfs:domain edu:Institution ;
-             rdfs:range xsd:string ;
-             rdfs:label "district"@en ;
-             rdfs:comment "The district where the educational institution is located."@en .
+edu:districtName a owl:DatatypeProperty ;
+                 rdfs:domain edu:district ;
+                 rdfs:range xsd:string ;
+                 rdfs:label "district name"@en ;
+                 rdfs:comment "The official name of the district."@en .
 
-edu:county a owl:DatatypeProperty ;
-           rdfs:domain edu:Institution ;
-           rdfs:range xsd:string ;
-           rdfs:label "county"@en ;
-           rdfs:comment "The county where the educational institution is located."@en .
+edu:countyName a owl:DatatypeProperty ;
+               rdfs:domain edu:county ;
+               rdfs:range xsd:string ;
+               rdfs:label "county name"@en ;
+               rdfs:comment "The official name of the county."@en .
+
+edu:degreeName a owl:DatatypeProperty ;
+               rdfs:domain edu:Degree ;
+               rdfs:range xsd:string ;
+               rdfs:label "degree name"@en ;
+               rdfs:comment "The official name of the degree type."@en .
+
+edu:scientificAreaCode a owl:DatatypeProperty ;
+                      rdfs:domain edu:ScientificArea ;
+                      rdfs:range xsd:integer ;
+                      rdfs:label "scientific area code"@en ;
+                      rdfs:comment "A unique identifier code for the scientific area."@en .
+
+edu:scientificAreaName a owl:DatatypeProperty ;
+                      rdfs:domain edu:ScientificArea ;
+                      rdfs:range xsd:string ;
+                      rdfs:label "scientific area name"@en ;
+                      rdfs:comment "The official name of the scientific area."@en .
