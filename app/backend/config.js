@@ -1,2 +1,2 @@
-export const graphDBEndpoint = 'http://localhost:7200/repositories/knowledge-graph-to-higher-education';
+export const graphDBEndpoint = 'http://kg-project.fly.dev/repositories/kg_education';
 
