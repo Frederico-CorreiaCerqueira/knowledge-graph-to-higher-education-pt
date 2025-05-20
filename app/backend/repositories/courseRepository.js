@@ -18,7 +18,9 @@ export const searchUniversityRepo = async ({ district, course, grade }) => {
     },
   });
   return response.data.results.bindings.map((result) => ({
-    institution: result.institution.value,
+    code: result.code.value,
+    name: result.name.value,
+    grade: result.grade.value,
   }));
 };
 
@@ -38,6 +40,7 @@ export const searchCourseRepo = async ({university, grade }) => {
   });
   return response.data.results.bindings.map((result) => ({
     course: result.courseName.value,
+    grade: result.grade.value
   }));
 };
 

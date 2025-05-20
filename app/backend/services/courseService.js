@@ -41,7 +41,9 @@ export const searchCourseService = async ({university, grade }) => {
     filters.grade = parsedGrade;
   }
 
-  return await searchCourseRepo(filters);
+  const results =  await searchCourseRepo(filters);
+
+  return results
 };
 
 const formatCourseName = (name) => {

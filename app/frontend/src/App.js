@@ -74,7 +74,7 @@ const SearchPage = () => {
           <ul className="space-y-2">
             {courseResults.map((course, idx) => (
               <li key={idx} className="border-b pb-2">
-                <strong>Institution:</strong> {course.institution}<br />
+
                 <strong>Course:</strong> {course.course}<br />
                 <strong>Grade:</strong> {course.grade}
               </li>
@@ -122,7 +122,9 @@ const SearchPage = () => {
           <ul className="space-y-2">
             {universityResults.map((uni, idx) => (
               <li key={idx} className="border-b pb-2">
-                <strong>Institution:</strong> {uni.institution}
+                <strong>code:</strong> {uni.code}<br />
+                <strong>name:</strong> {uni.name}<br />
+                <strong>grade:</strong> {uni.grade}
               </li>
             ))}
           </ul>
