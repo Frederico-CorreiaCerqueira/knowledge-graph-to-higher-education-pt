@@ -9,7 +9,7 @@ export const searchUniversity = async (req, res) => {
 
     res.json(results);
   } catch (error) {
-    console.error('Error searching for universities:', error.message);
+    console.error('Error searching for universities:', error);
     res.status(500).json({ error: 'Failed to search for universities.' });
   }
 };
