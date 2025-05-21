@@ -2,6 +2,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 edu:Escola_Superior_Náutica_Infante_D_Henrique a edu:Institution ;
+    edu:address "Av. Eng. Boneville Franco"^^xsd:string ;
     edu:hasCourse edu:Escola_Superior_Náutica_Infante_D_Henrique_Engenharia_Eletrotécnica_Marítima,
         edu:Escola_Superior_Náutica_Infante_D_Henrique_Engenharia_Informática_e_de_Computadores,
         edu:Escola_Superior_Náutica_Infante_D_Henrique_Engenharia_de_Máquinas_Marítimas,
@@ -9,24 +10,40 @@ edu:Escola_Superior_Náutica_Infante_D_Henrique a edu:Institution ;
         edu:Escola_Superior_Náutica_Infante_D_Henrique_Gestão_de_Transportes_e_Logística,
         edu:Escola_Superior_Náutica_Infante_D_Henrique_Pilotagem ;
     edu:institutionCode 7105 ;
-    edu:institutionName "Escola Superior Náutica Infante D. Henrique"^^xsd:string .
+    edu:institutionName "Escola Superior Náutica Infante D. Henrique"^^xsd:string ;
+    edu:locatedInCounty edu:OEIRAS ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "2780-572 PAÇO DE ARCOS"^^xsd:string .
 
 edu:Escola_Superior_de_Enfermagem_de_Coimbra a edu:Institution ;
+    edu:address "Rua 5 de Outubro - Apartado 55"^^xsd:string ;
     edu:hasCourse edu:Escola_Superior_de_Enfermagem_de_Coimbra_Enfermagem ;
     edu:institutionCode 7001 ;
-    edu:institutionName "Escola Superior de Enfermagem de Coimbra"^^xsd:string .
+    edu:institutionName "Escola Superior de Enfermagem de Coimbra"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3001-901 COIMBRA"^^xsd:string .
 
 edu:Escola_Superior_de_Enfermagem_de_Lisboa a edu:Institution ;
+    edu:address "Av. Brasil, 53 - B"^^xsd:string ;
     edu:hasCourse edu:Escola_Superior_de_Enfermagem_de_Lisboa_Enfermagem ;
     edu:institutionCode 7002 ;
-    edu:institutionName "Escola Superior de Enfermagem de Lisboa"^^xsd:string .
+    edu:institutionName "Escola Superior de Enfermagem de Lisboa"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1700-063 LISBOA"^^xsd:string .
 
 edu:Escola_Superior_de_Enfermagem_do_Porto a edu:Institution ;
+    edu:address "Rua Dr. Bernardino de Almeida"^^xsd:string ;
     edu:hasCourse edu:Escola_Superior_de_Enfermagem_do_Porto_Enfermagem ;
     edu:institutionCode 7003 ;
-    edu:institutionName "Escola Superior de Enfermagem do Porto"^^xsd:string .
+    edu:institutionName "Escola Superior de Enfermagem do Porto"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4200-072 PORTO"^^xsd:string .
 
 edu:Escola_Superior_de_Hotelaria_e_Turismo_do_Estoril a edu:Institution ;
+    edu:address "Av. Conde de Barcelona"^^xsd:string ;
     edu:hasCourse edu:Escola_Superior_de_Hotelaria_e_Turismo_do_Estoril_Direção_e_Gestão_Hoteleira,
         edu:Escola_Superior_de_Hotelaria_e_Turismo_do_Estoril_Direção_e_Gestão_Hoteleira_\(regime_pós-laboral\),
         edu:Escola_Superior_de_Hotelaria_e_Turismo_do_Estoril_Gestão_Turística,
@@ -37,9 +54,13 @@ edu:Escola_Superior_de_Hotelaria_e_Turismo_do_Estoril a edu:Institution ;
         edu:Escola_Superior_de_Hotelaria_e_Turismo_do_Estoril_Produção_Alimentar_em_Restauração,
         edu:Escola_Superior_de_Hotelaria_e_Turismo_do_Estoril_Produção_Alimentar_em_Restauração_\(regime_pós-laboral\) ;
     edu:institutionCode 7110 ;
-    edu:institutionName "Escola Superior de Hotelaria e Turismo do Estoril"^^xsd:string .
+    edu:institutionName "Escola Superior de Hotelaria e Turismo do Estoril"^^xsd:string ;
+    edu:locatedInCounty edu:CASCAIS ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "2765-470 ESTORIL"^^xsd:string .
 
 edu:ISCTE_-_Instituto_Universitário_de_Lisboa a edu:Institution ;
+    edu:address "Av. das Forças Armadas"^^xsd:string ;
     edu:hasCourse edu:ISCTE_-_Instituto_Universitário_de_Lisboa_Antropologia,
         edu:ISCTE_-_Instituto_Universitário_de_Lisboa_Arquitetura,
         edu:ISCTE_-_Instituto_Universitário_de_Lisboa_Ciência_Política,
@@ -63,9 +84,13 @@ edu:ISCTE_-_Instituto_Universitário_de_Lisboa a edu:Institution ;
         edu:ISCTE_-_Instituto_Universitário_de_Lisboa_Sociologia,
         edu:ISCTE_-_Instituto_Universitário_de_Lisboa_Sociologia_\(regime_pós-laboral\) ;
     edu:institutionCode 6800 ;
-    edu:institutionName "ISCTE - Instituto Universitário de Lisboa"^^xsd:string .
+    edu:institutionName "ISCTE - Instituto Universitário de Lisboa"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1649-026 LISBOA"^^xsd:string .
 
 edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Educação_Comunicação_e_Desporto a edu:Institution ;
+    edu:address "Av. Dr. Francisco Sá Carneiro, 50"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Educação_Comunicação_e_Desporto_Animação_Sociocultural,
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Educação_Comunicação_e_Desporto_Comunicação_Multimédia,
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Educação_Comunicação_e_Desporto_Comunicação_e_Relações_Públicas,
@@ -74,16 +99,24 @@ edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Educação_Comunicaç�
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Educação_Comunicação_e_Desporto_Educação_Básica,
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Educação_Comunicação_e_Desporto_Educação_Social_Gerontológica ;
     edu:institutionCode 3091 ;
-    edu:institutionName "Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto"^^xsd:string .
+    edu:institutionName "Instituto Politécnico da Guarda - Escola Superior de Educação, Comunicação e Desporto"^^xsd:string ;
+    edu:locatedInCounty edu:GUARDA ;
+    edu:locatedInDistrict edu:Guarda ;
+    edu:postalCode "6300-559 GUARDA"^^xsd:string .
 
 edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Saúde_da_Guarda a edu:Institution ;
+    edu:address "Av. Rainha D. Amélia, s/n"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Saúde_da_Guarda_Biotecnologia_Medicinal,
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Saúde_da_Guarda_Enfermagem,
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Saúde_da_Guarda_Farmácia ;
     edu:institutionCode 7040 ;
-    edu:institutionName "Instituto Politécnico da Guarda - Escola Superior de Saúde da Guarda"^^xsd:string .
+    edu:institutionName "Instituto Politécnico da Guarda - Escola Superior de Saúde da Guarda"^^xsd:string ;
+    edu:locatedInCounty edu:GUARDA ;
+    edu:locatedInDistrict edu:Guarda ;
+    edu:postalCode "6300-749 GUARDA"^^xsd:string .
 
 edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão a edu:Institution ;
+    edu:address "Av. Dr. Francisco Sá Carneiro, 50"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão_Ciência_de_Dados_e_Inteligência_Artificial,
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão_Contabilidade,
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão_Design_de_Equipamento_e_Ambientes,
@@ -96,47 +129,71 @@ edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão a
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão_Marketing,
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão_Mecânica_e_Informática_Industrial ;
     edu:institutionCode 3092 ;
-    edu:institutionName "Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão"^^xsd:string .
+    edu:institutionName "Instituto Politécnico da Guarda - Escola Superior de Tecnologia e Gestão"^^xsd:string ;
+    edu:locatedInCounty edu:GUARDA ;
+    edu:locatedInDistrict edu:Guarda ;
+    edu:postalCode "6300-559 GUARDA"^^xsd:string .
 
 edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Turismo_e_Hotelaria a edu:Institution ;
+    edu:address "Praça da República"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Turismo_e_Hotelaria_Gestão_Hoteleira,
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Turismo_e_Hotelaria_Gestão_do_Turismo_e_da_Hospitalidade,
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Turismo_e_Hotelaria_Restauração_e_Catering,
         edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Turismo_e_Hotelaria_Turismo_e_Lazer ;
     edu:institutionCode 3095 ;
-    edu:institutionName "Instituto Politécnico da Guarda - Escola Superior de Turismo e Hotelaria"^^xsd:string .
+    edu:institutionName "Instituto Politécnico da Guarda - Escola Superior de Turismo e Hotelaria"^^xsd:string ;
+    edu:locatedInCounty edu:SEIA ;
+    edu:locatedInDistrict edu:Guarda ;
+    edu:postalCode "6270-496 SEIA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_Agrária a edu:Institution ;
+    edu:address "Rua Pedro Soares - Apartado 158"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_Agrária_Agronomia,
         edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_Agrária_Ciência_e_Tecnologia_dos_Alimentos,
         edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_Agrária_Engenharia_do_Ambiente ;
     edu:institutionCode 3021 ;
-    edu:institutionName "Instituto Politécnico de Beja - Escola Superior Agrária"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Beja - Escola Superior Agrária"^^xsd:string ;
+    edu:locatedInCounty edu:BEJA ;
+    edu:locatedInDistrict edu:Beja ;
+    edu:postalCode "7801-902 BEJA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Educação a edu:Institution ;
+    edu:address "Prolongamento da Rua Pedro Soares"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Educação_Audiovisual_e_Multimédia,
         edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Educação_Desporto,
         edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Educação_Educação_Básica,
         edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Educação_Serviço_Social ;
     edu:institutionCode 3022 ;
-    edu:institutionName "Instituto Politécnico de Beja - Escola Superior de Educação"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Beja - Escola Superior de Educação"^^xsd:string ;
+    edu:locatedInCounty edu:BEJA ;
+    edu:locatedInDistrict edu:Beja ;
+    edu:postalCode "7800-295 BEJA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Saúde a edu:Institution ;
+    edu:address "Rua Dr. José Correia Maltez"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Saúde_Enfermagem,
         edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Saúde_Terapia_Ocupacional ;
     edu:institutionCode 7005 ;
-    edu:institutionName "Instituto Politécnico de Beja - Escola Superior de Saúde"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Beja - Escola Superior de Saúde"^^xsd:string ;
+    edu:locatedInCounty edu:BEJA ;
+    edu:locatedInDistrict edu:Beja ;
+    edu:postalCode "7800-111 BEJA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Tecnologia_e_de_Gestão a edu:Institution ;
+    edu:address "Rua Pedro Soares"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Tecnologia_e_de_Gestão_Engenharia_Informática,
         edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Tecnologia_e_de_Gestão_Gestão_de_Empresas,
         edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Tecnologia_e_de_Gestão_Gestão_de_Empresas_\(regime_pós-laboral\),
         edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Tecnologia_e_de_Gestão_Solicitadoria,
         edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Tecnologia_e_de_Gestão_Turismo ;
     edu:institutionCode 3023 ;
-    edu:institutionName "Instituto Politécnico de Beja - Escola Superior de Tecnologia e de Gestão"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Beja - Escola Superior de Tecnologia e de Gestão"^^xsd:string ;
+    edu:locatedInCounty edu:BEJA ;
+    edu:locatedInDistrict edu:Beja ;
+    edu:postalCode "7800-295 BEJA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança a edu:Institution ;
+    edu:address "Campus de Sta. Apolónia, - Apartado 172"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança_Biologia_e_Biotecnologia,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança_Enfermagem_Veterinária,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança_Engenharia_Agronómica,
@@ -145,9 +202,13 @@ edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança 
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança_Engenharia_do_Ambiente,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança_Enologia ;
     edu:institutionCode 3041 ;
-    edu:institutionName "Instituto Politécnico de Bragança - Escola Superior Agrária de Bragança"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Bragança - Escola Superior Agrária de Bragança"^^xsd:string ;
+    edu:locatedInCounty edu:BRAGANÇA ;
+    edu:locatedInDistrict edu:Bragança ;
+    edu:postalCode "5301-855 BRAGANÇA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Comunicação_Administração_e_Turismo_de_Mirandela a edu:Institution ;
+    edu:address "Rua João Maria Sarmento Pimentel - Apartado 128"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Comunicação_Administração_e_Turismo_de_Mirandela_Design_de_Jogos_Digitais,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Comunicação_Administração_e_Turismo_de_Mirandela_Gestão_e_Administração_Pública,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Comunicação_Administração_e_Turismo_de_Mirandela_Informática_e_Comunicações,
@@ -156,9 +217,13 @@ edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Comunicação_Admin
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Comunicação_Administração_e_Turismo_de_Mirandela_Solicitadoria,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Comunicação_Administração_e_Turismo_de_Mirandela_Turismo ;
     edu:institutionCode 3045 ;
-    edu:institutionName "Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de Mirandela"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Bragança - Escola Superior de Comunicação, Administração e Turismo de Mirandela"^^xsd:string ;
+    edu:locatedInCounty edu:MIRANDELA ;
+    edu:locatedInDistrict edu:Bragança ;
+    edu:postalCode "5370-326 MIRANDELA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Educação_de_Bragança a edu:Institution ;
+    edu:address "Campus de Sta. Apolónia, - Apartado 101"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Educação_de_Bragança_Animação_e_Produção_Artística,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Educação_de_Bragança_Arte_e_Design,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Educação_de_Bragança_Desporto,
@@ -170,14 +235,22 @@ edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Educação_de_Braga
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Educação_de_Bragança_Música_em_Contextos_Comunitários,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Educação_de_Bragança_Relações_Lusófonas_e_Língua_Portuguesa ;
     edu:institutionCode 3042 ;
-    edu:institutionName "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Bragança - Escola Superior de Educação de Bragança"^^xsd:string ;
+    edu:locatedInCounty edu:BRAGANÇA ;
+    edu:locatedInDistrict edu:Bragança ;
+    edu:postalCode "5301-856 BRAGANÇA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Hotelaria_e_Bem-Estar_do_Instituto_Politécnico_de_Bragança a edu:Institution ;
+    edu:address "Rua Dr. Júlio Martins n 1"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Hotelaria_e_Bem-Estar_do_Instituto_Politécnico_de_Bragança_Direção_e_Gestão_Hoteleira ;
     edu:institutionCode 3046 ;
-    edu:institutionName "Instituto Politécnico de Bragança - Escola Superior de Hotelaria e Bem-Estar do Instituto Politécnico de Bragança"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Bragança - Escola Superior de Hotelaria e Bem-Estar do Instituto Politécnico de Bragança"^^xsd:string ;
+    edu:locatedInCounty edu:BRAGANÇA ;
+    edu:locatedInDistrict edu:Bragança ;
+    edu:postalCode "5400-342, CHAVES"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Saúde_de_Bragança a edu:Institution ;
+    edu:address "Av. D. Afonso V"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Saúde_de_Bragança_Ciências_Biomédicas_Laboratoriais,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Saúde_de_Bragança_Dietética_e_Nutrição,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Saúde_de_Bragança_Enfermagem,
@@ -186,9 +259,13 @@ edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Saúde_de_Bragança
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Saúde_de_Bragança_Fisioterapia,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Saúde_de_Bragança_Gerontologia ;
     edu:institutionCode 7015 ;
-    edu:institutionName "Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Bragança - Escola Superior de Saúde de Bragança"^^xsd:string ;
+    edu:locatedInCounty edu:BRAGANÇA ;
+    edu:locatedInDistrict edu:Bragança ;
+    edu:postalCode "5301-121 BRAGANÇA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança a edu:Institution ;
+    edu:address "Campus de Sta. Apolónia, - Apartado 134"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Contabilidade,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Engenharia_Civil,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Engenharia_Eletrotécnica_e_de_Computadores,
@@ -202,50 +279,74 @@ edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Ges
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Informática_de_Gestão,
         edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Tecnologia_Biomédica ;
     edu:institutionCode 3043 ;
-    edu:institutionName "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Bragança - Escola Superior de Tecnologia e de Gestão de Bragança"^^xsd:string ;
+    edu:locatedInCounty edu:BRAGANÇA ;
+    edu:locatedInDistrict edu:Bragança ;
+    edu:postalCode "5301-857 BRAGANÇA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_Agrária_de_Castelo_Branco a edu:Institution ;
+    edu:address "Quinta da Senhora de Mércules, - Apartado 119"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_Agrária_de_Castelo_Branco_Agronomia,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_Agrária_de_Castelo_Branco_Biotecnologia_Alimentar,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_Agrária_de_Castelo_Branco_Enfermagem_Veterinária,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_Agrária_de_Castelo_Branco_Engenharia_de_Proteção_Civil ;
     edu:institutionCode 3051 ;
-    edu:institutionName "Instituto Politécnico de Castelo Branco - Escola Superior Agrária de Castelo Branco"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Castelo Branco - Escola Superior Agrária de Castelo Branco"^^xsd:string ;
+    edu:locatedInCounty edu:CASTELO_BRANCO ;
+    edu:locatedInDistrict edu:Castelo_Branco ;
+    edu:postalCode "6001-909 CASTELO BRANCO"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Artes_Aplicadas a edu:Institution ;
+    edu:address "Quinta da Sra. de Mércules"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Artes_Aplicadas_Design_de_Comunicação_e_Audiovisual,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Artes_Aplicadas_Design_de_Interiores_e_Equipamento,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Artes_Aplicadas_Design_de_Moda_e_Têxtil ;
     edu:institutionCode 3055 ;
-    edu:institutionName "Instituto Politécnico de Castelo Branco - Escola Superior de Artes Aplicadas"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Castelo Branco - Escola Superior de Artes Aplicadas"^^xsd:string ;
+    edu:locatedInCounty edu:CASTELO_BRANCO ;
+    edu:locatedInDistrict edu:Castelo_Branco ;
+    edu:postalCode "6000-909 CASTELO BRANCO"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Educação_de_Castelo_Branco a edu:Institution ;
+    edu:address "Rua Prof. Faria de Vasconcelos"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Educação_de_Castelo_Branco_Desporto_e_Atividade_Física,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Educação_de_Castelo_Branco_Educação_Básica,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Educação_de_Castelo_Branco_Secretariado,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Educação_de_Castelo_Branco_Serviço_Social ;
     edu:institutionCode 3052 ;
-    edu:institutionName "Instituto Politécnico de Castelo Branco - Escola Superior de Educação de Castelo Branco"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Castelo Branco - Escola Superior de Educação de Castelo Branco"^^xsd:string ;
+    edu:locatedInCounty edu:CASTELO_BRANCO ;
+    edu:locatedInDistrict edu:Castelo_Branco ;
+    edu:postalCode "6000-266 CASTELO BRANCO"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Gestão_de_Idanha-a-Nova a edu:Institution ;
+    edu:address "Praça do Município, - Palácio das Palmeiras"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Gestão_de_Idanha-a-Nova_Administração_Pública,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Gestão_de_Idanha-a-Nova_Gestão,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Gestão_de_Idanha-a-Nova_Gestão_Comercial,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Gestão_de_Idanha-a-Nova_Solicitadoria,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Gestão_de_Idanha-a-Nova_Turismo ;
     edu:institutionCode 3054 ;
-    edu:institutionName "Instituto Politécnico de Castelo Branco - Escola Superior de Gestão de Idanha-a-Nova"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Castelo Branco - Escola Superior de Gestão de Idanha-a-Nova"^^xsd:string ;
+    edu:locatedInCounty edu:IDANHA-A-NOVA ;
+    edu:locatedInDistrict edu:Castelo_Branco ;
+    edu:postalCode "6060-163 IDANHA-A-NOVA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Saúde_Dr_Lopes_Dias a edu:Institution ;
+    edu:address "Largo Dr. José Lopes Dias, - Apartado 59"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Saúde_Dr_Lopes_Dias_Ciências_Biomédicas_Laboratoriais,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Saúde_Dr_Lopes_Dias_Enfermagem,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Saúde_Dr_Lopes_Dias_Fisiologia_Clínica,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Saúde_Dr_Lopes_Dias_Fisioterapia,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Saúde_Dr_Lopes_Dias_Imagem_Médica_e_Radioterapia ;
     edu:institutionCode 7020 ;
-    edu:institutionName "Instituto Politécnico de Castelo Branco - Escola Superior de Saúde Dr. Lopes Dias"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Castelo Branco - Escola Superior de Saúde Dr. Lopes Dias"^^xsd:string ;
+    edu:locatedInCounty edu:CASTELO_BRANCO ;
+    edu:locatedInDistrict edu:Castelo_Branco ;
+    edu:postalCode "6000-909 CASTELO BRANCO"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_Castelo_Branco a edu:Institution ;
+    edu:address "Av. do Empresário"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_Castelo_Branco_Engenharia_Civil,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_Castelo_Branco_Engenharia_Eletrotécnica_e_das_Telecomunicações,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_Castelo_Branco_Engenharia_Informática,
@@ -253,9 +354,13 @@ edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_Castelo_Branco_Engenharia_e_Gestão_Industrial,
         edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_Castelo_Branco_Informática_e_Multimédia ;
     edu:institutionCode 3053 ;
-    edu:institutionName "Instituto Politécnico de Castelo Branco - Escola Superior de Tecnologia de Castelo Branco"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Castelo Branco - Escola Superior de Tecnologia de Castelo Branco"^^xsd:string ;
+    edu:locatedInCounty edu:CASTELO_BRANCO ;
+    edu:locatedInDistrict edu:Castelo_Branco ;
+    edu:postalCode "6000-767 CASTELO BRANCO"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_Agrária_de_Coimbra a edu:Institution ;
+    edu:address "Bencanta - São Martinho do Bispo"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_Agrária_de_Coimbra_Agronomia,
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_Agrária_de_Coimbra_Biotecnologia,
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_Agrária_de_Coimbra_Ciências_Florestais_e_Recursos_Naturais,
@@ -265,9 +370,13 @@ edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_Agrária_de_Coimbra a ed
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_Agrária_de_Coimbra_Turismo_em_Espaços_Rurais_e_Naturais,
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_Agrária_de_Coimbra_Zootecnia ;
     edu:institutionCode 3061 ;
-    edu:institutionName "Instituto Politécnico de Coimbra - Escola Superior Agrária de Coimbra"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Coimbra - Escola Superior Agrária de Coimbra"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3040-316 COIMBRA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Educação_de_Coimbra a edu:Institution ;
+    edu:address "Praça Heróis do Ultramar"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Educação_de_Coimbra_Animação_Socioeducativa,
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Educação_de_Coimbra_Animação_Socioeducativa_\(regime_pós-laboral\),
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Educação_de_Coimbra_Arte_e_Design,
@@ -283,9 +392,13 @@ edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Educação_de_Coimbra
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Educação_de_Coimbra_Turismo,
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Educação_de_Coimbra_Turismo_\(regime_pós-laboral\) ;
     edu:institutionCode 3062 ;
-    edu:institutionName "Instituto Politécnico de Coimbra - Escola Superior de Educação de Coimbra"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Coimbra - Escola Superior de Educação de Coimbra"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3030-329 COIMBRA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_da_Saúde_de_Coimbra a edu:Institution ;
+    edu:address "Rua 5 de Outubro, - SÃO MARTINHO DO BISPO"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_da_Saúde_de_Coimbra_Audiologia,
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_da_Saúde_de_Coimbra_Ciências_Biomédicas_Laboratoriais,
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_da_Saúde_de_Coimbra_Dietética_e_Nutrição,
@@ -295,9 +408,13 @@ edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_da_Saúde_
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_da_Saúde_de_Coimbra_Imagem_Médica_e_Radioterapia,
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_da_Saúde_de_Coimbra_Saúde_Ambiental ;
     edu:institutionCode 7210 ;
-    edu:institutionName "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia da Saúde de Coimbra"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia da Saúde de Coimbra"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3040-162 COIMBRA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Oliveira_do_Hospital a edu:Institution ;
+    edu:address "Rua General Santos Costa"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Oliveira_do_Hospital_Contabilidade_e_Administração,
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Oliveira_do_Hospital_Engenharia_Informática,
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Oliveira_do_Hospital_Gestão,
@@ -305,9 +422,13 @@ edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_e_Gestão_
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Oliveira_do_Hospital_Gestão_e_Biociências,
         edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Oliveira_do_Hospital_Marketing ;
     edu:institutionCode 3065 ;
-    edu:institutionName "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia e Gestão de Oliveira do Hospital"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Coimbra - Escola Superior de Tecnologia e Gestão de Oliveira do Hospital"^^xsd:string ;
+    edu:locatedInCounty edu:OLIVEIRA_DO_HOSPITAL ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3400-124 OLIVEIRA DO HOSPITAL"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Contabilidade_e_Administração_de_Coimbra a edu:Institution ;
+    edu:address "Quinta Agrícola - - Bencanta"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Contabilidade_e_Administração_de_Coimbra_Ciência_de_Dados_para_a_Gestão,
         edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Contabilidade_e_Administração_de_Coimbra_Comércio_e_Relações_Económicas_Internacionais,
         edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Contabilidade_e_Administração_de_Coimbra_Contabilidade_e_Auditoria,
@@ -319,9 +440,13 @@ edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Contabilidade_e_Ad
         edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Contabilidade_e_Administração_de_Coimbra_Secretariado_de_Direção_e_Administração,
         edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Contabilidade_e_Administração_de_Coimbra_Solicitadoria_e_Administração ;
     edu:institutionCode 3063 ;
-    edu:institutionName "Instituto Politécnico de Coimbra - Instituto Superior de Contabilidade e Administração de Coimbra"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Coimbra - Instituto Superior de Contabilidade e Administração de Coimbra"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3040-316 COIMBRA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Engenharia_de_Coimbra a edu:Institution ;
+    edu:address "Quinta da Nora, Apartado 4065"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Engenharia_de_Coimbra_Bioengenharia,
         edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Engenharia_de_Coimbra_Engenharia_Biomédica,
         edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Engenharia_de_Coimbra_Engenharia_Civil,
@@ -335,9 +460,13 @@ edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Engenharia_de_Coim
         edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Engenharia_de_Coimbra_Gestão_Sustentável_das_Cidades,
         edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Engenharia_de_Coimbra_Informática_Industrial ;
     edu:institutionCode 3064 ;
-    edu:institutionName "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Coimbra - Instituto Superior de Engenharia de Coimbra"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3031-601 COIMBRA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Artes_e_Design a edu:Institution ;
+    edu:address "Rua  Isidoro Inácio Alves de - Carvalho"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Artes_e_Design_Artes_Plásticas,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Artes_e_Design_Design_Gráfico_e_Multimédia,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Artes_e_Design_Design_Gráfico_e_Multimédia_\(regime_pós-laboral\),
@@ -348,9 +477,13 @@ edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Artes_e_Design a edu:I
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Artes_e_Design_Som_e_Imagem,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Artes_e_Design_Teatro ;
     edu:institutionCode 3103 ;
-    edu:institutionName "Instituto Politécnico de Leiria - Escola Superior de Artes e Design"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Leiria - Escola Superior de Artes e Design"^^xsd:string ;
+    edu:locatedInCounty edu:CALDAS_DA_RAINHA ;
+    edu:locatedInDistrict edu:Leiria ;
+    edu:postalCode "2500-917 CALDAS DA RAINHA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Educação_e_Ciências_Sociais a edu:Institution ;
+    edu:address "Rua Dr. João Soares"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Educação_e_Ciências_Sociais_Comunicação_e_Media,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Educação_e_Ciências_Sociais_Desporto_e_Bem-Estar,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Educação_e_Ciências_Sociais_Educação_Básica,
@@ -361,18 +494,26 @@ edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Educação_e_Ciências
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Educação_e_Ciências_Sociais_Serviço_Social_\(regime_pós-laboral\),
         <http://example.org/education#Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Educação_e_Ciências_Sociais_Tradução_e_Interpretação_Português/Chinês_-_Chinês/Português> ;
     edu:institutionCode 3101 ;
-    edu:institutionName "Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Leiria - Escola Superior de Educação e Ciências Sociais"^^xsd:string ;
+    edu:locatedInCounty edu:LEIRIA ;
+    edu:locatedInDistrict edu:Leiria ;
+    edu:postalCode "2400-448 LEIRIA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Saúde a edu:Institution ;
+    edu:address "Morro do Lena - Alto do Vieiro"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Saúde_Dietética_e_Nutrição,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Saúde_Enfermagem,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Saúde_Fisioterapia,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Saúde_Terapia_Ocupacional,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Saúde_Terapia_da_Fala ;
     edu:institutionCode 7045 ;
-    edu:institutionName "Instituto Politécnico de Leiria - Escola Superior de Saúde"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Leiria - Escola Superior de Saúde"^^xsd:string ;
+    edu:locatedInCounty edu:LEIRIA ;
+    edu:locatedInDistrict edu:Leiria ;
+    edu:postalCode "2411-901 LEIRIA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão a edu:Institution ;
+    edu:address "Morro do Lena - Alto Vieiro"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão_Administração_Pública,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão_Biomecânica,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão_Contabilidade_e_Finanças,
@@ -393,9 +534,13 @@ edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão a
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão_Solicitadoria,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão_Solicitadoria_\(regime_pós-laboral\) ;
     edu:institutionCode 3102 ;
-    edu:institutionName "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Leiria - Escola Superior de Tecnologia e Gestão"^^xsd:string ;
+    edu:locatedInCounty edu:LEIRIA ;
+    edu:locatedInDistrict edu:Leiria ;
+    edu:postalCode "2401-951 LEIRIA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Turismo_e_Tecnologia_do_Mar a edu:Institution ;
+    edu:address "Santuário de Nª Sª dos Remédios, - Estrada dos Remédios"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Turismo_e_Tecnologia_do_Mar_Animação_Turística,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Turismo_e_Tecnologia_do_Mar_Biologia_Marinha,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Turismo_e_Tecnologia_do_Mar_Biotecnologia,
@@ -406,9 +551,13 @@ edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Turismo_e_Tecnologia_d
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Turismo_e_Tecnologia_do_Mar_Marketing_Turístico,
         edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Turismo_e_Tecnologia_do_Mar_Turismo ;
     edu:institutionCode 3105 ;
-    edu:institutionName "Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Leiria - Escola Superior de Turismo e Tecnologia do Mar"^^xsd:string ;
+    edu:locatedInCounty edu:PENICHE ;
+    edu:locatedInDistrict edu:Leiria ;
+    edu:postalCode "2520-631 PENICHE"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Comunicação_Social a edu:Institution ;
+    edu:address "Campus de Benfica do IPL"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Comunicação_Social_Audiovisual_e_Multimédia,
         edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Comunicação_Social_Jornalismo,
         edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Comunicação_Social_Publicidade_e_Marketing,
@@ -416,18 +565,26 @@ edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Comunicação_Social a
         edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Comunicação_Social_Relações_Públicas_e_Comunicação_Empresarial,
         edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Comunicação_Social_Relações_Públicas_e_Comunicação_Empresarial_\(regime_pós-laboral\) ;
     edu:institutionCode 3113 ;
-    edu:institutionName "Instituto Politécnico de Lisboa - Escola Superior de Comunicação Social"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Lisboa - Escola Superior de Comunicação Social"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1549-014 LISBOA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Educação a edu:Institution ;
+    edu:address "Campus de Benfica do IPL"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Educação_Animação_Sociocultural,
         edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Educação_Artes_Visuais_e_Tecnologias,
         edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Educação_Educação_Básica,
         edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Educação_Educação_Básica_\(regime_pós-laboral\),
         edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Educação_Mediação_Artística_e_Cultural ;
     edu:institutionCode 3112 ;
-    edu:institutionName "Instituto Politécnico de Lisboa - Escola Superior de Educação"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Lisboa - Escola Superior de Educação"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1549-003 LISBOA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Tecnologia_da_Saúde_de_Lisboa a edu:Institution ;
+    edu:address "Av. D. João II, Lote 4.69.01"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Tecnologia_da_Saúde_de_Lisboa_Ciências_Biomédicas_Laboratoriais,
         edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Tecnologia_da_Saúde_de_Lisboa_Dietética_e_Nutrição,
         edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Tecnologia_da_Saúde_de_Lisboa_Farmácia,
@@ -438,9 +595,13 @@ edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Tecnologia_da_Saúde_d
         edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Tecnologia_da_Saúde_de_Lisboa_Ortóptica_e_Ciências_da_Visão,
         edu:Instituto_Politécnico_de_Lisboa_-_Escola_Superior_de_Tecnologia_da_Saúde_de_Lisboa_Saúde_Ambiental ;
     edu:institutionCode 7220 ;
-    edu:institutionName "Instituto Politécnico de Lisboa - Escola Superior de Tecnologia da Saúde de Lisboa"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Lisboa - Escola Superior de Tecnologia da Saúde de Lisboa"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1990-096 LISBOA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Contabilidade_e_Administração_de_Lisboa a edu:Institution ;
+    edu:address "Av. Miguel Bombarda, 20"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Contabilidade_e_Administração_de_Lisboa_Comércio_e_Negócios_Internacionais_\(regime_pós-laboral\),
         edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Contabilidade_e_Administração_de_Lisboa_Contabilidade_e_Administração,
         edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Contabilidade_e_Administração_de_Lisboa_Contabilidade_e_Administração_\(regime_pós-laboral\),
@@ -451,9 +612,13 @@ edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Contabilidade_e_Adm
         edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Contabilidade_e_Administração_de_Lisboa_Solicitadoria,
         edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Contabilidade_e_Administração_de_Lisboa_Solicitadoria_\(regime_pós-laboral\) ;
     edu:institutionCode 3117 ;
-    edu:institutionName "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Lisboa - Instituto Superior de Contabilidade e Administração de Lisboa"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1069-035 LISBOA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Engenharia_de_Lisboa a edu:Institution ;
+    edu:address "Rua Conselheiro Emídio Navarro"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Engenharia_de_Lisboa_Engenharia_Biomédica,
         edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Engenharia_de_Lisboa_Engenharia_Civil,
         edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Engenharia_de_Lisboa_Engenharia_Eletrotécnica,
@@ -467,16 +632,24 @@ edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Engenharia_de_Lisbo
         edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Engenharia_de_Lisboa_Matemática_Aplicada_à_Tecnologia_e_à_Empresa,
         edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Engenharia_de_Lisboa_Tecnologias_e_Gestão_Municipal ;
     edu:institutionCode 3118 ;
-    edu:institutionName "Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Lisboa - Instituto Superior de Engenharia de Lisboa"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1949-014 LISBOA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Biociências_de_Elvas a edu:Institution ;
+    edu:address "Edifício Quartel do Trem, Avenida 14 de Janeiro n 21"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Biociências_de_Elvas_Agronomia,
         edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Biociências_de_Elvas_Enfermagem_Veterinária,
         edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Biociências_de_Elvas_Equinicultura ;
     edu:institutionCode 3125 ;
-    edu:institutionName "Instituto Politécnico de Portalegre - Escola Superior de Biociências de Elvas"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Portalegre - Escola Superior de Biociências de Elvas"^^xsd:string ;
+    edu:locatedInCounty edu:ELVAS ;
+    edu:locatedInDistrict edu:Portalegre ;
+    edu:postalCode "7350-092 ELVAS"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Educação_e_Ciências_Sociais a edu:Institution ;
+    edu:address "Praça da República, - Apartado 125"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Educação_e_Ciências_Sociais_Educação_Básica,
         edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Educação_e_Ciências_Sociais_Educação_Social,
         edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Educação_e_Ciências_Sociais_Jornalismo_e_Comunicação,
@@ -484,16 +657,24 @@ edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Educação_e_Ciên
         edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Educação_e_Ciências_Sociais_Serviço_Social_\(regime_pós-laboral\),
         edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Educação_e_Ciências_Sociais_Turismo ;
     edu:institutionCode 3121 ;
-    edu:institutionName "Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Portalegre - Escola Superior de Educação e Ciências Sociais"^^xsd:string ;
+    edu:locatedInCounty edu:PORTALEGRE ;
+    edu:locatedInDistrict edu:Portalegre ;
+    edu:postalCode "7301-957 PORTALEGRE"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Saúde a edu:Institution ;
+    edu:address "Av. de Sto. António, - Apartado 89"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Saúde_Enfermagem,
         edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Saúde_Fisioterapia,
         edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Saúde_Higiene_Oral ;
     edu:institutionCode 7055 ;
-    edu:institutionName "Instituto Politécnico de Portalegre - Escola Superior de Saúde"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Portalegre - Escola Superior de Saúde"^^xsd:string ;
+    edu:locatedInCounty edu:PORTALEGRE ;
+    edu:locatedInDistrict edu:Portalegre ;
+    edu:postalCode "7300-074 PORTALEGRE"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão_e_Design a edu:Institution ;
+    edu:address "Campus Politécnico 10 "^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão_e_Design_Administração_de_Publicidade_e_Marketing,
         edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão_e_Design_Design_de_Animação,
         edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão_e_Design_Design_de_Comunicação,
@@ -503,35 +684,51 @@ edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão
         edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão_e_Design_Gestão,
         edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão_e_Design_Gestão_\(regime_pós-laboral\) ;
     edu:institutionCode 3124 ;
-    edu:institutionName "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia, Gestão e Design"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Portalegre - Escola Superior de Tecnologia, Gestão e Design"^^xsd:string ;
+    edu:locatedInCounty edu:PORTALEGRE ;
+    edu:locatedInDistrict edu:Portalegre ;
+    edu:postalCode "7300-555 PORTALEGRE"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_Agrária_de_Santarém a edu:Institution ;
+    edu:address "S. Pedro, - Apartado 310"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_Agrária_de_Santarém_Agronomia,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_Agrária_de_Santarém_Agronomia_\(regime_pós-laboral\),
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_Agrária_de_Santarém_Biologia_e_Biotecnologia_Alimentar,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_Agrária_de_Santarém_Qualidade_Alimentar_e_Nutrição_Humana,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_Agrária_de_Santarém_Zootecnia ;
     edu:institutionCode 3141 ;
-    edu:institutionName "Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Santarém - Escola Superior Agrária de Santarém"^^xsd:string ;
+    edu:locatedInCounty edu:SANTARÉM ;
+    edu:locatedInDistrict edu:Santarém ;
+    edu:postalCode "2001-904 SANTARÉM"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Desporto_de_Rio_Maior a edu:Institution ;
+    edu:address "Av. Dr. Mário Soares - Pavilhão Multiusos"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Desporto_de_Rio_Maior_Atividade_Física_e_Estilos_de_Vida_Saudáveis,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Desporto_de_Rio_Maior_Desporto_Condição_Física_e_Saúde,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Desporto_de_Rio_Maior_Desporto_de_Natureza_e_Turismo_Ativo,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Desporto_de_Rio_Maior_Gestão_das_Organizações_Desportivas,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Desporto_de_Rio_Maior_Treino_Desportivo ;
     edu:institutionCode 3145 ;
-    edu:institutionName "Instituto Politécnico de Santarém - Escola Superior de Desporto de Rio Maior"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Santarém - Escola Superior de Desporto de Rio Maior"^^xsd:string ;
+    edu:locatedInCounty edu:RIO_MAIOR ;
+    edu:locatedInDistrict edu:Santarém ;
+    edu:postalCode "2040-413 RIO MAIOR"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Educação_de_Santarém a edu:Institution ;
+    edu:address "Complexo Andaluz - Apartado 131"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Educação_de_Santarém_Educação_Ambiental_e_Turismo_de_Natureza,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Educação_de_Santarém_Educação_Básica,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Educação_de_Santarém_Educação_Social,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Educação_de_Santarém_Produção_Multimédia_em_Educação ;
     edu:institutionCode 3142 ;
-    edu:institutionName "Instituto Politécnico de Santarém - Escola Superior de Educação de Santarém"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Santarém - Escola Superior de Educação de Santarém"^^xsd:string ;
+    edu:locatedInCounty edu:SANTARÉM ;
+    edu:locatedInDistrict edu:Santarém ;
+    edu:postalCode "2001-902 SANTARÉM"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Gestão_e_Tecnologia_de_Santarém a edu:Institution ;
+    edu:address "Complexo Andaluz, - Apartado 295"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Gestão_e_Tecnologia_de_Santarém_Contabilidade_e_Fiscalidade,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Gestão_e_Tecnologia_de_Santarém_Gestão_de_Empresas,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Gestão_e_Tecnologia_de_Santarém_Gestão_de_Empresas_\(regime_pós-laboral\),
@@ -539,14 +736,22 @@ edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Gestão_e_Tecnologi
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Gestão_e_Tecnologia_de_Santarém_Informática,
         edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Gestão_e_Tecnologia_de_Santarém_Negócios_Internacionais ;
     edu:institutionCode 3143 ;
-    edu:institutionName "Instituto Politécnico de Santarém - Escola Superior de Gestão e Tecnologia de Santarém"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Santarém - Escola Superior de Gestão e Tecnologia de Santarém"^^xsd:string ;
+    edu:locatedInCounty edu:SANTARÉM ;
+    edu:locatedInDistrict edu:Santarém ;
+    edu:postalCode "2001-904 SANTARÉM"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Saúde_de_Santarém a edu:Institution ;
+    edu:address "Quinta do Mergulhão - Sr.ª da Guia"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_de_Saúde_de_Santarém_Enfermagem ;
     edu:institutionCode 7065 ;
-    edu:institutionName "Instituto Politécnico de Santarém - Escola Superior de Saúde de Santarém"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Santarém - Escola Superior de Saúde de Santarém"^^xsd:string ;
+    edu:locatedInCounty edu:SANTARÉM ;
+    edu:locatedInDistrict edu:Santarém ;
+    edu:postalCode "2000-634 SANTARÉM"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Ciências_Empresariais a edu:Institution ;
+    edu:address "Rua do Vale de Chaves, - Estefanilha"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Ciências_Empresariais_Contabilidade_e_Finanças,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Ciências_Empresariais_Contabilidade_e_Finanças_\(regime_noturno\),
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Ciências_Empresariais_Gestão_da_Distribuição_e_da_Logística,
@@ -556,25 +761,37 @@ edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Ciências_Empresaria
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Ciências_Empresariais_Gestão_de_Sistemas_de_Informação,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Ciências_Empresariais_Marketing ;
     edu:institutionCode 3153 ;
-    edu:institutionName "Instituto Politécnico de Setúbal - Escola Superior de Ciências Empresariais"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Setúbal - Escola Superior de Ciências Empresariais"^^xsd:string ;
+    edu:locatedInCounty edu:SETÚBAL ;
+    edu:locatedInDistrict edu:Setúbal ;
+    edu:postalCode "2910-503 SETÚBAL"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Educação a edu:Institution ;
+    edu:address "Rua do Vale de Chaves, - Estefanilha"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Educação_Animação_Sociocultural,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Educação_Comunicação_Social,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Educação_Desporto,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Educação_Educação_Básica,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Educação_Tradução_e_Interpretação_de_Língua_Gestual_Portuguesa ;
     edu:institutionCode 3151 ;
-    edu:institutionName "Instituto Politécnico de Setúbal - Escola Superior de Educação"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Setúbal - Escola Superior de Educação"^^xsd:string ;
+    edu:locatedInCounty edu:SETÚBAL ;
+    edu:locatedInDistrict edu:Setúbal ;
+    edu:postalCode "2914-504 SETÚBAL"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Saúde a edu:Institution ;
+    edu:address "Edifício ESCE, Bloco B2 - Estefanilha"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Saúde_Enfermagem,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Saúde_Fisioterapia,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Saúde_Terapia_da_Fala ;
     edu:institutionCode 3155 ;
-    edu:institutionName "Instituto Politécnico de Setúbal - Escola Superior de Saúde"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Setúbal - Escola Superior de Saúde"^^xsd:string ;
+    edu:locatedInCounty edu:SETÚBAL ;
+    edu:locatedInDistrict edu:Setúbal ;
+    edu:postalCode "2914-503 SETÚBAL"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_de_Setúbal a edu:Institution ;
+    edu:address "Campus do IPS, - Estefanilha"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_de_Setúbal_Engenharia_Eletrotécnica_e_de_Computadores,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_de_Setúbal_Engenharia_Informática,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_de_Setúbal_Engenharia_Mecânica,
@@ -584,34 +801,50 @@ edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_de_Setúb
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_de_Setúbal_Tecnologias_de_Energia,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_de_Setúbal_Tecnologias_do_Ambiente_e_do_Mar ;
     edu:institutionCode 3152 ;
-    edu:institutionName "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia de Setúbal"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia de Setúbal"^^xsd:string ;
+    edu:locatedInCounty edu:SETÚBAL ;
+    edu:locatedInDistrict edu:Setúbal ;
+    edu:postalCode "2910-508 SETÚBAL"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_do_Barreiro a edu:Institution ;
+    edu:address "Rua Américo da Silva Marinho"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_do_Barreiro_Bioinformática,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_do_Barreiro_Biotecnologia,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_do_Barreiro_Engenharia_Civil,
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_do_Barreiro_Engenharia_Civil_\(regime_noturno\),
         edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_do_Barreiro_Tecnologias_do_Petróleo ;
     edu:institutionCode 3154 ;
-    edu:institutionName "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia do Barreiro"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Setúbal - Escola Superior de Tecnologia do Barreiro"^^xsd:string ;
+    edu:locatedInCounty edu:BARREIRO ;
+    edu:locatedInDistrict edu:Setúbal ;
+    edu:postalCode "2830-901 LAVRADIO"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Gestão_de_Tomar a edu:Institution ;
+    edu:address "Quinta do Contador, - Estrada da Serra"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Gestão_de_Tomar_Contabilidade,
         edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Gestão_de_Tomar_Gestão_de_Empresas,
         edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Gestão_de_Tomar_Gestão_de_Recursos_Humanos_e_Comportamento_Organizacional,
         edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Gestão_de_Tomar_Turismo_e_Gestão_do_Património_Cultural ;
     edu:institutionCode 3241 ;
-    edu:institutionName "Instituto Politécnico de Tomar - Escola Superior de Gestão de Tomar"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Tomar - Escola Superior de Gestão de Tomar"^^xsd:string ;
+    edu:locatedInCounty edu:TOMAR ;
+    edu:locatedInDistrict edu:Santarém ;
+    edu:postalCode "2300-415 TOMAR"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Abrantes a edu:Institution ;
+    edu:address "Rua 17 de Agosto de 1808, Edifício - do Antigo Tribunal"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Abrantes_Computação_e_Logística,
         edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Abrantes_Comunicação_Social_Jornalismo_e_Comunicação_Empresarial,
         edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Abrantes_Engenharia_Mecânica,
         edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Abrantes_Informática_e_Tecnologias_Multimédia ;
     edu:institutionCode 3243 ;
-    edu:institutionName "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Abrantes"^^xsd:string ;
+    edu:locatedInCounty edu:ABRANTES ;
+    edu:locatedInDistrict edu:Santarém ;
+    edu:postalCode "2200-370 ABRANTES"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar a edu:Institution ;
+    edu:address "Quinta do Contador, - Estrada da Serra"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar_Conservação_e_Restauro,
         edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar_Design_e_Tecnologia_das_Artes_Gráficas,
         edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar_Engenharia_Civil,
@@ -621,43 +854,67 @@ edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar a e
         edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar_Gestão_da_Edificação_e_Obras,
         edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar_Tecnologia_Química ;
     edu:institutionCode 3242 ;
-    edu:institutionName "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Tomar - Escola Superior de Tecnologia de Tomar"^^xsd:string ;
+    edu:locatedInCounty edu:TOMAR ;
+    edu:locatedInDistrict edu:Santarém ;
+    edu:postalCode "2300-313 TOMAR"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_Agrária a edu:Institution ;
+    edu:address "Refoios do Lima"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_Agrária_Agronomia,
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_Agrária_Biotecnologia,
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_Agrária_Enfermagem_Veterinária,
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_Agrária_Engenharia_do_Ambiente_e_Geoinformática ;
     edu:institutionCode 3161 ;
-    edu:institutionName "Instituto Politécnico de Viana do Castelo - Escola Superior Agrária"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Viana do Castelo - Escola Superior Agrária"^^xsd:string ;
+    edu:locatedInCounty edu:PONTE_DE_LIMA ;
+    edu:locatedInDistrict edu:Viana_do_Castelo ;
+    edu:postalCode "4990-706 PONTE DE LIMA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Ciências_Empresariais a edu:Institution ;
+    edu:address "Av. Miguel Dantas"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Ciências_Empresariais_Contabilidade_e_Fiscalidade,
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Ciências_Empresariais_Gestão_da_Distribuição_e_Logística,
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Ciências_Empresariais_Marketing_e_Comunicação_Empresarial,
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Ciências_Empresariais_Organização_e_Gestão_Empresariais ;
     edu:institutionCode 3164 ;
-    edu:institutionName "Instituto Politécnico de Viana do Castelo - Escola Superior de Ciências Empresariais"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Viana do Castelo - Escola Superior de Ciências Empresariais"^^xsd:string ;
+    edu:locatedInCounty edu:VALENÇA ;
+    edu:locatedInDistrict edu:Viana_do_Castelo ;
+    edu:postalCode "4930-678 VALENÇA"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Desporto_e_Lazer a edu:Institution ;
+    edu:address "Complexo Desportivo e Lazer Comendador Rui Solheiro – Monte de Prado"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Desporto_e_Lazer_Desporto_e_Lazer ;
     edu:institutionCode 3165 ;
-    edu:institutionName "Instituto Politécnico de Viana do Castelo - Escola Superior de Desporto e Lazer"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Viana do Castelo - Escola Superior de Desporto e Lazer"^^xsd:string ;
+    edu:locatedInCounty edu:MELGAÇO ;
+    edu:locatedInDistrict edu:Viana_do_Castelo ;
+    edu:postalCode "4960-320 MELGAÇO"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Educação a edu:Institution ;
+    edu:address "Av. Capitão Gaspar de Castro, - Apartado 513"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Educação_Artes_Plásticas_e_Tecnologias_Artísticas,
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Educação_Artes_e_Cinema_Digital,
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Educação_Educação_Básica,
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Educação_Educação_Social_Gerontológica ;
     edu:institutionCode 3162 ;
-    edu:institutionName "Instituto Politécnico de Viana do Castelo - Escola Superior de Educação"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Viana do Castelo - Escola Superior de Educação"^^xsd:string ;
+    edu:locatedInCounty edu:VIANA_DO_CASTELO ;
+    edu:locatedInDistrict edu:Viana_do_Castelo ;
+    edu:postalCode "4900-462 VIANA DO CASTELO"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Saúde a edu:Institution ;
+    edu:address "Rua Dr. Moisés Alves de Pinho"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Saúde_Enfermagem ;
     edu:institutionCode 7075 ;
-    edu:institutionName "Instituto Politécnico de Viana do Castelo - Escola Superior de Saúde"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Viana do Castelo - Escola Superior de Saúde"^^xsd:string ;
+    edu:locatedInCounty edu:VIANA_DO_CASTELO ;
+    edu:locatedInDistrict edu:Viana_do_Castelo ;
+    edu:postalCode "4900-314 VIANA DO CASTELO"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e_Gestão a edu:Institution ;
+    edu:address "Av. do Atlântico, - Apartado 574"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e_Gestão_Design_de_Ambientes,
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e_Gestão_Design_do_Produto,
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_Alimentar,
@@ -672,18 +929,26 @@ edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e_Gestão_Gestão_\(regime_noturno\),
         edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e_Gestão_Turismo ;
     edu:institutionCode 3163 ;
-    edu:institutionName "Instituto Politécnico de Viana do Castelo - Escola Superior de Tecnologia e Gestão"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Viana do Castelo - Escola Superior de Tecnologia e Gestão"^^xsd:string ;
+    edu:locatedInCounty edu:VIANA_DO_CASTELO ;
+    edu:locatedInDistrict edu:Viana_do_Castelo ;
+    edu:postalCode "4900-348 VIANA DO CASTELO"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_Agrária_de_Viseu a edu:Institution ;
+    edu:address "Rua Dr. Maximiano Aragão"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_Agrária_de_Viseu_Biotecnologia,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_Agrária_de_Viseu_Enfermagem_Veterinária,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_Agrária_de_Viseu_Engenharia_Agronómica,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_Agrária_de_Viseu_Engenharia_Alimentar,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_Agrária_de_Viseu_Engenharia_Zootécnica ;
     edu:institutionCode 3185 ;
-    edu:institutionName "Instituto Politécnico de Viseu - Escola Superior Agrária de Viseu"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Viseu - Escola Superior Agrária de Viseu"^^xsd:string ;
+    edu:locatedInCounty edu:VISEU ;
+    edu:locatedInDistrict edu:Viseu ;
+    edu:postalCode "3504-510 VISEU"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Educação_de_Viseu a edu:Institution ;
+    edu:address "Rua Dr. Maximiano Aragão"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Educação_de_Viseu_Artes_Performativas,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Educação_de_Viseu_Artes_Plásticas_e_Multimédia,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Educação_de_Viseu_Comunicação_Social,
@@ -692,14 +957,22 @@ edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Educação_de_Viseu a e
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Educação_de_Viseu_Educação_Social,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Educação_de_Viseu_Publicidade_e_Relações_Públicas ;
     edu:institutionCode 3181 ;
-    edu:institutionName "Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Viseu - Escola Superior de Educação de Viseu"^^xsd:string ;
+    edu:locatedInCounty edu:VISEU ;
+    edu:locatedInDistrict edu:Viseu ;
+    edu:postalCode "3500-501 VISEU"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Saúde_de_Viseu a edu:Institution ;
+    edu:address "Estrada da Circunvalação"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Saúde_de_Viseu_Enfermagem ;
     edu:institutionCode 7085 ;
-    edu:institutionName "Instituto Politécnico de Viseu - Escola Superior de Saúde de Viseu"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Viseu - Escola Superior de Saúde de Viseu"^^xsd:string ;
+    edu:locatedInCounty edu:VISEU ;
+    edu:locatedInDistrict edu:Viseu ;
+    edu:postalCode "3500-108 VISEU"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Lamego a edu:Institution ;
+    edu:address "Av. Visconde Guedes Teixeira"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Lamego_Engenharia_Informática_e_Telecomunicações,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Lamego_Gestão_Comercial,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Lamego_Gestão_Turística_Cultural_e_Patrimonial,
@@ -707,9 +980,13 @@ edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Lamego_Secretariado_de_Administração,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Lamego_Serviço_Social ;
     edu:institutionCode 3186 ;
-    edu:institutionName "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Lamego"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Lamego"^^xsd:string ;
+    edu:locatedInCounty edu:LAMEGO ;
+    edu:locatedInDistrict edu:Viseu ;
+    edu:postalCode "5100-183 LAMEGO"^^xsd:string .
 
 edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Viseu a edu:Institution ;
+    edu:address "Estrada da Circunvalação"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Viseu_Ciências_e_Tecnologia_do_Ambiente,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Viseu_Contabilidade,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Viseu_Engenharia_Civil,
@@ -724,17 +1001,25 @@ edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Viseu_Tecnologias_e_Design_de_Multimédia,
         edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Viseu_Turismo ;
     edu:institutionCode 3182 ;
-    edu:institutionName "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu"^^xsd:string .
+    edu:institutionName "Instituto Politécnico de Viseu - Escola Superior de Tecnologia e Gestão de Viseu"^^xsd:string ;
+    edu:locatedInCounty edu:VISEU ;
+    edu:locatedInDistrict edu:Viseu ;
+    edu:postalCode "3500-510 VISEU"^^xsd:string .
 
 edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Design a edu:Institution ;
+    edu:address "Avenida Combatentes da Grande Guerra, 176"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Design_Design_Audiovisual,
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Design_Design_Gráfico,
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Design_Design_Gráfico_\(regime_pós-laboral\),
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Design_Design_Industrial ;
     edu:institutionCode 3033 ;
-    edu:institutionName "Instituto Politécnico do Cávado e do Ave - Escola Superior de Design"^^xsd:string .
+    edu:institutionName "Instituto Politécnico do Cávado e do Ave - Escola Superior de Design"^^xsd:string ;
+    edu:locatedInCounty edu:BARCELOS ;
+    edu:locatedInDistrict edu:Braga ;
+    edu:postalCode "4750-279 BARCELOS"^^xsd:string .
 
 edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Gestão a edu:Institution ;
+    edu:address "Campus do Instituto Politécnico"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Gestão_Contabilidade,
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Gestão_Contabilidade_\(regime_pós-laboral\),
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Gestão_Finanças,
@@ -746,16 +1031,24 @@ edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Gestão a ed
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Gestão_Solicitadoria,
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Gestão_Solicitadoria_\(regime_pós-laboral\) ;
     edu:institutionCode 3031 ;
-    edu:institutionName "Instituto Politécnico do Cávado e do Ave - Escola Superior de Gestão"^^xsd:string .
+    edu:institutionName "Instituto Politécnico do Cávado e do Ave - Escola Superior de Gestão"^^xsd:string ;
+    edu:locatedInCounty edu:BARCELOS ;
+    edu:locatedInDistrict edu:Braga ;
+    edu:postalCode "4750-810 BARCELOS"^^xsd:string .
 
 edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Hotelaria_e_Turismo a edu:Institution ;
+    edu:address "Vila Frescaínha S. Martinho"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Hotelaria_e_Turismo_Gestão_Hoteleira,
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Hotelaria_e_Turismo_Gestão_de_Atividades_Turísticas,
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Hotelaria_e_Turismo_Gestão_de_Atividades_Turísticas_\(regime_pós-laboral\) ;
     edu:institutionCode 3034 ;
-    edu:institutionName "Instituto Politécnico do Cávado e do Ave - Escola Superior de Hotelaria e Turismo"^^xsd:string .
+    edu:institutionName "Instituto Politécnico do Cávado e do Ave - Escola Superior de Hotelaria e Turismo"^^xsd:string ;
+    edu:locatedInCounty edu:BARCELOS ;
+    edu:locatedInDistrict edu:Braga ;
+    edu:postalCode "4750-810 Barcelos"^^xsd:string .
 
 edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Tecnologia a edu:Institution ;
+    edu:address "Campus do IPCA -  - Lugar do Aldão -  - Vila Frescainha -  - São Martinho"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Tecnologia_Engenharia_Eletrotécnica_e_de_Computadores,
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Tecnologia_Engenharia_Informática_Médica,
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Tecnologia_Engenharia_de_Sistemas_Informáticos,
@@ -763,9 +1056,13 @@ edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Tecnologia a
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Tecnologia_Engenharia_e_Gestão_Industrial,
         edu:Instituto_Politécnico_do_Cávado_e_do_Ave_-_Escola_Superior_de_Tecnologia_Engenharia_em_Desenvolvimento_de_Jogos_Digitais ;
     edu:institutionCode 3032 ;
-    edu:institutionName "Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia"^^xsd:string .
+    edu:institutionName "Instituto Politécnico do Cávado e do Ave - Escola Superior de Tecnologia"^^xsd:string ;
+    edu:locatedInCounty edu:BARCELOS ;
+    edu:locatedInDistrict edu:Braga ;
+    edu:postalCode "4750-810 BARCELOS"^^xsd:string .
 
 edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Educação a edu:Institution ;
+    edu:address "Rua Dr. Roberto Frias"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Educação_Artes_Visuais_e_Tecnologias_Artísticas,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Educação_Desporto,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Educação_Educação_Básica,
@@ -777,26 +1074,38 @@ edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Educação a edu:Instit
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Educação_Tecnologias_para_a_Educação_STEAM,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Educação_Tradução_e_Interpretação_em_Língua_Gestual_Portuguesa ;
     edu:institutionCode 3131 ;
-    edu:institutionName "Instituto Politécnico do Porto - Escola Superior de Educação"^^xsd:string .
+    edu:institutionName "Instituto Politécnico do Porto - Escola Superior de Educação"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4200-465 PORTO"^^xsd:string .
 
 edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Hotelaria_e_Turismo a edu:Institution ;
+    edu:address "Rua D. Sancho I, n.981"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Hotelaria_e_Turismo_Gestão_da_Restauração_e_Catering,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Hotelaria_e_Turismo_Gestão_das_Atividades_Turísticas,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Hotelaria_e_Turismo_Gestão_das_Atividades_Turísticas_\(regime_pós-laboral\),
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Hotelaria_e_Turismo_Gestão_e_Administração_Hoteleira ;
     edu:institutionCode 3139 ;
-    edu:institutionName "Instituto Politécnico do Porto - Escola Superior de Hotelaria e Turismo"^^xsd:string .
+    edu:institutionName "Instituto Politécnico do Porto - Escola Superior de Hotelaria e Turismo"^^xsd:string ;
+    edu:locatedInCounty edu:VILA_DO_CONDE ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4480-876 VILA DO CONDE"^^xsd:string .
 
 edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Media_Artes_e_Design a edu:Institution ;
+    edu:address "Rua D. Sancho I, 981"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Media_Artes_e_Design_Cinema_e_Audiovisual,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Media_Artes_e_Design_Design,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Media_Artes_e_Design_Fotografia,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Media_Artes_e_Design_Multimédia,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Media_Artes_e_Design_Tecnologias_e_Sistemas_de_Informação_para_a_Web ;
     edu:institutionCode 3331 ;
-    edu:institutionName "Instituto Politécnico do Porto - Escola Superior de Media Artes e Design"^^xsd:string .
+    edu:institutionName "Instituto Politécnico do Porto - Escola Superior de Media Artes e Design"^^xsd:string ;
+    edu:locatedInCounty edu:VILA_DO_CONDE ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4480-876 VILA DO CONDE"^^xsd:string .
 
 edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Saúde a edu:Institution ;
+    edu:address "Rua Valente Perfeito, 322"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Saúde_Audiologia,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Saúde_Biotecnologia_Medicinal,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Saúde_Ciências_Biomédicas_Laboratoriais,
@@ -811,9 +1120,13 @@ edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Saúde a edu:Institutio
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Saúde_Terapia_Ocupacional,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Saúde_Terapia_da_Fala ;
     edu:institutionCode 7230 ;
-    edu:institutionName "Instituto Politécnico do Porto - Escola Superior de Saúde"^^xsd:string .
+    edu:institutionName "Instituto Politécnico do Porto - Escola Superior de Saúde"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4400-330 VILA NOVA DE GAIA"^^xsd:string .
 
 edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Tecnologia_e_Gestão a edu:Institution ;
+    edu:address "Casa do Curral, Rua do Currral - Margaride"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Tecnologia_e_Gestão_Ciências_Empresariais,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Tecnologia_e_Gestão_Ciências_Empresariais_\(regime_pós-laboral\),
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_Informática,
@@ -824,9 +1137,13 @@ edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Tecnologia_e_Gestão a 
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Tecnologia_e_Gestão_Solicitadoria,
         edu:Instituto_Politécnico_do_Porto_-_Escola_Superior_de_Tecnologia_e_Gestão_Solicitadoria_\(regime_pós-laboral\) ;
     edu:institutionCode 3138 ;
-    edu:institutionName "Instituto Politécnico do Porto - Escola Superior de Tecnologia e Gestão"^^xsd:string .
+    edu:institutionName "Instituto Politécnico do Porto - Escola Superior de Tecnologia e Gestão"^^xsd:string ;
+    edu:locatedInCounty edu:FELGUEIRAS ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4610-156 FELGUEIRAS"^^xsd:string .
 
 edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Contabilidade_e_Administração_do_Porto a edu:Institution ;
+    edu:address "Rua Professor Lopes Amorim"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Contabilidade_e_Administração_do_Porto_Assessoria_e_Tradução,
         edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Contabilidade_e_Administração_do_Porto_Assessoria_e_Tradução_\(regime_pós-laboral\),
         edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Contabilidade_e_Administração_do_Porto_Ciências_e_Tecnologias_da_Documentação_e_Informação,
@@ -841,9 +1158,13 @@ edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Contabilidade_e_Admi
         edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Contabilidade_e_Administração_do_Porto_Marketing_\(regime_pós-laboral\),
         edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Contabilidade_e_Administração_do_Porto_Recursos_Humanos ;
     edu:institutionCode 3134 ;
-    edu:institutionName "Instituto Politécnico do Porto - Instituto Superior de Contabilidade e Administração do Porto"^^xsd:string .
+    edu:institutionName "Instituto Politécnico do Porto - Instituto Superior de Contabilidade e Administração do Porto"^^xsd:string ;
+    edu:locatedInCounty edu:MATOSINHOS ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4465-111 SÃO MAMEDE DE INFESTA"^^xsd:string .
 
 edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Engenharia_do_Porto a edu:Institution ;
+    edu:address "Rua Dr. António Bernardino de - Almeida, 431"^^xsd:string ;
     edu:hasCourse edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Engenharia_do_Porto_Biorrecursos,
         edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Engenharia_do_Porto_Engenharia_Biomédica,
         edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Engenharia_do_Porto_Engenharia_Civil,
@@ -858,9 +1179,13 @@ edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Engenharia_do_Porto 
         edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Engenharia_do_Porto_Engenharia_de_Telecomunicações_e_Informática,
         edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Engenharia_do_Porto_Engenharia_e_Gestão_Industrial ;
     edu:institutionCode 3135 ;
-    edu:institutionName "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto"^^xsd:string .
+    edu:institutionName "Instituto Politécnico do Porto - Instituto Superior de Engenharia do Porto"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4200-072 PORTO"^^xsd:string .
 
 <http://example.org/education#Iscte_–_Instituto_Universitário_de_Lisboa_(Sintra)> a edu:Institution ;
+    edu:address "Av. Heliodoro Salgado 3"^^xsd:string ;
     edu:hasCourse <http://example.org/education#Iscte_–_Instituto_Universitário_de_Lisboa_(Sintra)_Desenvolvimento_de_Software_e_Aplicações>,
         <http://example.org/education#Iscte_–_Instituto_Universitário_de_Lisboa_(Sintra)_Matemática_Aplicada_e_Tecnologias_Digitais>,
         <http://example.org/education#Iscte_–_Instituto_Universitário_de_Lisboa_(Sintra)_Política_Economia_e_Sociedade>,
@@ -872,15 +1197,23 @@ edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Engenharia_do_Porto 
         <http://example.org/education#Iscte_–_Instituto_Universitário_de_Lisboa_(Sintra)_Tecnologias_Digitais_e_Saúde>,
         <http://example.org/education#Iscte_–_Instituto_Universitário_de_Lisboa_(Sintra)_Tecnologias_Digitais_e_Segurança_de_Informação> ;
     edu:institutionCode 6810 ;
-    edu:institutionName "Iscte – Instituto Universitário de Lisboa (Sintra)"^^xsd:string .
+    edu:institutionName "Iscte – Instituto Universitário de Lisboa (Sintra)"^^xsd:string ;
+    edu:locatedInCounty edu:SINTRA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "2710-569 SINTRA"^^xsd:string .
 
 edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_Médicas a edu:Institution ;
+    edu:address "Campo dos Mártires da Pátria, 130"^^xsd:string ;
     edu:hasCourse edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_Médicas_Ciências_da_Nutrição,
         edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_Médicas_Medicina ;
     edu:institutionCode 901 ;
-    edu:institutionName "Universidade Nova de Lisboa - Faculdade de Ciências Médicas"^^xsd:string .
+    edu:institutionName "Universidade Nova de Lisboa - Faculdade de Ciências Médicas"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1169-056 LISBOA"^^xsd:string .
 
 edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_Sociais_e_Humanas a edu:Institution ;
+    edu:address "Av. de Berna, 26-C"^^xsd:string ;
     edu:hasCourse edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_Sociais_e_Humanas_Antropologia,
         edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_Sociais_e_Humanas_Arqueologia,
         edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_Sociais_e_Humanas_Ciência_Política_e_Relações_Internacionais,
@@ -897,9 +1230,13 @@ edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_Sociais_e_Humanas a edu
         edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_Sociais_e_Humanas_Sociologia_\(regime_pós-laboral\),
         edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_Sociais_e_Humanas_Tradução ;
     edu:institutionCode 902 ;
-    edu:institutionName "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas"^^xsd:string .
+    edu:institutionName "Universidade Nova de Lisboa - Faculdade de Ciências Sociais e Humanas"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1069-061 LISBOA"^^xsd:string .
 
 edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_e_Tecnologia a edu:Institution ;
+    edu:address "Quinta da Torre"^^xsd:string ;
     edu:hasCourse edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_e_Tecnologia_Biologia_Celular_e_Molecular,
         edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_e_Tecnologia_Bioquímica,
         edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_e_Tecnologia_Conservação_-_Restauro,
@@ -920,27 +1257,43 @@ edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_e_Tecnologia a edu:Inst
         edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_e_Tecnologia_Química_Aplicada,
         edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Ciências_e_Tecnologia_Tecnologia_Agro-Industrial ;
     edu:institutionCode 903 ;
-    edu:institutionName "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia"^^xsd:string .
+    edu:institutionName "Universidade Nova de Lisboa - Faculdade de Ciências e Tecnologia"^^xsd:string ;
+    edu:locatedInCounty edu:ALMADA ;
+    edu:locatedInDistrict edu:Setúbal ;
+    edu:postalCode "2829-516 CAPARICA"^^xsd:string .
 
 edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Direito a edu:Institution ;
+    edu:address "Travessa de Estevão Pinto"^^xsd:string ;
     edu:hasCourse edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Direito_Direito ;
     edu:institutionCode 911 ;
-    edu:institutionName "Universidade Nova de Lisboa - Faculdade de Direito"^^xsd:string .
+    edu:institutionName "Universidade Nova de Lisboa - Faculdade de Direito"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1099-032 LISBOA"^^xsd:string .
 
 edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Economia a edu:Institution ;
+    edu:address "Travessa de Estevão Pinto"^^xsd:string ;
     edu:hasCourse edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Economia_Economia,
         edu:Universidade_Nova_de_Lisboa_-_Faculdade_de_Economia_Gestão ;
     edu:institutionCode 904 ;
-    edu:institutionName "Universidade Nova de Lisboa - Faculdade de Economia"^^xsd:string .
+    edu:institutionName "Universidade Nova de Lisboa - Faculdade de Economia"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1099-032 LISBOA"^^xsd:string .
 
 edu:Universidade_Nova_de_Lisboa_-_Instituto_Superior_de_Estatística_e_Gestão_de_Informação a edu:Institution ;
+    edu:address "Travessa de Estevão Pinto"^^xsd:string ;
     edu:hasCourse edu:Universidade_Nova_de_Lisboa_-_Instituto_Superior_de_Estatística_e_Gestão_de_Informação_Ciência_de_Dados,
         edu:Universidade_Nova_de_Lisboa_-_Instituto_Superior_de_Estatística_e_Gestão_de_Informação_Gestão_de_Informação,
         edu:Universidade_Nova_de_Lisboa_-_Instituto_Superior_de_Estatística_e_Gestão_de_Informação_Sistemas_e_Tecnologias_de_Informação ;
     edu:institutionCode 906 ;
-    edu:institutionName "Universidade Nova de Lisboa - Instituto Superior de Estatística e Gestão de Informação"^^xsd:string .
+    edu:institutionName "Universidade Nova de Lisboa - Instituto Superior de Estatística e Gestão de Informação"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1070-124 LISBOA"^^xsd:string .
 
 edu:Universidade_da_Beira_Interior a edu:Institution ;
+    edu:address "Convento de Santo António"^^xsd:string ;
     edu:hasCourse edu:Universidade_da_Beira_Interior_Arquitetura,
         edu:Universidade_da_Beira_Interior_Bioquímica,
         edu:Universidade_da_Beira_Interior_Biotecnologia,
@@ -978,19 +1331,31 @@ edu:Universidade_da_Beira_Interior a edu:Institution ;
         edu:Universidade_da_Beira_Interior_Sociologia,
         edu:Universidade_da_Beira_Interior_Tecnologia_e_Produto_de_Moda_Sustentável ;
     edu:institutionCode 400 ;
-    edu:institutionName "Universidade da Beira Interior"^^xsd:string .
+    edu:institutionName "Universidade da Beira Interior"^^xsd:string ;
+    edu:locatedInCounty edu:COVILHÃ ;
+    edu:locatedInDistrict edu:Castelo_Branco ;
+    edu:postalCode "6201-001 COVILHÃ"^^xsd:string .
 
 edu:Universidade_da_Madeira_-_Escola_Superior_de_Saúde a edu:Institution ;
+    edu:address "Campus Universitário da Penteada"^^xsd:string ;
     edu:hasCourse edu:Universidade_da_Madeira_-_Escola_Superior_de_Saúde_Enfermagem ;
     edu:institutionCode 1320 ;
-    edu:institutionName "Universidade da Madeira - Escola Superior de Saúde"^^xsd:string .
+    edu:institutionName "Universidade da Madeira - Escola Superior de Saúde"^^xsd:string ;
+    edu:locatedInCounty edu:FUNCHAL ;
+    edu:locatedInDistrict edu:R_A_Madeira ;
+    edu:postalCode "9020-105 FUNCHAL"^^xsd:string .
 
 edu:Universidade_da_Madeira_-_Escola_Superior_de_Tecnologias_e_Gestão a edu:Institution ;
+    edu:address "Campus Universitário da Penteada"^^xsd:string ;
     edu:hasCourse edu:Universidade_da_Madeira_-_Escola_Superior_de_Tecnologias_e_Gestão_Direção_e_Gestão_Hoteleira ;
     edu:institutionCode 1321 ;
-    edu:institutionName "Universidade da Madeira - Escola Superior de Tecnologias e Gestão"^^xsd:string .
+    edu:institutionName "Universidade da Madeira - Escola Superior de Tecnologias e Gestão"^^xsd:string ;
+    edu:locatedInCounty edu:FUNCHAL ;
+    edu:locatedInDistrict edu:R_A_Madeira ;
+    edu:postalCode "9020-105 FUNCHAL"^^xsd:string .
 
 edu:Universidade_da_Madeira_-_Faculdade_de_Artes_e_Humanidades a edu:Institution ;
+    edu:address "Praça do Município"^^xsd:string ;
     edu:hasCourse edu:Universidade_da_Madeira_-_Faculdade_de_Artes_e_Humanidades_Artes_Visuais,
         edu:Universidade_da_Madeira_-_Faculdade_de_Artes_e_Humanidades_Comunicação_Cultura_e_Organizações,
         edu:Universidade_da_Madeira_-_Faculdade_de_Artes_e_Humanidades_Design,
@@ -998,9 +1363,13 @@ edu:Universidade_da_Madeira_-_Faculdade_de_Artes_e_Humanidades a edu:Institution
         edu:Universidade_da_Madeira_-_Faculdade_de_Artes_e_Humanidades_Línguas_e_Relações_Empresariais,
         edu:Universidade_da_Madeira_-_Faculdade_de_Artes_e_Humanidades_Psicologia ;
     edu:institutionCode 1306 ;
-    edu:institutionName "Universidade da Madeira - Faculdade de Artes e Humanidades"^^xsd:string .
+    edu:institutionName "Universidade da Madeira - Faculdade de Artes e Humanidades"^^xsd:string ;
+    edu:locatedInCounty edu:FUNCHAL ;
+    edu:locatedInDistrict edu:R_A_Madeira ;
+    edu:postalCode "9000-072 FUNCHAL"^^xsd:string .
 
 edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Exatas_e_da_Engenharia a edu:Institution ;
+    edu:address "Praça do Município"^^xsd:string ;
     edu:hasCourse edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Exatas_e_da_Engenharia_Bioquímica,
         edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Exatas_e_da_Engenharia_Engenharia_Civil,
         edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Exatas_e_da_Engenharia_Engenharia_Eletrónica_e_Telecomunicações,
@@ -1008,24 +1377,36 @@ edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Exatas_e_da_Engenharia a ed
         edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Exatas_e_da_Engenharia_Engenharia_de_Computadores,
         edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Exatas_e_da_Engenharia_Matemática ;
     edu:institutionCode 1307 ;
-    edu:institutionName "Universidade da Madeira - Faculdade de Ciências Exatas e da Engenharia"^^xsd:string .
+    edu:institutionName "Universidade da Madeira - Faculdade de Ciências Exatas e da Engenharia"^^xsd:string ;
+    edu:locatedInCounty edu:FUNCHAL ;
+    edu:locatedInDistrict edu:R_A_Madeira ;
+    edu:postalCode "9000-072 FUNCHAL"^^xsd:string .
 
 edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Sociais a edu:Institution ;
+    edu:address "Praça do Município"^^xsd:string ;
     edu:hasCourse edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Sociais_Ciências_da_Educação,
         edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Sociais_Economia,
         edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Sociais_Educação_Básica,
         edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Sociais_Educação_Física_e_Desporto,
         edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Sociais_Gestão ;
     edu:institutionCode 1308 ;
-    edu:institutionName "Universidade da Madeira - Faculdade de Ciências Sociais"^^xsd:string .
+    edu:institutionName "Universidade da Madeira - Faculdade de Ciências Sociais"^^xsd:string ;
+    edu:locatedInCounty edu:FUNCHAL ;
+    edu:locatedInDistrict edu:R_A_Madeira ;
+    edu:postalCode "9000-072 FUNCHAL"^^xsd:string .
 
 edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_da_Vida a edu:Institution ;
+    edu:address "Praça do Município"^^xsd:string ;
     edu:hasCourse edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_da_Vida_Biologia,
         edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_da_Vida_Ciclo_Básico_de_Medicina ;
     edu:institutionCode 1309 ;
-    edu:institutionName "Universidade da Madeira - Faculdade de Ciências da Vida"^^xsd:string .
+    edu:institutionName "Universidade da Madeira - Faculdade de Ciências da Vida"^^xsd:string ;
+    edu:locatedInCounty edu:FUNCHAL ;
+    edu:locatedInDistrict edu:R_A_Madeira ;
+    edu:postalCode "9000-072 FUNCHAL"^^xsd:string .
 
 edu:Universidade_de_Aveiro a edu:Institution ;
+    edu:address "Campo Universitário de Santiago"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Aveiro_Administração_Pública,
         edu:Universidade_de_Aveiro_Biologia,
         edu:Universidade_de_Aveiro_Biologia_e_Geologia,
@@ -1064,23 +1445,35 @@ edu:Universidade_de_Aveiro a edu:Institution ;
         edu:Universidade_de_Aveiro_Química,
         edu:Universidade_de_Aveiro_Tradução ;
     edu:institutionCode 300 ;
-    edu:institutionName "Universidade de Aveiro"^^xsd:string .
+    edu:institutionName "Universidade de Aveiro"^^xsd:string ;
+    edu:locatedInCounty edu:AVEIRO ;
+    edu:locatedInDistrict edu:Aveiro ;
+    edu:postalCode "3810-193 AVEIRO"^^xsd:string .
 
 edu:Universidade_de_Aveiro_-_Escola_Superior_de_Design_Gestão_e_Tecnologia_da_Produção_de_Aveiro-Norte a edu:Institution ;
+    edu:address "Edifício Rainha, 5."^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Aveiro_-_Escola_Superior_de_Design_Gestão_e_Tecnologia_da_Produção_de_Aveiro-Norte_Automação_e_Sistemas_de_Produção,
         edu:Universidade_de_Aveiro_-_Escola_Superior_de_Design_Gestão_e_Tecnologia_da_Produção_de_Aveiro-Norte_Design_de_Produto_e_Tecnologia ;
     edu:institutionCode 3014 ;
-    edu:institutionName "Universidade de Aveiro - Escola Superior de Design, Gestão e Tecnologia da Produção de Aveiro-Norte"^^xsd:string .
+    edu:institutionName "Universidade de Aveiro - Escola Superior de Design, Gestão e Tecnologia da Produção de Aveiro-Norte"^^xsd:string ;
+    edu:locatedInCounty edu:OLIVEIRA_DE_AZEMÉIS ;
+    edu:locatedInDistrict edu:Aveiro ;
+    edu:postalCode "3720-232 OLIVEIRA DE AZEMÉIS"^^xsd:string .
 
 edu:Universidade_de_Aveiro_-_Escola_Superior_de_Saúde_de_Aveiro a edu:Institution ;
+    edu:address "Campus Universitário de Santiago"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Aveiro_-_Escola_Superior_de_Saúde_de_Aveiro_Enfermagem,
         edu:Universidade_de_Aveiro_-_Escola_Superior_de_Saúde_de_Aveiro_Fisioterapia,
         edu:Universidade_de_Aveiro_-_Escola_Superior_de_Saúde_de_Aveiro_Imagem_Médica_e_Radioterapia,
         edu:Universidade_de_Aveiro_-_Escola_Superior_de_Saúde_de_Aveiro_Terapia_da_Fala ;
     edu:institutionCode 3013 ;
-    edu:institutionName "Universidade de Aveiro - Escola Superior de Saúde de Aveiro"^^xsd:string .
+    edu:institutionName "Universidade de Aveiro - Escola Superior de Saúde de Aveiro"^^xsd:string ;
+    edu:locatedInCounty edu:AVEIRO ;
+    edu:locatedInDistrict edu:Aveiro ;
+    edu:postalCode "3810-193 AVEIRO"^^xsd:string .
 
 edu:Universidade_de_Aveiro_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Águeda a edu:Institution ;
+    edu:address "Zona Industrial da Alagôa - Apartado 473"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Aveiro_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Águeda_Eletrónica_e_Mecânica_Industrial,
         edu:Universidade_de_Aveiro_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Águeda_Gestão_Comercial,
         edu:Universidade_de_Aveiro_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Águeda_Gestão_Pública,
@@ -1088,9 +1481,13 @@ edu:Universidade_de_Aveiro_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Águeda 
         edu:Universidade_de_Aveiro_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Águeda_Secretariado_e_Comunicação_Empresarial,
         edu:Universidade_de_Aveiro_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Águeda_Tecnologias_da_Informação ;
     edu:institutionCode 3012 ;
-    edu:institutionName "Universidade de Aveiro - Escola Superior de Tecnologia e Gestão de Águeda"^^xsd:string .
+    edu:institutionName "Universidade de Aveiro - Escola Superior de Tecnologia e Gestão de Águeda"^^xsd:string ;
+    edu:locatedInCounty edu:ÁGUEDA ;
+    edu:locatedInDistrict edu:Aveiro ;
+    edu:postalCode "3754-909 ÁGUEDA"^^xsd:string .
 
 edu:Universidade_de_Aveiro_-_Instituto_Superior_de_Contabilidade_e_Administração_da_Universidade_de_Aveiro a edu:Institution ;
+    edu:address "Rua da Associação Humanitária dos - Bombeiros de Aveiro"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Aveiro_-_Instituto_Superior_de_Contabilidade_e_Administração_da_Universidade_de_Aveiro_Contabilidade,
         edu:Universidade_de_Aveiro_-_Instituto_Superior_de_Contabilidade_e_Administração_da_Universidade_de_Aveiro_Contabilidade_\(regime_pós-laboral\),
         edu:Universidade_de_Aveiro_-_Instituto_Superior_de_Contabilidade_e_Administração_da_Universidade_de_Aveiro_Finanças,
@@ -1098,14 +1495,22 @@ edu:Universidade_de_Aveiro_-_Instituto_Superior_de_Contabilidade_e_Administraç�
         edu:Universidade_de_Aveiro_-_Instituto_Superior_de_Contabilidade_e_Administração_da_Universidade_de_Aveiro_Marketing,
         edu:Universidade_de_Aveiro_-_Instituto_Superior_de_Contabilidade_e_Administração_da_Universidade_de_Aveiro_Marketing_\(regime_pós-laboral\) ;
     edu:institutionCode 3011 ;
-    edu:institutionName "Universidade de Aveiro - Instituto Superior de Contabilidade e Administração da Universidade de Aveiro"^^xsd:string .
+    edu:institutionName "Universidade de Aveiro - Instituto Superior de Contabilidade e Administração da Universidade de Aveiro"^^xsd:string ;
+    edu:locatedInCounty edu:AVEIRO ;
+    edu:locatedInDistrict edu:Aveiro ;
+    edu:postalCode "3811-953 AVEIRO"^^xsd:string .
 
 edu:Universidade_de_Coimbra_-_Faculdade_de_Ciências_do_Desporto_e_Educação_Física a edu:Institution ;
+    edu:address "Estádio Universitário"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Coimbra_-_Faculdade_de_Ciências_do_Desporto_e_Educação_Física_Ciências_do_Desporto ;
     edu:institutionCode 508 ;
-    edu:institutionName "Universidade de Coimbra - Faculdade de Ciências do Desporto e Educação Física"^^xsd:string .
+    edu:institutionName "Universidade de Coimbra - Faculdade de Ciências do Desporto e Educação Física"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3040-256 COIMBRA"^^xsd:string .
 
 edu:Universidade_de_Coimbra_-_Faculdade_de_Ciências_e_Tecnologia a edu:Institution ;
+    edu:address "Rua Sílvio Lima, - Univ. Coimbra - Pólo II"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Coimbra_-_Faculdade_de_Ciências_e_Tecnologia_Antropologia,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Ciências_e_Tecnologia_Arquitetura,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Ciências_e_Tecnologia_Biologia,
@@ -1128,30 +1533,46 @@ edu:Universidade_de_Coimbra_-_Faculdade_de_Ciências_e_Tecnologia a edu:Institut
         edu:Universidade_de_Coimbra_-_Faculdade_de_Ciências_e_Tecnologia_Química,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Ciências_e_Tecnologia_Química_Medicinal ;
     edu:institutionCode 501 ;
-    edu:institutionName "Universidade de Coimbra - Faculdade de Ciências e Tecnologia"^^xsd:string .
+    edu:institutionName "Universidade de Coimbra - Faculdade de Ciências e Tecnologia"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3030-790 COIMBRA"^^xsd:string .
 
 edu:Universidade_de_Coimbra_-_Faculdade_de_Direito a edu:Institution ;
+    edu:address "Pátio da Universidade"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Coimbra_-_Faculdade_de_Direito_Administração_Público-Privada,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Direito_Direito ;
     edu:institutionCode 502 ;
-    edu:institutionName "Universidade de Coimbra - Faculdade de Direito"^^xsd:string .
+    edu:institutionName "Universidade de Coimbra - Faculdade de Direito"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3004-545 COIMBRA"^^xsd:string .
 
 edu:Universidade_de_Coimbra_-_Faculdade_de_Economia a edu:Institution ;
+    edu:address "Av. Dias da Silva, 165"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Coimbra_-_Faculdade_de_Economia_Economia,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Economia_Gestão,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Economia_Relações_Internacionais,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Economia_Sociologia ;
     edu:institutionCode 503 ;
-    edu:institutionName "Universidade de Coimbra - Faculdade de Economia"^^xsd:string .
+    edu:institutionName "Universidade de Coimbra - Faculdade de Economia"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3004-512 COIMBRA"^^xsd:string .
 
 edu:Universidade_de_Coimbra_-_Faculdade_de_Farmácia a edu:Institution ;
+    edu:address "Rua do Norte"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Coimbra_-_Faculdade_de_Farmácia_Ciências_Bioanalíticas,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Farmácia_Ciências_Farmacêuticas,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Farmácia_Farmácia_Biomédica ;
     edu:institutionCode 504 ;
-    edu:institutionName "Universidade de Coimbra - Faculdade de Farmácia"^^xsd:string .
+    edu:institutionName "Universidade de Coimbra - Faculdade de Farmácia"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3000-295 COIMBRA"^^xsd:string .
 
 edu:Universidade_de_Coimbra_-_Faculdade_de_Letras a edu:Institution ;
+    edu:address "Praça da Porta Férrea"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Coimbra_-_Faculdade_de_Letras_Arqueologia,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Letras_Ciência_da_Informação,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Letras_Estudos_Artísticos,
@@ -1166,29 +1587,45 @@ edu:Universidade_de_Coimbra_-_Faculdade_de_Letras a edu:Institution ;
         edu:Universidade_de_Coimbra_-_Faculdade_de_Letras_Português,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Letras_Turismo_Território_e_Patrimónios ;
     edu:institutionCode 505 ;
-    edu:institutionName "Universidade de Coimbra - Faculdade de Letras"^^xsd:string .
+    edu:institutionName "Universidade de Coimbra - Faculdade de Letras"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3000-447 COIMBRA"^^xsd:string .
 
 edu:Universidade_de_Coimbra_-_Faculdade_de_Medicina a edu:Institution ;
+    edu:address "Rua Larga"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Coimbra_-_Faculdade_de_Medicina_Medicina,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Medicina_Medicina_Dentária ;
     edu:institutionCode 506 ;
-    edu:institutionName "Universidade de Coimbra - Faculdade de Medicina"^^xsd:string .
+    edu:institutionName "Universidade de Coimbra - Faculdade de Medicina"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3004-504 COIMBRA"^^xsd:string .
 
 edu:Universidade_de_Coimbra_-_Faculdade_de_Psicologia_e_de_Ciências_da_Educação a edu:Institution ;
+    edu:address "Rua do Colégio Novo"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Coimbra_-_Faculdade_de_Psicologia_e_de_Ciências_da_Educação_Ciências_da_Educação,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Psicologia_e_de_Ciências_da_Educação_Psicologia,
         edu:Universidade_de_Coimbra_-_Faculdade_de_Psicologia_e_de_Ciências_da_Educação_Serviço_Social ;
     edu:institutionCode 507 ;
-    edu:institutionName "Universidade de Coimbra - Faculdade de Psicologia e de Ciências da Educação"^^xsd:string .
+    edu:institutionName "Universidade de Coimbra - Faculdade de Psicologia e de Ciências da Educação"^^xsd:string ;
+    edu:locatedInCounty edu:COIMBRA ;
+    edu:locatedInDistrict edu:Coimbra ;
+    edu:postalCode "3001-802 COIMBRA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Faculdade_de_Arquitetura a edu:Institution ;
+    edu:address "Rua Sá Nogueira, Pólo Universitário"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Faculdade_de_Arquitetura_Arquitetura,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Arquitetura_Design,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Arquitetura_Design_de_Moda ;
     edu:institutionCode 1501 ;
-    edu:institutionName "Universidade de Lisboa - Faculdade de Arquitetura"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Faculdade de Arquitetura"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1349-063 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Faculdade_de_Belas-Artes a edu:Institution ;
+    edu:address "Largo da Academia Nacional de Belas - Artes"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Faculdade_de_Belas-Artes_Arte_Multimédia,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Belas-Artes_Ciências_da_Arte_e_do_Património,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Belas-Artes_Desenho,
@@ -1197,9 +1634,13 @@ edu:Universidade_de_Lisboa_-_Faculdade_de_Belas-Artes a edu:Institution ;
         edu:Universidade_de_Lisboa_-_Faculdade_de_Belas-Artes_Escultura,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Belas-Artes_Pintura ;
     edu:institutionCode 1502 ;
-    edu:institutionName "Universidade de Lisboa - Faculdade de Belas-Artes"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Faculdade de Belas-Artes"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1249-058 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Faculdade_de_Ciências a edu:Institution ;
+    edu:address "Campo Grande"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Faculdade_de_Ciências_Biologia,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Ciências_Bioquímica,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Ciências_Engenharia_Biomédica_e_Biofísica,
@@ -1217,20 +1658,32 @@ edu:Universidade_de_Lisboa_-_Faculdade_de_Ciências a edu:Institution ;
         edu:Universidade_de_Lisboa_-_Faculdade_de_Ciências_Química_Tecnológica,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Ciências_Tecnologias_de_Informação ;
     edu:institutionCode 1503 ;
-    edu:institutionName "Universidade de Lisboa - Faculdade de Ciências"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Faculdade de Ciências"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1749-016 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Faculdade_de_Direito a edu:Institution ;
+    edu:address "Alameda da Universidade"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Faculdade_de_Direito_Direito,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Direito_Direito_\(regime_pós-laboral\) ;
     edu:institutionCode 1504 ;
-    edu:institutionName "Universidade de Lisboa - Faculdade de Direito"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Faculdade de Direito"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1649-014 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Faculdade_de_Farmácia a edu:Institution ;
+    edu:address "Av. Prof. Gama Pinto"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Faculdade_de_Farmácia_Ciências_Farmacêuticas ;
     edu:institutionCode 1505 ;
-    edu:institutionName "Universidade de Lisboa - Faculdade de Farmácia"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Faculdade de Farmácia"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1649-003 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Faculdade_de_Letras a edu:Institution ;
+    edu:address "Alameda da Universidade"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Faculdade_de_Letras_Arqueologia,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Letras_Artes_e_Humanidades,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Letras_Ciências_da_Linguagem,
@@ -1249,40 +1702,64 @@ edu:Universidade_de_Lisboa_-_Faculdade_de_Letras a edu:Institution ;
         edu:Universidade_de_Lisboa_-_Faculdade_de_Letras_Línguas_Literaturas_e_Culturas,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Letras_Tradução ;
     edu:institutionCode 1506 ;
-    edu:institutionName "Universidade de Lisboa - Faculdade de Letras"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Faculdade de Letras"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1600-214 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Faculdade_de_Medicina a edu:Institution ;
+    edu:address "Av. Prof. Egas Moniz"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Faculdade_de_Medicina_Ciências_da_Nutrição,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Medicina_Medicina ;
     edu:institutionCode 1507 ;
-    edu:institutionName "Universidade de Lisboa - Faculdade de Medicina"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Faculdade de Medicina"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1649-028 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Faculdade_de_Medicina_Dentária a edu:Institution ;
+    edu:address "Av. Prof. Teresa Ambrósio"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Faculdade_de_Medicina_Dentária_Higiene_Oral,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Medicina_Dentária_Medicina_Dentária,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Medicina_Dentária_Prótese_Dentária ;
     edu:institutionCode 1508 ;
-    edu:institutionName "Universidade de Lisboa - Faculdade de Medicina Dentária"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Faculdade de Medicina Dentária"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1600-277 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Faculdade_de_Medicina_Veterinária a edu:Institution ;
+    edu:address "Av. da Univ. Técnica de Lisboa"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Faculdade_de_Medicina_Veterinária_Medicina_Veterinária ;
     edu:institutionCode 1509 ;
-    edu:institutionName "Universidade de Lisboa - Faculdade de Medicina Veterinária"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Faculdade de Medicina Veterinária"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1300-477 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Faculdade_de_Motricidade_Humana a edu:Institution ;
+    edu:address "Estrada da Costa "^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Faculdade_de_Motricidade_Humana_Ciências_do_Desporto,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Motricidade_Humana_Dança,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Motricidade_Humana_Gestão_do_Desporto,
         edu:Universidade_de_Lisboa_-_Faculdade_de_Motricidade_Humana_Reabilitação_Psicomotora ;
     edu:institutionCode 1510 ;
-    edu:institutionName "Universidade de Lisboa - Faculdade de Motricidade Humana"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Faculdade de Motricidade Humana"^^xsd:string ;
+    edu:locatedInCounty edu:CRUZ_QUEBRADA_DAFUNDO ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1499-002 CRUZ QUEBRADA DAFUNDO"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Faculdade_de_Psicologia a edu:Institution ;
+    edu:address "Alameda da Universidade"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Faculdade_de_Psicologia_Psicologia ;
     edu:institutionCode 1511 ;
-    edu:institutionName "Universidade de Lisboa - Faculdade de Psicologia"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Faculdade de Psicologia"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1649-013 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Instituto_Superior_Técnico a edu:Institution ;
+    edu:address "Av. Rovisco Pais"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Instituto_Superior_Técnico_Arquitetura,
         edu:Universidade_de_Lisboa_-_Instituto_Superior_Técnico_Engenharia_Aeroespacial,
         edu:Universidade_de_Lisboa_-_Instituto_Superior_Técnico_Engenharia_Biológica,
@@ -1299,17 +1776,25 @@ edu:Universidade_de_Lisboa_-_Instituto_Superior_Técnico a edu:Institution ;
         edu:Universidade_de_Lisboa_-_Instituto_Superior_Técnico_Engenharia_do_Ambiente,
         edu:Universidade_de_Lisboa_-_Instituto_Superior_Técnico_Matemática_Aplicada_e_Computação ;
     edu:institutionCode 1518 ;
-    edu:institutionName "Universidade de Lisboa - Instituto Superior Técnico"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Instituto Superior Técnico"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1049-001 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Instituto_Superior_Técnico_\(Tagus_Park\) a edu:Institution ;
+    edu:address "Av. Prof. Doutor Cavaco Silva"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Instituto_Superior_Técnico_\(Tagus_Park\)_Engenharia_Eletrónica,
         edu:Universidade_de_Lisboa_-_Instituto_Superior_Técnico_\(Tagus_Park\)_Engenharia_Informática_e_de_Computadores,
         edu:Universidade_de_Lisboa_-_Instituto_Superior_Técnico_\(Tagus_Park\)_Engenharia_de_Telecomunicações_e_Informática,
         edu:Universidade_de_Lisboa_-_Instituto_Superior_Técnico_\(Tagus_Park\)_Engenharia_e_Gestão_Industrial ;
     edu:institutionCode 1519 ;
-    edu:institutionName "Universidade de Lisboa - Instituto Superior Técnico (Tagus Park)"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Instituto Superior Técnico (Tagus Park)"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO_SALVO ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "2744-016 PORTO SALVO"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Agronomia a edu:Institution ;
+    edu:address "Tapada da Ajuda"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Agronomia_Arquitetura_Paisagista,
         edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Agronomia_Biologia,
         edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Agronomia_Engenharia_Agronómica,
@@ -1318,9 +1803,13 @@ edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Agronomia a edu:Institution ;
         edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Agronomia_Engenharia_Zootécnica,
         edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Agronomia_Engenharia_do_Ambiente ;
     edu:institutionCode 1515 ;
-    edu:institutionName "Universidade de Lisboa - Instituto Superior de Agronomia"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Instituto Superior de Agronomia"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1349-017 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Ciências_Sociais_e_Políticas a edu:Institution ;
+    edu:address "Rua Almerindo Lessa"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Ciências_Sociais_e_Políticas_Administração_Pública,
         edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Ciências_Sociais_e_Políticas_Administração_Pública_\(regime_pós-laboral\),
         edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Ciências_Sociais_e_Políticas_Administração_Pública_e_Políticas_do_Território_\(regime_pós-laboral\),
@@ -1336,9 +1825,13 @@ edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Ciências_Sociais_e_Política
         edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Ciências_Sociais_e_Políticas_Sociologia,
         edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Ciências_Sociais_e_Políticas_Sociologia_\(regime_pós-laboral\) ;
     edu:institutionCode 1516 ;
-    edu:institutionName "Universidade de Lisboa - Instituto Superior de Ciências Sociais e Políticas"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Instituto Superior de Ciências Sociais e Políticas"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1300-663 Lisboa"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Economia_e_Gestão a edu:Institution ;
+    edu:address "Rua do Quelhas, 6"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Economia_e_Gestão_Economia,
         edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Economia_e_Gestão_Economia_\(ensino_em_inglês\),
         edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Economia_e_Gestão_Finanças_\(ensino_em_inglês\),
@@ -1346,34 +1839,54 @@ edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Economia_e_Gestão a edu:Inst
         edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Economia_e_Gestão_Gestão_\(ensino_em_inglês\),
         edu:Universidade_de_Lisboa_-_Instituto_Superior_de_Economia_e_Gestão_Matemática_Aplicada_à_Economia_e_à_Gestão ;
     edu:institutionCode 1517 ;
-    edu:institutionName "Universidade de Lisboa - Instituto Superior de Economia e Gestão"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Instituto Superior de Economia e Gestão"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1200-781 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Instituto_de_Educação a edu:Institution ;
+    edu:address "Edifício da Faculdade de Psicologia - Alameda da Universidade"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Instituto_de_Educação_Educação_e_Formação ;
     edu:institutionCode 1513 ;
-    edu:institutionName "Universidade de Lisboa - Instituto de Educação"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Instituto de Educação"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1649-013 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Lisboa_-_Instituto_de_Geografia_e_Ordenamento_do_Território a edu:Institution ;
+    edu:address "Rua Branca Edmée Marques"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Lisboa_-_Instituto_de_Geografia_e_Ordenamento_do_Território_Geografia,
         edu:Universidade_de_Lisboa_-_Instituto_de_Geografia_e_Ordenamento_do_Território_Planeamento_e_Gestão_do_Território ;
     edu:institutionCode 1514 ;
-    edu:institutionName "Universidade de Lisboa - Instituto de Geografia e Ordenamento do Território"^^xsd:string .
+    edu:institutionName "Universidade de Lisboa - Instituto de Geografia e Ordenamento do Território"^^xsd:string ;
+    edu:locatedInCounty edu:LISBOA ;
+    edu:locatedInDistrict edu:Lisboa ;
+    edu:postalCode "1600-276 LISBOA"^^xsd:string .
 
 edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_Superior_de_Saúde a edu:Institution ;
+    edu:address "Lugar do Tojal, Llordelo"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_Superior_de_Saúde_Enfermagem ;
     edu:institutionCode 7080 ;
-    edu:institutionName "Universidade de Trás-os-Montes e Alto Douro - Escola Superior de Saúde"^^xsd:string .
+    edu:institutionName "Universidade de Trás-os-Montes e Alto Douro - Escola Superior de Saúde"^^xsd:string ;
+    edu:locatedInCounty edu:VILA_REAL ;
+    edu:locatedInDistrict edu:Vila_Real ;
+    edu:postalCode "5000-232 LORDELO VRL"^^xsd:string .
 
 edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Agrárias_e_Veterinárias a edu:Institution ;
+    edu:address "Quinta dos Prados"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Agrárias_e_Veterinárias_Engenharia_Agronómica,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Agrárias_e_Veterinárias_Engenharia_Zootécnica,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Agrárias_e_Veterinárias_Engenharia_e_Biotecnologia_Florestal,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Agrárias_e_Veterinárias_Enologia,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Agrárias_e_Veterinárias_Medicina_Veterinária ;
     edu:institutionCode 1201 ;
-    edu:institutionName "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Agrárias e Veterinárias"^^xsd:string .
+    edu:institutionName "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Agrárias e Veterinárias"^^xsd:string ;
+    edu:locatedInCounty edu:VILA_REAL ;
+    edu:locatedInDistrict edu:Vila_Real ;
+    edu:postalCode "5001-801 VILA REAL"^^xsd:string .
 
 edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Humanas_e_Sociais a edu:Institution ;
+    edu:address "Rua Dr. Manuel Cardona"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Humanas_e_Sociais_Animação_Sociocultural,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Humanas_e_Sociais_Ciências_da_Comunicação,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Humanas_e_Sociais_Cultura_e_Transformação_Digital,
@@ -1387,9 +1900,13 @@ edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Humanas_e
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Humanas_e_Sociais_Teatro_e_Artes_Performativas,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_Humanas_e_Sociais_Turismo ;
     edu:institutionCode 1202 ;
-    edu:institutionName "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Humanas e Sociais"^^xsd:string .
+    edu:institutionName "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências Humanas e Sociais"^^xsd:string ;
+    edu:locatedInCounty edu:VILA_REAL ;
+    edu:locatedInDistrict edu:Vila_Real ;
+    edu:postalCode "5000-551 VILA REAL"^^xsd:string .
 
 edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_da_Vida_e_do_Ambiente a edu:Institution ;
+    edu:address "Quinta dos Prados"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_da_Vida_e_do_Ambiente_Bioengenharia,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_da_Vida_e_do_Ambiente_Biologia,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_da_Vida_e_do_Ambiente_Biologia_e_Geologia,
@@ -1400,9 +1917,13 @@ edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_da_Vida_e
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_da_Vida_e_do_Ambiente_Ciências_do_Desporto,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_da_Vida_e_do_Ambiente_Genética_e_Biotecnologia ;
     edu:institutionCode 1204 ;
-    edu:institutionName "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências da Vida e do Ambiente"^^xsd:string .
+    edu:institutionName "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências da Vida e do Ambiente"^^xsd:string ;
+    edu:locatedInCounty edu:VILA_REAL ;
+    edu:locatedInDistrict edu:Vila_Real ;
+    edu:postalCode "5001-800 VILA REAL"^^xsd:string .
 
 edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_e_Tecnologia a edu:Institution ;
+    edu:address "Quita dos Prados,"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_e_Tecnologia_Comunicação_e_Multimédia,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_e_Tecnologia_Design_Sustentável,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_e_Tecnologia_Engenharia_Biomédica,
@@ -1414,22 +1935,34 @@ edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_e_Tecnolo
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_e_Tecnologia_Engenharia_e_Gestão_Industrial,
         edu:Universidade_de_Trás-os-Montes_e_Alto_Douro_-_Escola_de_Ciências_e_Tecnologia_Matemática_Aplicada_e_Ciência_de_Dados ;
     edu:institutionCode 1203 ;
-    edu:institutionName "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências e Tecnologia"^^xsd:string .
+    edu:institutionName "Universidade de Trás-os-Montes e Alto Douro - Escola de Ciências e Tecnologia"^^xsd:string ;
+    edu:locatedInCounty edu:VILA_REAL ;
+    edu:locatedInDistrict edu:Vila_Real ;
+    edu:postalCode "5001-801 VILA REAL"^^xsd:string .
 
 edu:Universidade_de_Évora_-_Escola_Superior_de_Enfermagem_de_São_João_de_Deus a edu:Institution ;
+    edu:address "Largo do Senhor da Pobreza"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Évora_-_Escola_Superior_de_Enfermagem_de_São_João_de_Deus_Enfermagem ;
     edu:institutionCode 7030 ;
-    edu:institutionName "Universidade de Évora - Escola Superior de Enfermagem de São João de Deus"^^xsd:string .
+    edu:institutionName "Universidade de Évora - Escola Superior de Enfermagem de São João de Deus"^^xsd:string ;
+    edu:locatedInCounty edu:ÉVORA ;
+    edu:locatedInDistrict edu:Évora ;
+    edu:postalCode "7000-811 ÉVORA"^^xsd:string .
 
 edu:Universidade_de_Évora_-_Escola_de_Artes a edu:Institution ;
+    edu:address "Colégio Mateus d'Aranda - Rua do Raimundo"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Évora_-_Escola_de_Artes_Arquitetura,
         edu:Universidade_de_Évora_-_Escola_de_Artes_Artes_Plásticas_e_Multimédia,
         edu:Universidade_de_Évora_-_Escola_de_Artes_Design,
         edu:Universidade_de_Évora_-_Escola_de_Artes_Teatro ;
     edu:institutionCode 603 ;
-    edu:institutionName "Universidade de Évora - Escola de Artes"^^xsd:string .
+    edu:institutionName "Universidade de Évora - Escola de Artes"^^xsd:string ;
+    edu:locatedInCounty edu:ÉVORA ;
+    edu:locatedInDistrict edu:Évora ;
+    edu:postalCode "7000 ÉVORA"^^xsd:string .
 
 edu:Universidade_de_Évora_-_Escola_de_Ciências_Sociais a edu:Institution ;
+    edu:address "Escola de Ciências Sociais - Apartado 94"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Évora_-_Escola_de_Ciências_Sociais_Ciências_da_Educação,
         edu:Universidade_de_Évora_-_Escola_de_Ciências_Sociais_Economia,
         edu:Universidade_de_Évora_-_Escola_de_Ciências_Sociais_Educação_Básica,
@@ -1443,9 +1976,13 @@ edu:Universidade_de_Évora_-_Escola_de_Ciências_Sociais a edu:Institution ;
         edu:Universidade_de_Évora_-_Escola_de_Ciências_Sociais_Sociologia,
         edu:Universidade_de_Évora_-_Escola_de_Ciências_Sociais_Turismo ;
     edu:institutionCode 604 ;
-    edu:institutionName "Universidade de Évora - Escola de Ciências Sociais"^^xsd:string .
+    edu:institutionName "Universidade de Évora - Escola de Ciências Sociais"^^xsd:string ;
+    edu:locatedInCounty edu:ÉVORA ;
+    edu:locatedInDistrict edu:Évora ;
+    edu:postalCode "7000-554 ÉVORA"^^xsd:string .
 
 edu:Universidade_de_Évora_-_Escola_de_Ciências_e_Tecnologia a edu:Institution ;
+    edu:address "Escola de Ciências e Tecnologia - Apartado 94"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Évora_-_Escola_de_Ciências_e_Tecnologia_Agronomia,
         edu:Universidade_de_Évora_-_Escola_de_Ciências_e_Tecnologia_Biologia,
         edu:Universidade_de_Évora_-_Escola_de_Ciências_e_Tecnologia_Biologia_Humana,
@@ -1465,17 +2002,25 @@ edu:Universidade_de_Évora_-_Escola_de_Ciências_e_Tecnologia a edu:Institution 
         edu:Universidade_de_Évora_-_Escola_de_Ciências_e_Tecnologia_Matemática_Aplicada_à_Economia_e_à_Gestão,
         edu:Universidade_de_Évora_-_Escola_de_Ciências_e_Tecnologia_Medicina_Veterinária ;
     edu:institutionCode 602 ;
-    edu:institutionName "Universidade de Évora - Escola de Ciências e Tecnologia"^^xsd:string .
+    edu:institutionName "Universidade de Évora - Escola de Ciências e Tecnologia"^^xsd:string ;
+    edu:locatedInCounty edu:ÉVORA ;
+    edu:locatedInDistrict edu:Évora ;
+    edu:postalCode "7000-554 ÉVORA"^^xsd:string .
 
 edu:Universidade_de_Évora_-_Escola_de_Saúde_e_Desenvolvimento_Humano a edu:Institution ;
+    edu:address "Rua Romão Ramalho, n. 59"^^xsd:string ;
     edu:hasCourse edu:Universidade_de_Évora_-_Escola_de_Saúde_e_Desenvolvimento_Humano_Ciências_Biomédicas_e_da_Saúde,
         edu:Universidade_de_Évora_-_Escola_de_Saúde_e_Desenvolvimento_Humano_Ciências_Farmacêuticas,
         edu:Universidade_de_Évora_-_Escola_de_Saúde_e_Desenvolvimento_Humano_Ciências_do_Desporto,
         edu:Universidade_de_Évora_-_Escola_de_Saúde_e_Desenvolvimento_Humano_Reabilitação_Psicomotora ;
     edu:institutionCode 605 ;
-    edu:institutionName "Universidade de Évora - Escola de Saúde e Desenvolvimento Humano"^^xsd:string .
+    edu:institutionName "Universidade de Évora - Escola de Saúde e Desenvolvimento Humano"^^xsd:string ;
+    edu:locatedInCounty edu:ÉVORA ;
+    edu:locatedInDistrict edu:Évora ;
+    edu:postalCode "7000-671 ÉVORA"^^xsd:string .
 
 edu:Universidade_do_Algarve_-_Escola_Superior_de_Educação_e_Comunicação a edu:Institution ;
+    edu:address "Estrada da Penha, - Quinta da Penha"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Algarve_-_Escola_Superior_de_Educação_e_Comunicação_Ciências_da_Comunicação,
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Educação_e_Comunicação_Design_de_Comunicação,
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Educação_e_Comunicação_Desporto,
@@ -1483,25 +2028,37 @@ edu:Universidade_do_Algarve_-_Escola_Superior_de_Educação_e_Comunicação a ed
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Educação_e_Comunicação_Educação_Social,
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Educação_e_Comunicação_Imagem_Animada ;
     edu:institutionCode 3081 ;
-    edu:institutionName "Universidade do Algarve - Escola Superior de Educação e Comunicação"^^xsd:string .
+    edu:institutionName "Universidade do Algarve - Escola Superior de Educação e Comunicação"^^xsd:string ;
+    edu:locatedInCounty edu:FARO ;
+    edu:locatedInDistrict edu:Faro ;
+    edu:postalCode "8000-117 FARO"^^xsd:string .
 
 edu:Universidade_do_Algarve_-_Escola_Superior_de_Gestão_Hotelaria_e_Turismo a edu:Institution ;
+    edu:address "Estrada da Penha, - Quinta da Penha"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Algarve_-_Escola_Superior_de_Gestão_Hotelaria_e_Turismo_Gestão,
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Gestão_Hotelaria_e_Turismo_Gestão_\(regime_noturno\),
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Gestão_Hotelaria_e_Turismo_Gestão_Hoteleira,
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Gestão_Hotelaria_e_Turismo_Marketing,
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Gestão_Hotelaria_e_Turismo_Turismo ;
     edu:institutionCode 3082 ;
-    edu:institutionName "Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo"^^xsd:string .
+    edu:institutionName "Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo"^^xsd:string ;
+    edu:locatedInCounty edu:FARO ;
+    edu:locatedInDistrict edu:Faro ;
+    edu:postalCode "8000-117 FARO"^^xsd:string .
 
 edu:Universidade_do_Algarve_-_Escola_Superior_de_Gestão_Hotelaria_e_Turismo_\(Portimão\) a edu:Institution ;
+    edu:address "Largo Eng. Sarrea Prado, 21"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Algarve_-_Escola_Superior_de_Gestão_Hotelaria_e_Turismo_\(Portimão\)_Gestão,
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Gestão_Hotelaria_e_Turismo_\(Portimão\)_Gestão_\(regime_noturno\),
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Gestão_Hotelaria_e_Turismo_\(Portimão\)_Turismo ;
     edu:institutionCode 3087 ;
-    edu:institutionName "Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo (Portimão)"^^xsd:string .
+    edu:institutionName "Universidade do Algarve - Escola Superior de Gestão, Hotelaria e Turismo (Portimão)"^^xsd:string ;
+    edu:locatedInCounty edu:PORTIMÃO ;
+    edu:locatedInDistrict edu:Faro ;
+    edu:postalCode "8501-859 PORTIMÃO"^^xsd:string .
 
 edu:Universidade_do_Algarve_-_Escola_Superior_de_Saúde a edu:Institution ;
+    edu:address "Estrada de Loulé"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Algarve_-_Escola_Superior_de_Saúde_Ciências_Biomédicas_Laboratoriais,
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Saúde_Dietética_e_Nutrição,
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Saúde_Enfermagem,
@@ -1509,9 +2066,13 @@ edu:Universidade_do_Algarve_-_Escola_Superior_de_Saúde a edu:Institution ;
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Saúde_Fisioterapia,
         edu:Universidade_do_Algarve_-_Escola_Superior_de_Saúde_Imagem_Médica_e_Radioterapia ;
     edu:institutionCode 7035 ;
-    edu:institutionName "Universidade do Algarve - Escola Superior de Saúde"^^xsd:string .
+    edu:institutionName "Universidade do Algarve - Escola Superior de Saúde"^^xsd:string ;
+    edu:locatedInCounty edu:FARO ;
+    edu:locatedInDistrict edu:Faro ;
+    edu:postalCode "8000-279 FARO"^^xsd:string .
 
 edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_Humanas_e_Sociais a edu:Institution ;
+    edu:address "Campus de Gambelas"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_Humanas_e_Sociais_Artes_Visuais,
         edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_Humanas_e_Sociais_Ciências_da_Educação_e_da_Formação,
         edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_Humanas_e_Sociais_Línguas_Literaturas_e_Culturas,
@@ -1519,9 +2080,13 @@ edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_Humanas_e_Sociais a edu:Ins
         edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_Humanas_e_Sociais_Património_Cultural_e_Arqueologia,
         edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_Humanas_e_Sociais_Psicologia ;
     edu:institutionCode 201 ;
-    edu:institutionName "Universidade do Algarve - Faculdade de Ciências Humanas e Sociais"^^xsd:string .
+    edu:institutionName "Universidade do Algarve - Faculdade de Ciências Humanas e Sociais"^^xsd:string ;
+    edu:locatedInCounty edu:FARO ;
+    edu:locatedInDistrict edu:Faro ;
+    edu:postalCode "8000-117 FARO"^^xsd:string .
 
 edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_e_Tecnologia a edu:Institution ;
+    edu:address "Campus de Gambelas"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_e_Tecnologia_Agronomia,
         edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_e_Tecnologia_Arquitetura_Paisagista,
         edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_e_Tecnologia_Bioengenharia,
@@ -1534,29 +2099,45 @@ edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_e_Tecnologia a edu:Institut
         edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_e_Tecnologia_Gestão_Marinha_e_Costeira,
         edu:Universidade_do_Algarve_-_Faculdade_de_Ciências_e_Tecnologia_Matemática_Aplicada_à_Economia_e_à_Gestão ;
     edu:institutionCode 203 ;
-    edu:institutionName "Universidade do Algarve - Faculdade de Ciências e Tecnologia"^^xsd:string .
+    edu:institutionName "Universidade do Algarve - Faculdade de Ciências e Tecnologia"^^xsd:string ;
+    edu:locatedInCounty edu:FARO ;
+    edu:locatedInDistrict edu:Faro ;
+    edu:postalCode "8000-117 FARO"^^xsd:string .
 
 edu:Universidade_do_Algarve_-_Faculdade_de_Economia a edu:Institution ;
+    edu:address "Campus de Gambelas"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Algarve_-_Faculdade_de_Economia_Economia,
         edu:Universidade_do_Algarve_-_Faculdade_de_Economia_Gestão_de_Empresas,
         edu:Universidade_do_Algarve_-_Faculdade_de_Economia_Sociologia ;
     edu:institutionCode 204 ;
-    edu:institutionName "Universidade do Algarve - Faculdade de Economia"^^xsd:string .
+    edu:institutionName "Universidade do Algarve - Faculdade de Economia"^^xsd:string ;
+    edu:locatedInCounty edu:FARO ;
+    edu:locatedInDistrict edu:Faro ;
+    edu:postalCode "8000-117 FARO"^^xsd:string .
 
 edu:Universidade_do_Algarve_-_Faculdade_de_Medicina_e_Ciências_Biomédicas a edu:Institution ;
+    edu:address "Campus da Penha"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Algarve_-_Faculdade_de_Medicina_e_Ciências_Biomédicas_Ciências_Biomédicas ;
     edu:institutionCode 206 ;
-    edu:institutionName "Universidade do Algarve - Faculdade de Medicina e Ciências Biomédicas"^^xsd:string .
+    edu:institutionName "Universidade do Algarve - Faculdade de Medicina e Ciências Biomédicas"^^xsd:string ;
+    edu:locatedInCounty edu:FARO ;
+    edu:locatedInDistrict edu:Faro ;
+    edu:postalCode "8005-139 FARO"^^xsd:string .
 
 edu:Universidade_do_Algarve_-_Instituto_Superior_de_Engenharia a edu:Institution ;
+    edu:address "Estrada da Penha, - Quinta da Penha"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Algarve_-_Instituto_Superior_de_Engenharia_Engenharia_Civil,
         edu:Universidade_do_Algarve_-_Instituto_Superior_de_Engenharia_Engenharia_Eletrotécnica_e_de_Computadores,
         edu:Universidade_do_Algarve_-_Instituto_Superior_de_Engenharia_Engenharia_Mecânica,
         edu:Universidade_do_Algarve_-_Instituto_Superior_de_Engenharia_Engenharia_de_Sistemas_e_Tecnologias_Informáticas ;
     edu:institutionCode 3083 ;
-    edu:institutionName "Universidade do Algarve - Instituto Superior de Engenharia"^^xsd:string .
+    edu:institutionName "Universidade do Algarve - Instituto Superior de Engenharia"^^xsd:string ;
+    edu:locatedInCounty edu:FARO ;
+    edu:locatedInDistrict edu:Faro ;
+    edu:postalCode "8000-117 FARO"^^xsd:string .
 
 edu:Universidade_do_Minho a edu:Institution ;
+    edu:address "Largo do Paço"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Minho_Administração_Pública,
         edu:Universidade_do_Minho_Arqueologia,
         edu:Universidade_do_Minho_Arquitetura,
@@ -1617,26 +2198,42 @@ edu:Universidade_do_Minho a edu:Institution ;
         edu:Universidade_do_Minho_Sociologia,
         edu:Universidade_do_Minho_Teatro ;
     edu:institutionCode 1000 ;
-    edu:institutionName "Universidade do Minho"^^xsd:string .
+    edu:institutionName "Universidade do Minho"^^xsd:string ;
+    edu:locatedInCounty edu:BRAGA ;
+    edu:locatedInDistrict edu:Braga ;
+    edu:postalCode "4704-553 BRAGA"^^xsd:string .
 
 edu:Universidade_do_Minho_-_Escola_Superior_de_Enfermagem a edu:Institution ;
+    edu:address "Rua da Escola de Enfermagem"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Minho_-_Escola_Superior_de_Enfermagem_Enfermagem ;
     edu:institutionCode 7010 ;
-    edu:institutionName "Universidade do Minho - Escola Superior de Enfermagem"^^xsd:string .
+    edu:institutionName "Universidade do Minho - Escola Superior de Enfermagem"^^xsd:string ;
+    edu:locatedInCounty edu:BRAGA ;
+    edu:locatedInDistrict edu:Braga ;
+    edu:postalCode "4704-553 BRAGA"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Arquitetura a edu:Institution ;
+    edu:address "Rua do Gólgota, 215 - Via Panorâmica"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Arquitetura_Arquitetura ;
     edu:institutionCode 1102 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Arquitetura"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Arquitetura"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4150-755 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Belas-Artes a edu:Institution ;
+    edu:address "Av. Rodrigues de Freitas, 265"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Belas-Artes_Artes_Plásticas,
         edu:Universidade_do_Porto_-_Faculdade_de_Belas-Artes_Desenho,
         edu:Universidade_do_Porto_-_Faculdade_de_Belas-Artes_Design_de_Comunicação ;
     edu:institutionCode 5402 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Belas-Artes"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Belas-Artes"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4049-021 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Ciências a edu:Institution ;
+    edu:address "Rua do Campo Alegre, 828"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Ciências_Arquitetura_Paisagista,
         edu:Universidade_do_Porto_-_Faculdade_de_Ciências_Bioinformática,
         edu:Universidade_do_Porto_-_Faculdade_de_Ciências_Biologia,
@@ -1653,31 +2250,51 @@ edu:Universidade_do_Porto_-_Faculdade_de_Ciências a edu:Institution ;
         edu:Universidade_do_Porto_-_Faculdade_de_Ciências_Matemática_Aplicada,
         edu:Universidade_do_Porto_-_Faculdade_de_Ciências_Química ;
     edu:institutionCode 1103 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Ciências"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Ciências"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4150-180 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Ciências_da_Nutrição_e_da_Alimentação a edu:Institution ;
+    edu:address "Rua Dr. Roberto Frias, - (Hospital de São João)"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Ciências_da_Nutrição_e_da_Alimentação_Ciências_da_Nutrição ;
     edu:institutionCode 1101 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Ciências da Nutrição e da Alimentação"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Ciências da Nutrição e da Alimentação"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4200-465 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Desporto a edu:Institution ;
+    edu:address "Rua Dr. Plácido Costa, 91"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Desporto_Ciências_do_Desporto ;
     edu:institutionCode 1111 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Desporto"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Desporto"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4200-450 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Direito a edu:Institution ;
+    edu:address "Rua dos Bragas, 223"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Direito_Criminologia,
         edu:Universidade_do_Porto_-_Faculdade_de_Direito_Direito ;
     edu:institutionCode 1114 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Direito"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Direito"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4050-123 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Economia a edu:Institution ;
+    edu:address "Rua Dr. Roberto Frias s/n"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Economia_Economia,
         edu:Universidade_do_Porto_-_Faculdade_de_Economia_Gestão ;
     edu:institutionCode 1104 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Economia"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Economia"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4200-464 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Engenharia a edu:Institution ;
+    edu:address "Rua Dr. Roberto Frias, s/n"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Engenharia_Bioengenharia,
         edu:Universidade_do_Porto_-_Faculdade_de_Engenharia_Engenharia_Civil,
         edu:Universidade_do_Porto_-_Faculdade_de_Engenharia_Engenharia_Eletrotécnica_e_de_Computadores,
@@ -1689,14 +2306,22 @@ edu:Universidade_do_Porto_-_Faculdade_de_Engenharia a edu:Institution ;
         edu:Universidade_do_Porto_-_Faculdade_de_Engenharia_Engenharia_do_Ambiente,
         edu:Universidade_do_Porto_-_Faculdade_de_Engenharia_Engenharia_e_Gestão_Industrial ;
     edu:institutionCode 1105 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Engenharia"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Engenharia"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4200-465 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Farmácia a edu:Institution ;
+    edu:address "Rua Aníbal Cunha, 164"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Farmácia_Ciências_Farmacêuticas ;
     edu:institutionCode 1106 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Farmácia"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Farmácia"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4050-047 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Letras a edu:Institution ;
+    edu:address "Via Panorâmica, Apartado 55038"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Letras_Arqueologia,
         edu:Universidade_do_Porto_-_Faculdade_de_Letras_Ciência_da_Informação,
         edu:Universidade_do_Porto_-_Faculdade_de_Letras_Ciências_da_Comunicação,
@@ -1711,51 +2336,83 @@ edu:Universidade_do_Porto_-_Faculdade_de_Letras a edu:Institution ;
         edu:Universidade_do_Porto_-_Faculdade_de_Letras_Línguas_e_Relações_Internacionais,
         edu:Universidade_do_Porto_-_Faculdade_de_Letras_Sociologia ;
     edu:institutionCode 1107 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Letras"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Letras"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4150-564 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Medicina a edu:Institution ;
+    edu:address "Alameda Prof. Hernâni Monteiro"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Medicina_Medicina,
         edu:Universidade_do_Porto_-_Faculdade_de_Medicina_Saúde_Digital_e_Inovação_Biomédica ;
     edu:institutionCode 1108 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Medicina"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Medicina"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4200-319 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Medicina_Dentária a edu:Institution ;
+    edu:address "Rua Dr. Manuel Pereira da Silva s/n"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Medicina_Dentária_Medicina_Dentária ;
     edu:institutionCode 1113 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Medicina Dentária"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Medicina Dentária"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4200-393 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Psicologia_e_de_Ciências_da_Educação a edu:Institution ;
+    edu:address "Rua do Dr. Manuel Pereira da Silva"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Faculdade_de_Psicologia_e_de_Ciências_da_Educação_Ciências_da_Educação,
         edu:Universidade_do_Porto_-_Faculdade_de_Psicologia_e_de_Ciências_da_Educação_Psicologia ;
     edu:institutionCode 1109 ;
-    edu:institutionName "Universidade do Porto - Faculdade de Psicologia e de Ciências da Educação"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Faculdade de Psicologia e de Ciências da Educação"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4200-392 PORTO"^^xsd:string .
 
 edu:Universidade_do_Porto_-_Instituto_de_Ciências_Biomédicas_Abel_Salazar a edu:Institution ;
+    edu:address "Largo do Prof. Abel Salazar, 2"^^xsd:string ;
     edu:hasCourse edu:Universidade_do_Porto_-_Instituto_de_Ciências_Biomédicas_Abel_Salazar_Ciências_do_Meio_Aquático,
         edu:Universidade_do_Porto_-_Instituto_de_Ciências_Biomédicas_Abel_Salazar_Medicina,
         edu:Universidade_do_Porto_-_Instituto_de_Ciências_Biomédicas_Abel_Salazar_Medicina_Veterinária ;
     edu:institutionCode 1110 ;
-    edu:institutionName "Universidade do Porto - Instituto de Ciências Biomédicas Abel Salazar"^^xsd:string .
+    edu:institutionName "Universidade do Porto - Instituto de Ciências Biomédicas Abel Salazar"^^xsd:string ;
+    edu:locatedInCounty edu:PORTO ;
+    edu:locatedInDistrict edu:Porto ;
+    edu:postalCode "4499-003 PORTO"^^xsd:string .
 
 edu:Universidade_dos_Açores_-_Escola_Superior_de_Saúde_-_Angra_do_Heroísmo a edu:Institution ;
+    edu:address "Rua Capitão João D'Ávila"^^xsd:string ;
     edu:hasCourse edu:Universidade_dos_Açores_-_Escola_Superior_de_Saúde_-_Angra_do_Heroísmo_Enfermagem ;
     edu:institutionCode 7092 ;
-    edu:institutionName "Universidade dos Açores - Escola Superior de Saúde - Angra do Heroísmo"^^xsd:string .
+    edu:institutionName "Universidade dos Açores - Escola Superior de Saúde - Angra do Heroísmo"^^xsd:string ;
+    edu:locatedInCounty edu:ANGRA_DO_HEROÍSMO ;
+    edu:locatedInDistrict edu:R_A_Açores ;
+    edu:postalCode "9700-042 ANGRA DO HEROÍSMO"^^xsd:string .
 
 edu:Universidade_dos_Açores_-_Escola_Superior_de_Saúde_-_Ponta_Delgada a edu:Institution ;
+    edu:address "Rua da Mãe de Deus"^^xsd:string ;
     edu:hasCourse edu:Universidade_dos_Açores_-_Escola_Superior_de_Saúde_-_Ponta_Delgada_Enfermagem ;
     edu:institutionCode 7093 ;
-    edu:institutionName "Universidade dos Açores - Escola Superior de Saúde - Ponta Delgada"^^xsd:string .
+    edu:institutionName "Universidade dos Açores - Escola Superior de Saúde - Ponta Delgada"^^xsd:string ;
+    edu:locatedInCounty edu:PONTA_DELGADA ;
+    edu:locatedInDistrict edu:R_A_Açores ;
+    edu:postalCode "9500-321 PONTA DELGADA"^^xsd:string .
 
 edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_Agrárias_e_do_Ambiente a edu:Institution ;
+    edu:address "Rua Capitão João D'Ávila"^^xsd:string ;
     edu:hasCourse edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_Agrárias_e_do_Ambiente_Ciências_Agrárias,
         edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_Agrárias_e_do_Ambiente_Ciências_Farmacêuticas_\(preparatórios\),
         edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_Agrárias_e_do_Ambiente_Medicina_Veterinária_\(preparatórios\),
         edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_Agrárias_e_do_Ambiente_Natureza_e_Património ;
     edu:institutionCode 140 ;
-    edu:institutionName "Universidade dos Açores - Faculdade de Ciências Agrárias e do Ambiente"^^xsd:string .
+    edu:institutionName "Universidade dos Açores - Faculdade de Ciências Agrárias e do Ambiente"^^xsd:string ;
+    edu:locatedInCounty edu:ANGRA_DO_HEROÍSMO ;
+    edu:locatedInDistrict edu:R_A_Açores ;
+    edu:postalCode "9700-042 ANGRA DO HEROÍSMO"^^xsd:string .
 
 edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_Sociais_e_Humanas a edu:Institution ;
+    edu:address "Rua da Mãe de Deus"^^xsd:string ;
     edu:hasCourse edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_Sociais_e_Humanas_Comunicação_e_Relações_Públicas,
         edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_Sociais_e_Humanas_Educação_Básica,
         edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_Sociais_e_Humanas_Estudos_Europeus,
@@ -1765,23 +2422,42 @@ edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_Sociais_e_Humanas a edu:In
         edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_Sociais_e_Humanas_Serviço_Social,
         edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_Sociais_e_Humanas_Sociologia ;
     edu:institutionCode 150 ;
-    edu:institutionName "Universidade dos Açores - Faculdade de Ciências Sociais e Humanas"^^xsd:string .
+    edu:institutionName "Universidade dos Açores - Faculdade de Ciências Sociais e Humanas"^^xsd:string ;
+    edu:locatedInCounty edu:PONTA_DELGADA ;
+    edu:locatedInDistrict edu:R_A_Açores ;
+    edu:postalCode "9501-801 PONTA DELGADA"^^xsd:string .
 
 edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_e_Tecnologia a edu:Institution ;
+    edu:address "Rua da Mãe de Deus"^^xsd:string ;
     edu:hasCourse edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_e_Tecnologia_Biologia,
         edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_e_Tecnologia_Ciclo_Básico_de_Medicina,
         edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_e_Tecnologia_Ciências_de_Engenharia_-_Engenharia_Mecânica_Engenharia_Eletrotécnica_e_de_Computadores_\(preparatórios\),
         edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_e_Tecnologia_Informática,
         edu:Universidade_dos_Açores_-_Faculdade_de_Ciências_e_Tecnologia_Proteção_Civil_e_Gestão_de_Riscos ;
     edu:institutionCode 160 ;
-    edu:institutionName "Universidade dos Açores - Faculdade de Ciências e Tecnologia"^^xsd:string .
+    edu:institutionName "Universidade dos Açores - Faculdade de Ciências e Tecnologia"^^xsd:string ;
+    edu:locatedInCounty edu:PONTA_DELGADA ;
+    edu:locatedInDistrict edu:R_A_Açores ;
+    edu:postalCode "9501-801 PONTA DELGADA"^^xsd:string .
 
 edu:Universidade_dos_Açores_-_Faculdade_de_Economia_e_Gestão a edu:Institution ;
+    edu:address "Rua da Mãe de Deus"^^xsd:string ;
     edu:hasCourse edu:Universidade_dos_Açores_-_Faculdade_de_Economia_e_Gestão_Economia,
         edu:Universidade_dos_Açores_-_Faculdade_de_Economia_e_Gestão_Gestão,
         edu:Universidade_dos_Açores_-_Faculdade_de_Economia_e_Gestão_Turismo ;
     edu:institutionCode 170 ;
-    edu:institutionName "Universidade dos Açores - Faculdade de Economia e Gestão"^^xsd:string .
+    edu:institutionName "Universidade dos Açores - Faculdade de Economia e Gestão"^^xsd:string ;
+    edu:locatedInCounty edu:PONTA_DELGADA ;
+    edu:locatedInDistrict edu:R_A_Açores ;
+    edu:postalCode "9501-801 PONTA DELGADA"^^xsd:string .
+
+edu:ABRANTES a edu:County ;
+    edu:countyName "ABRANTES"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Santarém .
+
+edu:ALMADA a edu:County ;
+    edu:countyName "ALMADA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Setúbal .
 
 edu:Administração_Pública_\(regime_pós-laboral\) a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -1911,6 +2587,10 @@ edu:Automação_e_Sistemas_de_Produção a edu:Course ;
     edu:courseName "Automação e Sistemas de Produção"^^xsd:string ;
     edu:hasScientificArea edu:Metalurgia_e_metalomecânica .
 
+edu:BARREIRO a edu:County ;
+    edu:countyName "BARREIRO"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Setúbal .
+
 edu:Biologia_Aplicada a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "9688"^^xsd:string ;
@@ -1958,6 +2638,22 @@ edu:Biotecnologia_Alimentar a edu:Course ;
     edu:courseCode "L093"^^xsd:string ;
     edu:courseName "Biotecnologia Alimentar"^^xsd:string ;
     edu:hasScientificArea edu:Tecnologia_dos_processos_químicos .
+
+edu:CALDAS_DA_RAINHA a edu:County ;
+    edu:countyName "CALDAS DA RAINHA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Leiria .
+
+edu:CASCAIS a edu:County ;
+    edu:countyName "CASCAIS"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Lisboa .
+
+edu:COVILHÃ a edu:County ;
+    edu:countyName "COVILHÃ"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Castelo_Branco .
+
+edu:CRUZ_QUEBRADA_DAFUNDO a edu:County ;
+    edu:countyName "CRUZ QUEBRADA DAFUNDO"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Lisboa .
 
 edu:Cinema a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -2424,6 +3120,10 @@ edu:Direção_e_Gestão_Hoteleira_\(regime_pós-laboral\) a edu:Course ;
     edu:courseCode "9875"^^xsd:string ;
     edu:courseName "Direção e Gestão Hoteleira (regime pós-laboral)"^^xsd:string ;
     edu:hasScientificArea edu:Hotelaria_e_restauração .
+
+edu:ELVAS a edu:County ;
+    edu:countyName "ELVAS"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Portalegre .
 
 edu:Ecologia_e_Ambiente a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -3017,6 +3717,10 @@ edu:Estudos_de_Filosofia_e_de_Cultura_Contemporânea a edu:Course ;
     edu:courseName "Estudos de Filosofia e de Cultura Contemporânea"^^xsd:string ;
     edu:hasScientificArea edu:Filosofia_e_ética .
 
+edu:FELGUEIRAS a edu:County ;
+    edu:countyName "FELGUEIRAS"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Porto .
+
 edu:Farmácia_Biomédica a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "9832"^^xsd:string ;
@@ -3346,6 +4050,10 @@ edu:História_e_Arqueologia a edu:Course ;
     edu:courseCode "8251"^^xsd:string ;
     edu:courseName "História e Arqueologia"^^xsd:string ;
     edu:hasScientificArea edu:História_e_arqueologia .
+
+edu:IDANHA-A-NOVA a edu:County ;
+    edu:countyName "IDANHA-A-NOVA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Castelo_Branco .
 
 edu:ISCTE_-_Instituto_Universitário_de_Lisboa_Antropologia a edu:Antropologia ;
     edu:availableSlots 27 ;
@@ -5525,6 +6233,10 @@ edu:Jornalismo a edu:Course ;
     edu:courseName "Jornalismo"^^xsd:string ;
     edu:hasScientificArea edu:Jornalismo_e_reportagem .
 
+edu:LAMEGO a edu:County ;
+    edu:countyName "LAMEGO"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Viseu .
+
 edu:Literatura_e_Estudos_Interartes a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "L251"^^xsd:string ;
@@ -5590,6 +6302,18 @@ edu:Línguas_para_Relações_Internacionais a edu:Course ;
     edu:courseCode "8374"^^xsd:string ;
     edu:courseName "Línguas para Relações Internacionais"^^xsd:string ;
     edu:hasScientificArea edu:Línguas_e_literaturas_estrangeiras .
+
+edu:MATOSINHOS a edu:County ;
+    edu:countyName "MATOSINHOS"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Porto .
+
+edu:MELGAÇO a edu:County ;
+    edu:countyName "MELGAÇO"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Viana_do_Castelo .
+
+edu:MIRANDELA a edu:County ;
+    edu:countyName "MIRANDELA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Bragança .
 
 edu:Marketing_Turístico a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -5693,6 +6417,18 @@ edu:Natureza_e_Património a edu:Course ;
     edu:courseName "Natureza e Património"^^xsd:string ;
     edu:hasScientificArea edu:Ambientes_naturais_e_vida_selvagem .
 
+edu:OEIRAS a edu:County ;
+    edu:countyName "OEIRAS"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Lisboa .
+
+edu:OLIVEIRA_DE_AZEMÉIS a edu:County ;
+    edu:countyName "OLIVEIRA DE AZEMÉIS"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Aveiro .
+
+edu:OLIVEIRA_DO_HOSPITAL a edu:County ;
+    edu:countyName "OLIVEIRA DO HOSPITAL"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Coimbra .
+
 edu:Organização_e_Gestão_Empresariais a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "8516"^^xsd:string ;
@@ -5722,6 +6458,22 @@ edu:Osteopatia a edu:Course ;
     edu:courseCode "L136"^^xsd:string ;
     edu:courseName "Osteopatia"^^xsd:string ;
     edu:hasScientificArea edu:Saúde_-_programas_não_classificados_noutra_área_de_formação .
+
+edu:PENICHE a edu:County ;
+    edu:countyName "PENICHE"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Leiria .
+
+edu:PONTE_DE_LIMA a edu:County ;
+    edu:countyName "PONTE DE LIMA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Viana_do_Castelo .
+
+edu:PORTIMÃO a edu:County ;
+    edu:countyName "PORTIMÃO"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Faro .
+
+edu:PORTO_SALVO a edu:County ;
+    edu:countyName "PORTO SALVO"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Lisboa .
 
 edu:Património_Cultural a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -5862,6 +6614,10 @@ edu:Química_Tecnológica a edu:Course ;
     edu:courseName "Química Tecnológica"^^xsd:string ;
     edu:hasScientificArea edu:Tecnologia_dos_processos_químicos .
 
+edu:RIO_MAIOR a edu:County ;
+    edu:countyName "RIO MAIOR"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Santarém .
+
 edu:Recursos_Humanos a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "9227"^^xsd:string ;
@@ -5909,6 +6665,14 @@ edu:Restauração_e_Catering a edu:Course ;
     edu:courseCode "9484"^^xsd:string ;
     edu:courseName "Restauração e Catering"^^xsd:string ;
     edu:hasScientificArea edu:Hotelaria_e_restauração .
+
+edu:SEIA a edu:County ;
+    edu:countyName "SEIA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Guarda .
+
+edu:SINTRA a edu:County ;
+    edu:countyName "SINTRA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Lisboa .
 
 edu:Saúde a edu:ScientificArea ;
     edu:scientificAreaCode 720 ;
@@ -8468,6 +9232,18 @@ edu:Universidade_dos_Açores_-_Faculdade_de_Economia_e_Gestão_Turismo a edu:Tur
     edu:availableSlots 25 ;
     edu:lastAdmittedGrade "129.3"^^xsd:float .
 
+edu:VALENÇA a edu:County ;
+    edu:countyName "VALENÇA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Viana_do_Castelo .
+
+edu:ÁGUEDA a edu:County ;
+    edu:countyName "ÁGUEDA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Aveiro .
+
+edu:ANGRA_DO_HEROÍSMO a edu:County ;
+    edu:countyName "ANGRA DO HEROÍSMO"^^xsd:string ;
+    edu:countyPartOfDistrict edu:R_A_Açores .
+
 edu:Arte_e_Design a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "9898"^^xsd:string ;
@@ -8501,6 +9277,10 @@ edu:Audiovisual_e_Multimédia a edu:Course ;
     edu:courseCode "9010"^^xsd:string ;
     edu:courseName "Audiovisual e Multimédia"^^xsd:string ;
     edu:hasScientificArea edu:Audiovisuais_e_produção_dos_media .
+
+edu:BRAGA a edu:County ;
+    edu:countyName "BRAGA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Braga .
 
 edu:Biblioteconomia_arquivo_e_documentação_\(BAD\) a edu:ScientificArea ;
     edu:scientificAreaCode 322 ;
@@ -8816,17 +9596,29 @@ edu:Saúde_-_programas_não_classificados_noutra_área_de_formação a edu:Scien
     edu:scientificAreaCode 729 ;
     edu:scientificAreaName "Saúde - programas não classificados noutra área de formação"^^xsd:string .
 
+edu:TOMAR a edu:County ;
+    edu:countyName "TOMAR"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Santarém .
+
 edu:Tecnologia_Biomédica a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "L069"^^xsd:string ;
     edu:courseName "Tecnologia Biomédica"^^xsd:string ;
     edu:hasScientificArea edu:Tecnologia_dos_processos_químicos .
 
+edu:VILA_DO_CONDE a edu:County ;
+    edu:countyName "VILA DO CONDE"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Porto .
+
 edu:Zootecnia a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "L003"^^xsd:string ;
     edu:courseName "Zootecnia"^^xsd:string ;
     edu:hasScientificArea edu:Produção_agrícola_e_animal .
+
+edu:AVEIRO a edu:County ;
+    edu:countyName "AVEIRO"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Aveiro .
 
 edu:Arquitetura_Paisagista a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -8930,6 +9722,10 @@ edu:Estudos_Portugueses a edu:Course ;
     edu:courseName "Estudos Portugueses"^^xsd:string ;
     edu:hasScientificArea edu:Língua_e_literatura_materna .
 
+edu:GUARDA a edu:County ;
+    edu:countyName "GUARDA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Guarda .
+
 edu:Gestão_\(regime_noturno\) a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "9148"^^xsd:string ;
@@ -8968,6 +9764,10 @@ edu:Inteligência_Artificial_e_Ciência_de_Dados a edu:Course ;
     edu:courseName "Inteligência Artificial e Ciência de Dados"^^xsd:string ;
     edu:hasScientificArea edu:Ciências_informáticas .
 
+edu:LEIRIA a edu:County ;
+    edu:countyName "LEIRIA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Leiria .
+
 edu:Línguas_e_Relações_Empresariais a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "9196"^^xsd:string ;
@@ -8985,6 +9785,10 @@ edu:Medicina_Dentária a edu:Course ;
     edu:courseCode "9548"^^xsd:string ;
     edu:courseName "Medicina Dentária"^^xsd:string ;
     edu:hasScientificArea edu:Ciências_dentárias .
+
+edu:PORTALEGRE a edu:County ;
+    edu:countyName "PORTALEGRE"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Portalegre .
 
 edu:Prep_Mestrado_Integrado a edu:Degree ;
     edu:degreeName "Prep. Mestrado Integrado"^^xsd:string .
@@ -9027,6 +9831,10 @@ edu:Tradução a edu:Course ;
     edu:courseName "Tradução"^^xsd:string ;
     edu:hasScientificArea edu:Línguas_e_literaturas_estrangeiras .
 
+edu:VIANA_DO_CASTELO a edu:County ;
+    edu:countyName "VIANA DO CASTELO"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Viana_do_Castelo .
+
 edu:Animação_Sociocultural a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "9005"^^xsd:string ;
@@ -9038,6 +9846,14 @@ edu:Antropologia a edu:Course ;
     edu:courseCode "9448"^^xsd:string ;
     edu:courseName "Antropologia"^^xsd:string ;
     edu:hasScientificArea edu:Sociologia_e_outros_estudos .
+
+edu:BARCELOS a edu:County ;
+    edu:countyName "BARCELOS"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Braga .
+
+edu:BEJA a edu:County ;
+    edu:countyName "BEJA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Beja .
 
 edu:Bioengenharia a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -9141,11 +9957,23 @@ edu:Medicina_Veterinária a edu:Course ;
     edu:courseName "Medicina Veterinária"^^xsd:string ;
     edu:hasScientificArea edu:Ciências_veterinárias .
 
+edu:PONTA_DELGADA a edu:County ;
+    edu:countyName "PONTA DELGADA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:R_A_Açores .
+
 edu:Relações_Internacionais a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "9229"^^xsd:string ;
     edu:courseName "Relações Internacionais"^^xsd:string ;
     edu:hasScientificArea edu:Ciência_política_e_cidadania .
+
+edu:SANTARÉM a edu:County ;
+    edu:countyName "SANTARÉM"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Santarém .
+
+edu:SETÚBAL a edu:County ;
+    edu:countyName "SETÚBAL"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Setúbal .
 
 edu:Secretariado_e_trabalho_administrativo a edu:ScientificArea ;
     edu:scientificAreaCode 346 ;
@@ -9169,6 +9997,10 @@ edu:Terapia_da_Fala a edu:Course ;
     edu:courseName "Terapia da Fala"^^xsd:string ;
     edu:hasScientificArea edu:Terapia_e_reabilitação .
 
+edu:VISEU a edu:County ;
+    edu:countyName "VISEU"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Viseu .
+
 edu:Administração_Pública a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "9002"^^xsd:string ;
@@ -9180,6 +10012,17 @@ edu:Arqueologia a edu:Course ;
     edu:courseCode "9006"^^xsd:string ;
     edu:courseName "Arqueologia"^^xsd:string ;
     edu:hasScientificArea edu:História_e_arqueologia .
+
+edu:BRAGANÇA a edu:County ;
+    edu:countyName "BRAGANÇA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Bragança .
+
+edu:Beja a edu:District ;
+    edu:districtName "Beja"^^xsd:string .
+
+edu:CASTELO_BRANCO a edu:County ;
+    edu:countyName "CASTELO BRANCO"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Castelo_Branco .
 
 edu:Ciências_farmacêuticas a edu:ScientificArea ;
     edu:scientificAreaCode 727 ;
@@ -9234,6 +10077,14 @@ edu:Metalurgia_e_metalomecânica a edu:ScientificArea ;
     edu:scientificAreaCode 521 ;
     edu:scientificAreaName "Metalurgia e metalomecânica"^^xsd:string .
 
+edu:VILA_REAL a edu:County ;
+    edu:countyName "VILA REAL"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Vila_Real .
+
+edu:ÉVORA a edu:County ;
+    edu:countyName "ÉVORA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Évora .
+
 edu:Arquitetura_e_urbanismo a edu:ScientificArea ;
     edu:scientificAreaCode 581 ;
     edu:scientificAreaName "Arquitetura e urbanismo"^^xsd:string .
@@ -9276,6 +10127,10 @@ edu:Engenharia_e_técnicas_afins a edu:ScientificArea ;
     edu:scientificAreaCode 520 ;
     edu:scientificAreaName "Engenharia e técnicas afins"^^xsd:string .
 
+edu:FUNCHAL a edu:County ;
+    edu:countyName "FUNCHAL"^^xsd:string ;
+    edu:countyPartOfDistrict edu:R_A_Madeira .
+
 edu:Farmácia a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "9549"^^xsd:string ;
@@ -9291,6 +10146,9 @@ edu:Filosofia a edu:Course ;
 edu:Finanças_banca_e_seguros a edu:ScientificArea ;
     edu:scientificAreaCode 343 ;
     edu:scientificAreaName "Finanças, banca e seguros"^^xsd:string .
+
+edu:Guarda a edu:District ;
+    edu:districtName "Guarda"^^xsd:string .
 
 edu:História a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -9310,9 +10168,18 @@ edu:Línguas_Literaturas_e_Culturas a edu:Course ;
     edu:courseName "Línguas, Literaturas e Culturas"^^xsd:string ;
     edu:hasScientificArea edu:Línguas_e_literaturas_estrangeiras .
 
+edu:Portalegre a edu:District ;
+    edu:districtName "Portalegre"^^xsd:string .
+
 edu:Tecnologia_de_proteção_do_ambiente a edu:ScientificArea ;
     edu:scientificAreaCode 851 ;
     edu:scientificAreaName "Tecnologia de proteção do ambiente"^^xsd:string .
+
+edu:Vila_Real a edu:District ;
+    edu:districtName "Vila Real"^^xsd:string .
+
+edu:Évora a edu:District ;
+    edu:districtName "Évora"^^xsd:string .
 
 edu:Ciências_da_Comunicação a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -9361,6 +10228,9 @@ edu:Informática a edu:Course,
     edu:scientificAreaCode 480 ;
     edu:scientificAreaName "Informática"^^xsd:string .
 
+edu:R_A_Madeira a edu:District ;
+    edu:districtName "R. A. Madeira"^^xsd:string .
+
 edu:Solicitadoria a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "9242"^^xsd:string ;
@@ -9370,6 +10240,9 @@ edu:Solicitadoria a edu:Course ;
 edu:Terapia_e_reabilitação a edu:ScientificArea ;
     edu:scientificAreaCode 726 ;
     edu:scientificAreaName "Terapia e reabilitação"^^xsd:string .
+
+edu:Viseu a edu:District ;
+    edu:districtName "Viseu"^^xsd:string .
 
 edu:Agronomia a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -9382,6 +10255,15 @@ edu:Arquitetura a edu:Course ;
     edu:courseCode "9257"^^xsd:string ;
     edu:courseName "Arquitetura"^^xsd:string ;
     edu:hasScientificArea edu:Arquitetura_e_urbanismo .
+
+edu:Aveiro a edu:District ;
+    edu:districtName "Aveiro"^^xsd:string .
+
+edu:Braga a edu:District ;
+    edu:districtName "Braga"^^xsd:string .
+
+edu:Bragança a edu:District ;
+    edu:districtName "Bragança"^^xsd:string .
 
 edu:Ciências_da_educação a edu:ScientificArea ;
     edu:scientificAreaCode 142 ;
@@ -9401,6 +10283,13 @@ edu:Engenharia_do_Ambiente a edu:Course ;
     edu:courseName "Engenharia do Ambiente"^^xsd:string ;
     edu:hasScientificArea edu:Tecnologia_de_proteção_do_ambiente .
 
+edu:FARO a edu:County ;
+    edu:countyName "FARO"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Faro .
+
+edu:Leiria a edu:District ;
+    edu:districtName "Leiria"^^xsd:string .
+
 edu:Língua_e_literatura_materna a edu:ScientificArea ;
     edu:scientificAreaCode 223 ;
     edu:scientificAreaName "Língua e literatura materna"^^xsd:string .
@@ -9417,6 +10306,9 @@ edu:Química a edu:Course,
     edu:hasScientificArea edu:Química ;
     edu:scientificAreaCode 442 ;
     edu:scientificAreaName "Química"^^xsd:string .
+
+edu:R_A_Açores a edu:District ;
+    edu:districtName "R. A. Açores"^^xsd:string .
 
 edu:Tecnologias_de_diagnóstico_e_terapêutica a edu:ScientificArea ;
     edu:scientificAreaCode 725 ;
@@ -9446,6 +10338,9 @@ edu:Hotelaria_e_restauração a edu:ScientificArea ;
     edu:scientificAreaCode 811 ;
     edu:scientificAreaName "Hotelaria e restauração"^^xsd:string .
 
+edu:Setúbal a edu:District ;
+    edu:districtName "Setúbal"^^xsd:string .
+
 edu:Trabalho_social_e_orientação a edu:ScientificArea ;
     edu:scientificAreaCode 762 ;
     edu:scientificAreaName "Trabalho social e orientação"^^xsd:string .
@@ -9455,6 +10350,9 @@ edu:Biologia a edu:Course ;
     edu:courseCode "9011"^^xsd:string ;
     edu:courseName "Biologia"^^xsd:string ;
     edu:hasScientificArea edu:Biologia_e_bioquímica .
+
+edu:Castelo_Branco a edu:District ;
+    edu:districtName "Castelo Branco"^^xsd:string .
 
 edu:Fisioterapia a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -9492,6 +10390,9 @@ edu:Sociologia a edu:Course ;
     edu:courseName "Sociologia"^^xsd:string ;
     edu:hasScientificArea edu:Sociologia_e_outros_estudos .
 
+edu:Viana_do_Castelo a edu:District ;
+    edu:districtName "Viana do Castelo"^^xsd:string .
+
 edu:Bioquímica a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
     edu:courseCode "9015"^^xsd:string ;
@@ -9501,6 +10402,9 @@ edu:Bioquímica a edu:Course ;
 edu:Contabilidade_e_fiscalidade a edu:ScientificArea ;
     edu:scientificAreaCode 344 ;
     edu:scientificAreaName "Contabilidade e fiscalidade"^^xsd:string .
+
+edu:Faro a edu:District ;
+    edu:districtName "Faro"^^xsd:string .
 
 edu:Marketing a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -9521,6 +10425,9 @@ edu:Direito a edu:Course,
     edu:scientificAreaCode 380 ;
     edu:scientificAreaName "Direito"^^xsd:string .
 
+edu:Santarém a edu:District ;
+    edu:districtName "Santarém"^^xsd:string .
+
 edu:Marketing_e_publicidade a edu:ScientificArea ;
     edu:scientificAreaCode 342 ;
     edu:scientificAreaName "Marketing e publicidade"^^xsd:string .
@@ -9539,6 +10446,10 @@ edu:Turismo a edu:Course ;
     edu:courseCode "9254"^^xsd:string ;
     edu:courseName "Turismo"^^xsd:string ;
     edu:hasScientificArea edu:Turismo_e_lazer .
+
+edu:COIMBRA a edu:County ;
+    edu:countyName "COIMBRA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Coimbra .
 
 edu:Engenharia_e_Gestão_Industrial a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -9579,6 +10490,9 @@ edu:Sociologia_e_outros_estudos a edu:ScientificArea ;
     edu:scientificAreaCode 312 ;
     edu:scientificAreaName "Sociologia e outros estudos"^^xsd:string .
 
+edu:Coimbra a edu:District ;
+    edu:districtName "Coimbra"^^xsd:string .
+
 edu:Desporto a edu:Course,
         edu:ScientificArea ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -9593,6 +10507,10 @@ edu:Engenharia_Mecânica a edu:Course ;
     edu:courseCode "9123"^^xsd:string ;
     edu:courseName "Engenharia Mecânica"^^xsd:string ;
     edu:hasScientificArea edu:Metalurgia_e_metalomecânica .
+
+edu:PORTO a edu:County ;
+    edu:countyName "PORTO"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Porto .
 
 edu:Turismo_e_lazer a edu:ScientificArea ;
     edu:scientificAreaCode 812 ;
@@ -9648,6 +10566,13 @@ edu:Engenharia_Informática a edu:Course ;
     edu:courseName "Engenharia Informática"^^xsd:string ;
     edu:hasScientificArea edu:Eletrónica_e_automação .
 
+edu:Porto a edu:District ;
+    edu:districtName "Porto"^^xsd:string .
+
+edu:LISBOA a edu:County ;
+    edu:countyName "LISBOA"^^xsd:string ;
+    edu:countyPartOfDistrict edu:Lisboa .
+
 edu:Audiovisuais_e_produção_dos_media a edu:ScientificArea ;
     edu:scientificAreaCode 213 ;
     edu:scientificAreaName "Audiovisuais e produção dos media"^^xsd:string .
@@ -9659,6 +10584,9 @@ edu:Ciências_informáticas a edu:ScientificArea ;
 edu:Gestão_e_administração a edu:ScientificArea ;
     edu:scientificAreaCode 345 ;
     edu:scientificAreaName "Gestão e administração"^^xsd:string .
+
+edu:Lisboa a edu:District ;
+    edu:districtName "Lisboa"^^xsd:string .
 
 edu:Licenciatura_-_1_ciclo a edu:Degree ;
     edu:degreeName "Licenciatura - 1º ciclo"^^xsd:string .
