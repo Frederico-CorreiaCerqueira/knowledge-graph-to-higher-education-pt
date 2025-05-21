@@ -26,7 +26,6 @@ export const buildQuerySearchUniversity = (criteria) => {
     ${filters.join('\n      ')}
 
   }
-  LIMIT 10
   `;
 };
 
@@ -61,7 +60,6 @@ export const buildQuerySearchCourse = (criteria) => {
 
     ${filters.join('\n      ')}
     }
-    LIMIT 10
 
   `;
 };
