@@ -41,7 +41,6 @@ edu:hasCourse a owl:ObjectProperty ;
                 rdfs:label "has course"@en ;
                 rdfs:comment "Indicates that an institution offers a specific course."@en .
 
-### Data Properties
 edu:hasCourse a owl:ObjectProperty ;
                 rdfs:domain edu:Institution ;
                 rdfs:range edu:Course ;
