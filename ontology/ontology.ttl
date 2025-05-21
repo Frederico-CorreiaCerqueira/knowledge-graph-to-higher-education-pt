@@ -41,12 +41,6 @@ edu:hasCourse a owl:ObjectProperty ;
                 rdfs:label "has course"@en ;
                 rdfs:comment "Indicates that an institution offers a specific course."@en .
 
-edu:hasCourse a owl:ObjectProperty ;
-                rdfs:domain edu:Institution ;
-                rdfs:range edu:Course ;
-                rdfs:label "has course"@en ;
-                rdfs:comment "Indicates that an institution offers a specific course."@en .
-
 edu:locatedInDistrict a owl:ObjectProperty ;
                 rdfs:domain edu:Institution ;
                 rdfs:range edu:district ;
@@ -95,12 +89,6 @@ edu:availableSlots a owl:DatatypeProperty ;
                    rdfs:range xsd:integer ;
                    rdfs:label "available slots"@en ;
                    rdfs:comment "The number of available student positions in the course."@en .
-
-edu:degreeType a owl:DatatypeProperty ;
-               rdfs:domain edu:Course ;
-               rdfs:range xsd:string ;
-               rdfs:label "degree type"@en ;
-               rdfs:comment "The type of academic degree awarded (e.g., Bachelor's, Master's)."@en .
 
 edu:scientificArea a owl:DatatypeProperty ;
                    rdfs:domain edu:Course ;
