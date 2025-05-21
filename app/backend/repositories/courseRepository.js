@@ -18,9 +18,11 @@ export const searchUniversityRepo = async ({ district, course, grade }) => {
     },
   });
   return response.data.results.bindings.map((result) => ({
-    code: result.code.value,
-    name: result.name.value,
+    institution_code: result.institutionCode.value,
+    institution_name: result.institutionName.value,
     grade: result.grade.value,
+    course_code: result.courseCode.value,
+    course_name: result.courseName.value,
   }));
 };
 

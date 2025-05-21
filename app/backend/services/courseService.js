@@ -8,7 +8,7 @@ export const searchUniversityService = async ({ district, course, grade }) => {
   }
 
   if (course && course.trim() !== '') {
-    filters.course = formatCourseName(course);
+    filters.course = course;
   } else {
     throw new Error('Course is required.');
   }

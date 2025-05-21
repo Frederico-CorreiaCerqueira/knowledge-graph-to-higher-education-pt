@@ -1,8 +1,8 @@
 
 export const buildQuerySearchUniversity = (criteria) => {
   let filters = [];
-  if (criteria.course) filters.push(`FILTER(CONTAINS(LCASE(STRAFTER(STR(?courseType), "#")), LCASE("${criteria.course}")))`);
-  if (criteria.location) filters.push(`FILTER(CONTAINS(LCASE(?districtName), LCASE("${criteria.location}")))`);
+  if (criteria.course) filters.push(`FILTER(CONTAINS(LCASE(?courseName), LCASE("${criteria.course}")))`);
+  if (criteria.location) filters.push(`FILTER(LCASE(?districtName) = LCASE("${criteria.location}"))`);
   if (criteria.grade) filters.push(`FILTER(xsd:float(?grade) <= ${criteria.grade})`);
   
 
@@ -11,11 +11,11 @@ export const buildQuerySearchUniversity = (criteria) => {
   PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   PREFIX edu: <http://example.org/education#>
 
-  SELECT ?code ?name ?grade
+  SELECT ?institutionCode ?institutionName ?grade ?courseCode ?courseName
   WHERE {
     ?institution a edu:Institution;
-                edu:institutionCode ?code ;
-                edu:institutionName ?name ;
+                edu:institutionCode ?institutionCode ;
+                edu:institutionName ?institutionName ;
                 edu:locatedInDistrict ?location ;
                 edu:hasCourse ?course .
     
@@ -23,8 +23,11 @@ export const buildQuerySearchUniversity = (criteria) => {
 
     ?course rdf:type ?courseType;
             edu:lastAdmittedGrade ?grade .
-    ${filters.join('\n      ')}
 
+    ?courseType edu:courseName ?courseName ;
+                edu:courseCode ?courseCode .
+
+    ${filters.join('\n      ')}
   }
   `;
 };
