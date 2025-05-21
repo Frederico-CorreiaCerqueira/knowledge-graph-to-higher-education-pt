@@ -90,9 +90,8 @@ def course_scientific_area(g, course, scientific_area):
 
 def last_admitted_grade(g, course, grade):
     if grade == "---":
-        grade = create_str_literal("---")
-    else:
-        grade = create_float_literal(float(grade))
+        grade = 0
+    grade = create_float_literal(float(grade))
     add_to_graph(g, course, EDU.lastAdmittedGrade, grade)
 
 
