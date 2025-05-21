@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from rdflib import Graph, Namespace, Literal, RDF, XSD
 
@@ -129,9 +130,9 @@ def create_county(g, county_name, district):
     return county
 
 
-def create_graph_from_excel():
-    excel_file = "lista_de_vagas_para_1_fase.xlsx"
-    location_file = "Localizacao.xlsx"
+def create_graph_from_excel(output_dir = None):
+    excel_file = "./docs/lista_de_vagas_para_1_fase.xlsx"
+    location_file = "./docs/Localizacao.xlsx"
 
     # Load the main data and location data
     df = pd.read_excel(excel_file, sheet_name=0, header=3)
@@ -189,7 +190,12 @@ def create_graph_from_excel():
                 county
             )
 
-    g.serialize("education.ttl", format="turtle")
-
-create_graph_from_excel()
+    file_name = "education.ttl"
+    if output_dir:
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+        file_name = os.path.join(output_dir, file_name)
+    g.serialize(file_name, format="turtle")
+    
+create_graph_from_excel("ontology")
 print("Successfully generated RDF with locations!")

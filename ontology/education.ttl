@@ -4087,7 +4087,7 @@ edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão_E
 
 edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_Civil a edu:Engenharia_Civil ;
     edu:availableSlots 15 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_Informática a edu:Engenharia_Informática ;
     edu:availableSlots 72 ;
@@ -4095,7 +4095,7 @@ edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão_E
 
 edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_Topográfica a edu:Engenharia_Topográfica ;
     edu:availableSlots 15 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Tecnologia_e_Gestão_Gestão a edu:Gestão ;
     edu:availableSlots 55 ;
@@ -4119,7 +4119,7 @@ edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Turismo_e_Hotelaria_Ge
 
 edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Turismo_e_Hotelaria_Gestão_do_Turismo_e_da_Hospitalidade a edu:Gestão_do_Turismo_e_da_Hospitalidade ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Turismo_e_Hotelaria_Restauração_e_Catering a edu:Restauração_e_Catering ;
     edu:availableSlots 20 ;
@@ -4127,7 +4127,7 @@ edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Turismo_e_Hotelaria_Re
 
 edu:Instituto_Politécnico_da_Guarda_-_Escola_Superior_de_Turismo_e_Hotelaria_Turismo_e_Lazer a edu:Turismo_e_Lazer ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_Agrária_Agronomia a edu:Agronomia ;
     edu:availableSlots 53 ;
@@ -4139,7 +4139,7 @@ edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_Agrária_Ciência_e_Tecnolo
 
 edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_Agrária_Engenharia_do_Ambiente a edu:Engenharia_do_Ambiente ;
     edu:availableSlots 21 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Beja_-_Escola_Superior_de_Educação_Audiovisual_e_Multimédia a edu:Audiovisual_e_Multimédia ;
     edu:availableSlots 32 ;
@@ -4195,23 +4195,23 @@ edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança_
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança_Engenharia_Agronómica a edu:Engenharia_Agronómica ;
     edu:availableSlots 25 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança_Engenharia_Alimentar a edu:Engenharia_Alimentar ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança_Engenharia_Zootécnica a edu:Engenharia_Zootécnica ;
     edu:availableSlots 15 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança_Engenharia_do_Ambiente a edu:Engenharia_do_Ambiente ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_Agrária_de_Bragança_Enologia a edu:Enologia ;
     edu:availableSlots 12 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Comunicação_Administração_e_Turismo_de_Mirandela_Design_de_Jogos_Digitais a edu:Design_de_Jogos_Digitais ;
     edu:availableSlots 56 ;
@@ -4275,7 +4275,7 @@ edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Educação_de_Braga
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Educação_de_Bragança_Música_em_Contextos_Comunitários a edu:Música_em_Contextos_Comunitários ;
     edu:availableSlots 25 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Educação_de_Bragança_Relações_Lusófonas_e_Língua_Portuguesa a edu:Relações_Lusófonas_e_Língua_Portuguesa ;
     edu:availableSlots 25 ;
@@ -4323,7 +4323,7 @@ edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Ges
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Engenharia_Eletrotécnica_e_de_Computadores a edu:Engenharia_Eletrotécnica_e_de_Computadores ;
     edu:availableSlots 42 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Engenharia_Informática a edu:Engenharia_Informática ;
     edu:availableSlots 108 ;
@@ -4331,19 +4331,19 @@ edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Ges
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Engenharia_Mecânica a edu:Engenharia_Mecânica ;
     edu:availableSlots 40 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Engenharia_Química a edu:Engenharia_Química ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Engenharia_de_Energias_Renováveis a edu:Engenharia_de_Energias_Renováveis ;
     edu:availableSlots 84 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Engenharia_e_Gestão_Industrial a edu:Engenharia_e_Gestão_Industrial ;
     edu:availableSlots 15 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Gestão a edu:Gestão ;
     edu:availableSlots 110 ;
@@ -4355,7 +4355,7 @@ edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Ges
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Informática_de_Gestão a edu:Informática_de_Gestão ;
     edu:availableSlots 64 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Gestão_de_Bragança_Tecnologia_Biomédica a edu:Tecnologia_Biomédica ;
     edu:availableSlots 40 ;
@@ -4363,7 +4363,7 @@ edu:Instituto_Politécnico_de_Bragança_-_Escola_Superior_de_Tecnologia_e_de_Ges
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_Agrária_de_Castelo_Branco_Agronomia a edu:Agronomia ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_Agrária_de_Castelo_Branco_Biotecnologia_Alimentar a edu:Biotecnologia_Alimentar ;
     edu:availableSlots 18 ;
@@ -4375,7 +4375,7 @@ edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_Agrária_de_Caste
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_Agrária_de_Castelo_Branco_Engenharia_de_Proteção_Civil a edu:Engenharia_de_Proteção_Civil ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Artes_Aplicadas_Design_de_Comunicação_e_Audiovisual a edu:Design_de_Comunicação_e_Audiovisual ;
     edu:availableSlots 60 ;
@@ -4447,11 +4447,11 @@ edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Saúde_Dr_Lope
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_Castelo_Branco_Engenharia_Civil a edu:Engenharia_Civil ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_Castelo_Branco_Engenharia_Eletrotécnica_e_das_Telecomunicações a edu:Engenharia_Eletrotécnica_e_das_Telecomunicações ;
     edu:availableSlots 30 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_Castelo_Branco_Engenharia_Informática a edu:Engenharia_Informática ;
     edu:availableSlots 90 ;
@@ -4459,11 +4459,11 @@ edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_Castelo_Branco_Engenharia_das_Energias_Renováveis a edu:Engenharia_das_Energias_Renováveis ;
     edu:availableSlots 30 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_Castelo_Branco_Engenharia_e_Gestão_Industrial a edu:Engenharia_e_Gestão_Industrial ;
     edu:availableSlots 15 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_Castelo_Branco_Informática_e_Multimédia a edu:Informática_e_Multimédia ;
     edu:availableSlots 35 ;
@@ -4471,7 +4471,7 @@ edu:Instituto_Politécnico_de_Castelo_Branco_-_Escola_Superior_de_Tecnologia_de_
 
 edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_Agrária_de_Coimbra_Agronomia a edu:Agronomia ;
     edu:availableSlots 25 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_Agrária_de_Coimbra_Biotecnologia a edu:Biotecnologia ;
     edu:availableSlots 44 ;
@@ -4499,7 +4499,7 @@ edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_Agrária_de_Coimbra_Turi
 
 edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_Agrária_de_Coimbra_Zootecnia a edu:Zootecnia ;
     edu:availableSlots 25 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Coimbra_-_Escola_Superior_de_Educação_de_Coimbra_Animação_Socioeducativa a edu:Animação_Socioeducativa ;
     edu:availableSlots 39 ;
@@ -4699,7 +4699,7 @@ edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Engenharia_de_Coim
 
 edu:Instituto_Politécnico_de_Coimbra_-_Instituto_Superior_de_Engenharia_de_Coimbra_Informática_Industrial a edu:Informática_Industrial ;
     edu:availableSlots 30 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Artes_e_Design_Artes_Plásticas a edu:Artes_Plásticas ;
     edu:availableSlots 53 ;
@@ -4819,7 +4819,7 @@ edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão_E
 
 edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_Eletrotécnica_e_de_Computadores_\(regime_noturno\) a edu:Engenharia_Eletrotécnica_e_de_Computadores_\(regime_noturno\) ;
     edu:availableSlots 5 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_Informática a edu:Engenharia_Informática ;
     edu:availableSlots 125 ;
@@ -4835,11 +4835,11 @@ edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão_E
 
 edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_Mecânica_\(regime_pós-laboral\) a edu:Engenharia_Mecânica_\(regime_pós-laboral\) ;
     edu:availableSlots 5 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_da_Energia_e_do_Ambiente a edu:Engenharia_da_Energia_e_do_Ambiente ;
     edu:availableSlots 14 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Leiria_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_e_Gestão_Industrial a edu:Engenharia_e_Gestão_Industrial ;
     edu:availableSlots 20 ;
@@ -5071,7 +5071,7 @@ edu:Instituto_Politécnico_de_Lisboa_-_Instituto_Superior_de_Engenharia_de_Lisbo
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Biociências_de_Elvas_Agronomia a edu:Agronomia ;
     edu:availableSlots 18 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Biociências_de_Elvas_Enfermagem_Veterinária a edu:Enfermagem_Veterinária ;
     edu:availableSlots 38 ;
@@ -5111,7 +5111,7 @@ edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Saúde_Enfermagem 
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Saúde_Fisioterapia a edu:Fisioterapia ;
     edu:availableSlots 25 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Saúde_Higiene_Oral a edu:Higiene_Oral ;
     edu:availableSlots 20 ;
@@ -5131,15 +5131,15 @@ edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão_e_Design_Engenharia_Civil a edu:Engenharia_Civil ;
     edu:availableSlots 15 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão_e_Design_Engenharia_Informática a edu:Engenharia_Informática ;
     edu:availableSlots 40 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão_e_Design_Engenharia_de_Produção_de_Biocombustíveis a edu:Engenharia_de_Produção_de_Biocombustíveis ;
     edu:availableSlots 25 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão_e_Design_Gestão a edu:Gestão ;
     edu:availableSlots 50 ;
@@ -5147,7 +5147,7 @@ edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão
 
 edu:Instituto_Politécnico_de_Portalegre_-_Escola_Superior_de_Tecnologia_Gestão_e_Design_Gestão_\(regime_pós-laboral\) a edu:Gestão_\(regime_pós-laboral\) ;
     edu:availableSlots 15 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_Agrária_de_Santarém_Agronomia a edu:Agronomia ;
     edu:availableSlots 58 ;
@@ -5155,7 +5155,7 @@ edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_Agrária_de_Santarém_
 
 edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_Agrária_de_Santarém_Agronomia_\(regime_pós-laboral\) a edu:Agronomia_\(regime_pós-laboral\) ;
     edu:availableSlots 16 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Santarém_-_Escola_Superior_Agrária_de_Santarém_Biologia_e_Biotecnologia_Alimentar a edu:Biologia_e_Biotecnologia_Alimentar ;
     edu:availableSlots 20 ;
@@ -5339,11 +5339,11 @@ edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_do_Barrei
 
 edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_do_Barreiro_Engenharia_Civil a edu:Engenharia_Civil ;
     edu:availableSlots 18 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_do_Barreiro_Engenharia_Civil_\(regime_noturno\) a edu:Engenharia_Civil_\(regime_noturno\) ;
     edu:availableSlots 19 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Setúbal_-_Escola_Superior_de_Tecnologia_do_Barreiro_Tecnologias_do_Petróleo a edu:Tecnologias_do_Petróleo ;
     edu:availableSlots 31 ;
@@ -5367,7 +5367,7 @@ edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Gestão_de_Tomar_Turism
 
 edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Abrantes_Computação_e_Logística a edu:Computação_e_Logística ;
     edu:availableSlots 27 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Abrantes_Comunicação_Social_Jornalismo_e_Comunicação_Empresarial a edu:Comunicação_Social_Jornalismo_e_Comunicação_Empresarial ;
     edu:availableSlots 38 ;
@@ -5375,7 +5375,7 @@ edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Abrantes_
 
 edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Abrantes_Engenharia_Mecânica a edu:Engenharia_Mecânica ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Abrantes_Informática_e_Tecnologias_Multimédia a edu:Informática_e_Tecnologias_Multimédia ;
     edu:availableSlots 26 ;
@@ -5391,11 +5391,11 @@ edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar_Des
 
 edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar_Engenharia_Civil a edu:Engenharia_Civil ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar_Engenharia_Eletrotécnica_e_de_Computadores a edu:Engenharia_Eletrotécnica_e_de_Computadores ;
     edu:availableSlots 35 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar_Engenharia_Informática a edu:Engenharia_Informática ;
     edu:availableSlots 65 ;
@@ -5407,7 +5407,7 @@ edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar_Fot
 
 edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar_Gestão_da_Edificação_e_Obras a edu:Gestão_da_Edificação_e_Obras ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Tomar_-_Escola_Superior_de_Tecnologia_de_Tomar_Tecnologia_Química a edu:Tecnologia_Química ;
     edu:availableSlots 20 ;
@@ -5427,7 +5427,7 @@ edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_Agrária_Enferm
 
 edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_Agrária_Engenharia_do_Ambiente_e_Geoinformática a edu:Engenharia_do_Ambiente_e_Geoinformática ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Ciências_Empresariais_Contabilidade_e_Fiscalidade a edu:Contabilidade_e_Fiscalidade ;
     edu:availableSlots 28 ;
@@ -5479,7 +5479,7 @@ edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e
 
 edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_Alimentar a edu:Engenharia_Alimentar ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_Civil_e_do_Ambiente a edu:Engenharia_Civil_e_do_Ambiente ;
     edu:availableSlots 32 ;
@@ -5491,7 +5491,7 @@ edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e
 
 edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_Mecatrónica a edu:Engenharia_Mecatrónica ;
     edu:availableSlots 33 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Viana_do_Castelo_-_Escola_Superior_de_Tecnologia_e_Gestão_Engenharia_Mecânica a edu:Engenharia_Mecânica ;
     edu:availableSlots 36 ;
@@ -5531,15 +5531,15 @@ edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_Agrária_de_Viseu_Enfermag
 
 edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_Agrária_de_Viseu_Engenharia_Agronómica a edu:Engenharia_Agronómica ;
     edu:availableSlots 25 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_Agrária_de_Viseu_Engenharia_Alimentar a edu:Engenharia_Alimentar ;
     edu:availableSlots 25 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_Agrária_de_Viseu_Engenharia_Zootécnica a edu:Engenharia_Zootécnica ;
     edu:availableSlots 25 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Educação_de_Viseu_Artes_Performativas a edu:Artes_Performativas ;
     edu:availableSlots 26 ;
@@ -5599,7 +5599,7 @@ edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de
 
 edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Viseu_Ciências_e_Tecnologia_do_Ambiente a edu:Ciências_e_Tecnologia_do_Ambiente ;
     edu:availableSlots 35 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Instituto_Politécnico_de_Viseu_-_Escola_Superior_de_Tecnologia_e_Gestão_de_Viseu_Contabilidade a edu:Contabilidade ;
     edu:availableSlots 40 ;
@@ -6047,7 +6047,7 @@ edu:Instituto_Politécnico_do_Porto_-_Instituto_Superior_de_Engenharia_do_Porto_
 
 <http://example.org/education#Iscte_–_Instituto_Universitário_de_Lisboa_(Sintra)_Tecnologias_Digitais_e_Segurança_de_Informação> a edu:Tecnologias_Digitais_e_Segurança_de_Informação ;
     edu:availableSlots 32 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Jogos_Digitais_e_Multimédia_\(ensino_em_inglês\) a edu:Course ;
     edu:awardsDegree edu:Licenciatura_-_1_ciclo ;
@@ -6982,7 +6982,7 @@ edu:Universidade_da_Beira_Interior_Ciências_do_Desporto a edu:Ciências_do_Desp
 
 edu:Universidade_da_Beira_Interior_Computação_Criativa_e_Realidade_Virtual a edu:Computação_Criativa_e_Realidade_Virtual ;
     edu:availableSlots 20 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Universidade_da_Beira_Interior_Design_Industrial a edu:Design_Industrial ;
     edu:availableSlots 52 ;
@@ -7038,7 +7038,7 @@ edu:Universidade_da_Beira_Interior_Filosofia a edu:Filosofia ;
 
 edu:Universidade_da_Beira_Interior_Física_e_Aplicações a edu:Física_e_Aplicações ;
     edu:availableSlots 15 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Universidade_da_Beira_Interior_Gestão a edu:Gestão ;
     edu:availableSlots 81 ;
@@ -7134,11 +7134,11 @@ edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Exatas_e_da_Engenharia_Enge
 
 edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Exatas_e_da_Engenharia_Engenharia_de_Computadores a edu:Engenharia_de_Computadores ;
     edu:availableSlots 15 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Exatas_e_da_Engenharia_Matemática a edu:Matemática ;
     edu:availableSlots 22 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Universidade_da_Madeira_-_Faculdade_de_Ciências_Sociais_Ciências_da_Educação a edu:Ciências_da_Educação ;
     edu:availableSlots 29 ;
@@ -8938,7 +8938,7 @@ edu:Universidade_do_Porto_-_Faculdade_de_Medicina_Medicina a edu:Medicina ;
 
 edu:Universidade_do_Porto_-_Faculdade_de_Medicina_Saúde_Digital_e_Inovação_Biomédica a edu:Saúde_Digital_e_Inovação_Biomédica ;
     edu:availableSlots 35 ;
-    edu:lastAdmittedGrade "---"^^xsd:string .
+    edu:lastAdmittedGrade "0.0"^^xsd:float .
 
 edu:Universidade_do_Porto_-_Faculdade_de_Psicologia_e_de_Ciências_da_Educação_Ciências_da_Educação a edu:Ciências_da_Educação ;
     edu:availableSlots 47 ;
