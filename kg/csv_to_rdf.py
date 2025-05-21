@@ -41,7 +41,6 @@ def create_institution(g, name, code):
     literal = create_str_literal(name)
     add_to_graph(g, inst, RDF.type, EDU.Institution)
     add_to_graph(g, inst, EDU.institutionName, literal)
-    code = int(float(code))
     add_to_graph(g, inst, EDU.institutionCode, create_int_literal(code))
     return inst
 
@@ -144,7 +143,7 @@ def create_graph_from_excel(output_dir = None):
 
     # Create a dictionary for location data
     location_dict = {
-        row["Nome do Estabelecimento"]: row
+        row["Código do Estabelecimento"]: row
         for _, row in location_df.iterrows()
     }
 
@@ -154,8 +153,9 @@ def create_graph_from_excel(output_dir = None):
 
         inst_name = get_value(row, "Nome da Instituição")
         course_name = get_value(row, "Nome do Curso")
+        inst_code =int(float( get_value(row, "Código Instit.")))
 
-        inst = create_institution(g, inst_name, get_value(row, "Código Instit."))
+        inst = create_institution(g, inst_name, inst_code)
         course_type = create_type_course(g, course_name, get_value(row, "Código Curso"))
 
         course = create_type(g, course_type, inst_name, course_name)
@@ -177,8 +177,8 @@ def create_graph_from_excel(output_dir = None):
             last_admitted_grade(g, course, nota)
 
         # Add location data if available
-        if inst_name in location_dict:
-            location_data = location_dict[inst_name]
+        if inst_code in location_dict:
+            location_data = location_dict[inst_code]
             district = create_district(g, location_data.get("Distrito"))
             county = create_county(g, location_data.get("Concelho"), district)
             add_location_to_institution(
