@@ -11,7 +11,7 @@ export const buildQuerySearchUniversity = (criteria) => {
   PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   PREFIX edu: <http://example.org/education#>
 
-  SELECT ?institutionCode ?institutionName ?grade ?courseCode ?courseName
+  SELECT DISTINCT ?institutionCode ?institutionName ?grade ?courseCode ?courseName
   WHERE {
     ?institution a edu:Institution;
                 edu:institutionCode ?institutionCode ;
